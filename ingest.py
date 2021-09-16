@@ -5,6 +5,8 @@ import requests
 
 """
 An ingest script that automates the initial data ingest for katsu service.
+
+Note that you should run this script with Katsu's virtualenv activated.
 """
 
 
