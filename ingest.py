@@ -6,7 +6,9 @@ import requests
 """
 An ingest script that automates the initial data ingest for katsu service.
 
-Note that you should run this script with Katsu's virtualenv activated.
+You should run the script in an active virtualenv that has `requests` installed. You may also use Katsu's virtualenv for this purpose, if that's more convenient.
+
+Please note that the data_file you supply must be available for Katsu to read. In other words, it should be located on the same server or within the same container as the Katsu instance.
 """
 
 
@@ -172,8 +174,8 @@ def main():
     parser.add_argument("project", help="Project name.")
     parser.add_argument("dataset", help="Dataset name.")
     parser.add_argument("table", help="Table name.")
-    parser.add_argument("server_url", help="The URL of Katsu Instance.")
-    parser.add_argument("data_file", help="The absolute path to the local data file.")
+    parser.add_argument("server_url", help="The URL of Katsu instance.")
+    parser.add_argument("data_file", help="The absolute path to the local data file, readable by Katsu.")
     parser.add_argument("data_type", help="The type of data. Only phenopacket and mcodepacket are supported.")
 
     args = parser.parse_args()
