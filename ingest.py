@@ -8,7 +8,7 @@ An ingest script that automates the initial data ingest for katsu service.
 
 You should run the script in an active virtualenv that has `requests` installed. You may also use Katsu's virtualenv for this purpose, if that's more convenient.
 
-Please note that the data_file you supply must be available for Katsu to read. In other words, it should be located on same the server or within the same container as the Katsu instance.
+Please note that the data_file you supply must be available for Katsu to read. In other words, it should be located on the same server or within the same container as the Katsu instance.
 """
 
 
