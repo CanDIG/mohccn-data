@@ -1,0 +1,19 @@
+project,studyid,Subject,Site,DataPageName,GENDER_CODE,GENDER_CODE_STD,RACE3,RACE2,RACE10,RACE97,RACE98,RACE99,ETHNICITY_CODE,ETHNICITY_CODE_STD,BIRTH_DATE_YM,BIRTH_DATE_YM_RAW
+CORE,101,CMH-01-02,Princess Margaret Cancer Centre ,Demographics,Female,2,0,0,1,0,0,,Non-Hispanic,9,,1967 MAY
+CORE,101,CMH-01-03,Princess Margaret Cancer Centre ,Demographics,Female,2,0,0,1,0,0,,Not Reported,2,,1946APR
+CORE,101,CMH-01-04,Princess Margaret Cancer Centre ,Demographics,Female,2,1,0,0,0,0,,Unknown,2,,1965 AUG
+CORE,101,CMH-01-05,Princess Margaret Cancer Centre ,Demographics,Male,1,0,0,1,0,0,,Unknown,2,,1971 SEP
+CORE,101,CMH-01-06,Princess Margaret Cancer Centre ,Demographics,Male,1,0,1,0,0,0,,Non-Hispanic,2,,1955 SEP
+CORE,101,CMH-01-07,Princess Margaret Cancer Centre ,Demographics,Male,1,0,0,1,0,0,,Non-Hispanic,2,,1951 FEB
+CORE,101,CMH-01-08,Princess Margaret Cancer Centre ,Demographics,Female,2,0,0,1,0,0,,Not Reported,2,,1979 NOV
+CORE,101,CMH-01-09,Princess Margaret Cancer Centre ,Demographics,Female,2,1,0,0,0,0,,Non-Hispanic,9,,1968 OCT
+CORE,101,CMH-01-10,Princess Margaret Cancer Centre ,Demographics,Female,2,0,0,1,0,0,,Unknown,9,,1944 FEB
+CORE,101,CMH-01-11,Princess Margaret Cancer Centre ,Demographics,Female,2,0,0,1,0,0,,Unknown,9,,1975 MAY
+CORE,101,CMH-01-12,Princess Margaret Cancer Centre ,Demographics,Female,2,0,0,1,0,0,,Non-Hispanic,9,,1954 DEC
+CORE,101,CMH-02-01,Princess Margaret Cancer Centre ,Demographics,Female,2,0,0,1,0,0,,Non-Hispanic,2,,1961 DEC
+CORE,101,CMH-02-02,BCCA Vancouver Cancer Centre,Demographics,Female,2,1,0,0,0,0,,Non-Hispanic,8,,1981 JUL
+CORE,101,CMH-02-03,BCCA Vancouver Cancer Centre,Demographics,Male,1,1,0,0,0,0,,Non-Hispanic,9,,1976 DEC
+CORE,101,CMH-02-04,BCCA Vancouver Cancer Centre,Demographics,Female,2,0,0,1,0,0,,Non-Hispanic,9,,1953 OCT
+CORE,101,CMH-02-05,BCCA Vancouver Cancer Centre,Demographics,Female,2,1,0,0,0,0,,Unknown,2,,1978 SEP
+CORE,101,CMH-02-07,BCCA Vancouver Cancer Centre,Demographics,Female,2,0,0,1,0,0,,Unknown,2,,1976 SEP
+CORE,101,CMH-01-01,BCCA Vancouver Cancer Centre,Demographics,Female,2,0,0,1,0,0,,Not Reported,8,,1954 MAR
