@@ -1,0 +1,36 @@
+project,studyid,Subject,Site,DataPageName,MUT_TEST,MUT_TEST_DT_RAW,MUT_STAT,GENE_MUT
+CORE,101,CMH-01-02,Princess Margaret Cancer Centre ,Mutation Status,NRAS,2018 FEB 27,Negative,N/A
+CORE,101,CMH-01-03,Princess Margaret Cancer Centre ,Mutation Status,BRAF,2018 MAR 27,Positive ,GLY509ALA
+CORE,101,CMH-01-04,Princess Margaret Cancer Centre ,Mutation Status,NRAS,2017 APR 21,Negative,N/A
+CORE,101,CMH-01-05,Princess Margaret Cancer Centre ,Mutation Status,KRAS,2017 MAY 21,Negative,N/A
+CORE,101,CMH-01-06,Princess Margaret Cancer Centre ,Mutation Status,BRAF,2017 AUGUST 22,Negative,N/A
+CORE,101,CMH-01-07,Princess Margaret Cancer Centre ,Mutation Status,KRAS,2018 JAN 27,Positive,KRAS >> GLY12ASP
+,,,,,,,,
+,,,,,,,,
+,,,,,,,,
+,,,,,,,,
+,,,,,,,,
+,,,,,,,,
+,,,,,,,,
+,,,,,,,,
+,,,,,,,,
+,,,,,,,,
+,,,,,,,,
+,,,,,,,,
+,,,,,,,,
+,,,,,,,,
+,,,,,,,,
+,,,,,,,,
+,,,,,,,,
+,,,,,,,,
+,,,,,,,,
+,,,,,,,,
+,,,,,,,,
+,,,,,,,,
+,,,,,,,,
+,,,,,,,,
+,,,,,,,,
+,,,,,,,,
+,,,,,,,,
+,,,,,,,,
+,,,,,,,,

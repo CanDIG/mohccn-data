@@ -1,0 +1,36 @@
+project,studyid,Subject,Site,WBC_VAL,WBC_VAL_RAW,WBC_VAL_UN,PLT_VAL,PLT_VAL_RAW,PLT_VAL_UN,NEUT_VAL,NEUT_VAL_RAW,NEUT_VAL_UN,LYMP_VAL,LYMP_VAL_RAW,LYMP_VAL_UN,MONO_VAL,MONO_VAL_RAW,MONO_VAL_UN,EOSI_VAL,EOSI_VAL_RAW,EOSI_VAL_UN,BASO_VAL,BASO_VAL_RAW,BASO_VAL_UN
+CORE,101,CMH-01-02,Princess Margaret Cancer Centre ,6.2,6.2,x10<sup>9</sup>/L,191,191,x10<sup>9</sup>/L,5.6,5.6,x10<sup>9</sup>/L,2.3,2.3,x10<sup>9</sup>/L,0.9,0.9,x10<sup>9</sup>/L,0.6,0.6,x10<sup>9</sup>/L,0.1,0.1,x10<sup>9</sup>/L
+CORE,101,CMH-01-03,Princess Margaret Cancer Centre ,4.9,4.9,x10<sup>9</sup>/L,251,251,x10<sup>9</sup>/L,2.9,2.9,x10<sup>9</sup>/L,2.4,2.4,x10<sup>9</sup>/L,0.7,0.7,x10<sup>9</sup>/L,0.7,0.7,x10<sup>9</sup>/L,0.08,0.08,x10<sup>9</sup>/L
+CORE,101,CMH-01-04,Princess Margaret Cancer Centre ,4.2,4.2,x10<sup>9</sup>/L,194,194,x10<sup>9</sup>/L,2.6,2.6,x10<sup>9</sup>/L,1.7,1.7,x10<sup>9</sup>/L,0.8,0.8,x10<sup>9</sup>/L,0.2,0.2,x10<sup>9</sup>/L,0.02,0.02,x10<sup>9</sup>/L
+CORE,101,CMH-01-05,Princess Margaret Cancer Centre ,6.6,6.6,x10<sup>9</sup>/L,266,266,x10<sup>9</sup>/L,3.9,3.9,x10<sup>9</sup>/L,2,2,x10<sup>9</sup>/L,0.6,0.6,x10<sup>9</sup>/L,0.3,0.3,x10<sup>9</sup>/L,0,0,x10<sup>9</sup>/L
+CORE,101,CMH-01-06,Princess Margaret Cancer Centre ,7.2,7.2,x10<sup>9</sup>/L,217,217,x10<sup>9</sup>/L,3.2,3.2,x10<sup>9</sup>/L,2.8,2.8,x10<sup>9</sup>/L,0.7,0.7,x10<sup>9</sup>/L,0.5,0.5,x10<sup>9</sup>/L,0.1,0.1,x10<sup>9</sup>/L
+CORE,101,CMH-01-07,Princess Margaret Cancer Centre ,5.7,5.7,x10<sup>9</sup>/L,260,260,x10<sup>9</sup>/L,2.8,2.8,x10<sup>9</sup>/L,1.5,1.5,x10<sup>9</sup>/L,0.8,0.8,x10<sup>9</sup>/L,0.8,0.8,x10<sup>9</sup>/L,0.04,0.04,x10<sup>9</sup>/L
+CORE,101,CMH-01-08,Princess Margaret Cancer Centre ,8.2,8.2,x10<sup>9</sup>/L,239,239,x10<sup>9</sup>/L,3.4,3.4,x10<sup>9</sup>/L,2.9,2.9,x10<sup>9</sup>/L,0.8,0.8,x10<sup>9</sup>/L,0.9,0.9,x10<sup>9</sup>/L,0.1,0.1,x10<sup>9</sup>/L
+CORE,101,CMH-01-09,Princess Margaret Cancer Centre ,4.1,4.1,x10<sup>9</sup>/L,239,239,x10<sup>9</sup>/L,4.5,4.5,x10<sup>9</sup>/L,2,2,x10<sup>9</sup>/L,0.8,0.8,x10<sup>9</sup>/L,0.2,0.2,x10<sup>9</sup>/L,0,0,x10<sup>9</sup>/L
+CORE,101,CMH-01-10,Princess Margaret Cancer Centre ,5.9,5.9,x10<sup>9</sup>/L,220,220,x10<sup>9</sup>/L,2.8,2.8,x10<sup>9</sup>/L,2.2,2.2,x10<sup>9</sup>/L,0.6,0.6,x10<sup>9</sup>/L,0.6,0.6,x10<sup>9</sup>/L,,,x10<sup>9</sup>/L
+CORE,101,CMH-01-11,Princess Margaret Cancer Centre ,5.4,5.4,x10<sup>9</sup>/L,261,261,x10<sup>9</sup>/L,4.7,4.7,x10<sup>9</sup>/L,2.1,2.1,x10<sup>9</sup>/L,0.7,0.7,x10<sup>9</sup>/L,0.9,0.9,x10<sup>9</sup>/L,0.11,0.11,x10<sup>9</sup>/L
+CORE,101,CMH-01-12,Princess Margaret Cancer Centre ,6.1,6.1,x10<sup>9</sup>/L,194,194,x10<sup>9</sup>/L,4.7,4.7,x10<sup>9</sup>/L,1.2,1.2,x10<sup>9</sup>/L,0.8,0.8,x10<sup>9</sup>/L,0.7,0.7,x10<sup>9</sup>/L,0,0,x10<sup>9</sup>/L
+CORE,101,CMH-02-01,Princess Margaret Cancer Centre ,6.6,6.6,x10<sup>9</sup>/L,238,238,x10<sup>9</sup>/L,2.5,2.5,x10<sup>9</sup>/L,2.2,2.2,x10<sup>9</sup>/L,0.5,0.5,x10<sup>9</sup>/L,0.3,0.3,x10<sup>9</sup>/L,0,0,x10<sup>9</sup>/L
+CORE,101,CMH-02-02,Princess Margaret Cancer Centre ,6,6,,231,231,,3,3,,2.8,2.8,,0.7,0.7,,0.3,0.3,,0.12,0.12,
+CORE,101,CMH-02-03,Princess Margaret Cancer Centre ,4.8,4.8,,256,256,,3.7,3.7,,1.3,1.3,,0.7,0.7,,0.2,0.2,,0,0,
+CORE,101,CMH-02-04,Princess Margaret Cancer Centre ,7.5,7.5,,220,220,,4.2,4.2,,2.2,2.2,,0.9,0.9,,0.4,0.4,,0.12,0.12,
+CORE,101,CMH-02-05,Princess Margaret Cancer Centre ,5.9,5.9,,215,215,,2.9,2.9,,2.1,2.1,,0.8,0.8,,0.7,0.7,,0.1,0.1,
+CORE,101,CMH-02-07,Princess Margaret Cancer Centre ,5.2,5.2,,227,227,,3.4,3.4,,1.4,1.4,,0.8,0.8,,0.5,0.5,,0,0,
+CORE,101,CMH-01-01,Princess Margaret Cancer Centre ,6.3,6.3,,243,243,,2.9,2.9,,1.6,1.6,,0.6,0.6,,0.4,0.4,,0.1,0.1,
+,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,
