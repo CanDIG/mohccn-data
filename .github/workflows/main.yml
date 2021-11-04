@@ -8,14 +8,14 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v2
       - name: Convert to CSV
-        uses: daisieh/xlsx2csv-action@v2.0
+        uses: CanDIG/xlsx2csv-action@v2.0
         id: convert
         with:
           input_file: .
       - name: Commit changes
         uses: EndBug/add-and-commit@v4
         with:
-          author_name: Daisie Huang
+          author_name: xlsx2csv bot
           message: "convert xlsx files to csvs"
           add: "*"
           ref: ${{env.GITHUB_REF}}
