@@ -1,0 +1,37 @@
+project,studyid,Subject,Site,DataPageName,CEA_VAL
+CORE,101,CMH-01-01,Princess Margaret Cancer Centre ,Serum CEA ,4.8
+CORE,101,CMH-01-02,Princess Margaret Cancer Centre ,Serum CEA ,11.9
+CORE,101,CMH-01-03,Princess Margaret Cancer Centre ,Serum CEA ,19.5
+CORE,101,CMH-01-04,Princess Margaret Cancer Centre ,Serum CEA ,7.2
+CORE,101,CMH-01-05,Princess Margaret Cancer Centre ,Serum CEA ,12.8
+CORE,101,CMH-01-06,Princess Margaret Cancer Centre ,Serum CEA ,10.7
+CORE,101,CMH-01-07,Princess Margaret Cancer Centre ,Serum CEA ,5.5
+CORE,101,CMH-01-08,Princess Margaret Cancer Centre ,Serum CEA ,14.8
+CORE,101,CMH-01-09,Princess Margaret Cancer Centre ,Serum CEA ,132
+CORE,101,CMH-01-10,Princess Margaret Cancer Centre ,Serum CEA ,713
+CORE,101,CMH-01-11,Princess Margaret Cancer Centre ,Serum CEA ,5.4
+CORE,101,CMH-01-12,Princess Margaret Cancer Centre ,Serum CEA ,4.6
+CORE,101,CMH-02-01,BCCA Vancouver Cancer Centre,Serum CEA ,3.2
+CORE,101,CMH-02-02,BCCA Vancouver Cancer Centre,Serum CEA ,12.3
+CORE,101,CMH-02-03,BCCA Vancouver Cancer Centre,Serum CEA ,2.5
+CORE,101,CMH-02-04,BCCA Vancouver Cancer Centre,Serum CEA ,10.8
+CORE,101,CMH-02-05,BCCA Vancouver Cancer Centre,Serum CEA ,13.4
+CORE,101,CMH-02-07,BCCA Vancouver Cancer Centre,Serum CEA ,23.9
+CORE,101,CMH-01-01,Princess Margaret Cancer Centre ,Serum CEA ,8.7
+CORE,101,CMH-01-02,Princess Margaret Cancer Centre ,Serum CEA ,87.1
+CORE,101,CMH-01-03,Princess Margaret Cancer Centre ,Serum CEA ,11.5
+CORE,101,CMH-01-04,Princess Margaret Cancer Centre ,Serum CEA ,61.1
+CORE,101,CMH-01-05,Princess Margaret Cancer Centre ,Serum CEA ,3.6
+CORE,101,CMH-01-06,Princess Margaret Cancer Centre ,Serum CEA ,6.8
+CORE,101,CMH-01-07,Princess Margaret Cancer Centre ,Serum CEA ,8.4
+CORE,101,CMH-01-08,Princess Margaret Cancer Centre ,Serum CEA ,16.6
+CORE,101,CMH-01-09,Princess Margaret Cancer Centre ,Serum CEA ,15.8
+CORE,101,CMH-01-10,Princess Margaret Cancer Centre ,Serum CEA ,18
+CORE,101,CMH-01-11,Princess Margaret Cancer Centre ,Serum CEA ,91
+CORE,101,CMH-01-12,Princess Margaret Cancer Centre ,Serum CEA ,110
+CORE,101,CMH-02-01,BCCA Vancouver Cancer Centre,Serum CEA ,1.6
+CORE,101,CMH-02-02,BCCA Vancouver Cancer Centre,Serum CEA ,10.5
+CORE,101,CMH-02-03,BCCA Vancouver Cancer Centre,Serum CEA ,12.5
+CORE,101,CMH-02-04,BCCA Vancouver Cancer Centre,Serum CEA ,10.5
+CORE,101,CMH-02-05,BCCA Vancouver Cancer Centre,Serum CEA ,10.8
+CORE,101,CMH-02-07,BCCA Vancouver Cancer Centre,Serum CEA ,1.4
