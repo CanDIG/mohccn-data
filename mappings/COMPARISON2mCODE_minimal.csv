@@ -1,0 +1,14 @@
+##mcodepacket element (* is required),description (overwrite with mapped element)
+"id","##An arbitrary identifier for the mcodepacket."
+"subject.id*","##A unique researcher-specified identifier for an individual."
+"subject.date_of_birth","##A timestamp representing an individual's date of birth; either exactly or imprecisely."
+"subject.age","##The age or age range of the individual."
+"subject.sex","##The phenotypic sex of an individual, as would be determined by a midwife or physician at birth."
+"subject.karyotypic_sex","##The karyotypic sex of an individual."
+"subject.taxonomy+","##An ontology term specified when more than one organism may be studied. It is advised that codesfrom the NCBI Taxonomy resource are used, e.g. NCBITaxon:9606 for humans."
+"subject.active","##Whether a patient's record is in active use."
+"subject.deceased","##Whether a patient is deceased."
+"subject.race","##A code for a person's race (mCode)."
+"subject.ethnicity","##A code for a person's ethnicity (mCode)."
+"subject.extra_properties",
+"date_of_death","##An indication that the patient is no longer living, given by a date of death or boolean."
