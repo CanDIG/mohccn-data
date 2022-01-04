@@ -1,4 +1,5 @@
 description: Test mapping of COMPARISON dataset to candigv1 format
 mapping: comparison2candigv1.csv
+identifier: Subject
 functions:
   - COMPARISON

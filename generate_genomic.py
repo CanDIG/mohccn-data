@@ -1,5 +1,6 @@
 import re
 import requests
+import get_ids
 
 
 ## Generate single-sample VCF files for the samples listed in https://github.com/CanDIG/mohccn-data/blob/main/Synthetic_Clinical%2BGenomic_data/ID_Matching_Table.csv.
@@ -14,6 +15,7 @@ def get_variant_obj(chrom, start, end, ids):
     header = ""
     samples = []
     with requests.get(f"https://htsget.ga4gh.org/variants/1000genomes.phase1.chr{chrom}?format=VCF&referenceName={chrom}&start={start}&end={end}") as r:
+        print(r.json())
         urls = r.json()["htsget"]["urls"]
     for url_obj in urls:
         if "class" in url_obj and url_obj["class"] == "header":
@@ -58,10 +60,6 @@ def get_variant_obj(chrom, start, end, ids):
 
 
 if __name__ == '__main__':
-    thou_gen_ids = []
-    with requests.get("https://raw.githubusercontent.com/CanDIG/mohccn-data/main/Synthetic_Clinical%2BGenomic_data/ID_Matching_Table.csv") as r:
-        for line in r.iter_lines(decode_unicode=True):
-            thou_gen_ids.append(line.split(",")[3])
-    thou_gen_ids = thou_gen_ids[1:]
+    thou_gen_ids = get_ids.get_ids()["1000 Genomes_ID"]
     get_variant_obj(21, 9000000, 9500000, thou_gen_ids)
 
