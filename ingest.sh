@@ -78,6 +78,11 @@ do
         com="docker exec candigv2_candig-server_1 candig_repo add-variantset candig-example-data/registry.db mohccn $val -R hs37d5"
         echo $com
         eval $com
+        # ingest data into htsget
+        val=`echo $sample | awk -F, '{print "python htsget_ingest.py " $4 " /shared/compressed/ http://localhost:3333"}'`
+        echo $val
+        eval $val
+
     fi
 done
 IFS=Field_Separator
