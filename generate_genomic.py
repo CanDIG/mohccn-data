@@ -14,6 +14,7 @@ def get_variant_obj(chrom, start, end, ids):
     file_url_objs = []
     header = ""
     samples = []
+    # Note: the url is a hard-coded IP for now because the htsget reference server (https://htsget.ga4gh.org) is having DNS issues (as of 4 Jan 2022)
     with requests.get(f"http://3.134.6.136:3000/variants/1000genomes.phase1.chr{chrom}?format=VCF&referenceName={chrom}&start={start}&end={end}") as r:
         print(r.json())
         urls = r.json()["htsget"]["urls"]
