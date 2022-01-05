@@ -4,7 +4,7 @@ import get_ids
 
 
 ## Generate single-sample VCF files for the samples listed in https://github.com/CanDIG/mohccn-data/blob/main/Synthetic_Clinical%2BGenomic_data/ID_Matching_Table.csv.
-## We're using a small segment of chr21 (9000000-10000000) as the test region.
+## We're using a small segment of chr21 (9000000-95000000) as the test region.
 
 
 
@@ -14,7 +14,7 @@ def get_variant_obj(chrom, start, end, ids):
     file_url_objs = []
     header = ""
     samples = []
-    with requests.get(f"https://htsget.ga4gh.org/variants/1000genomes.phase1.chr{chrom}?format=VCF&referenceName={chrom}&start={start}&end={end}") as r:
+    with requests.get(f"http://3.134.6.136:3000/variants/1000genomes.phase1.chr{chrom}?format=VCF&referenceName={chrom}&start={start}&end={end}") as r:
         print(r.json())
         urls = r.json()["htsget"]["urls"]
     for url_obj in urls:
