@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 
-
+set -euxo pipefail
 
 bgzip --version
 if [ $? -ne 0 ]; then
