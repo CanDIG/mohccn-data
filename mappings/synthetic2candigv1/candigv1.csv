@@ -1,0 +1,21 @@
+"subject.id*",{single_val(Subject)}
+##"Patient",
+"Patient.patientId",{single_val(Subject)}
+"Patient.gender",{single_val(Gender)}
+"Patient.dateOfBirth", {date("Date of Birth")}
+"Patient.ethnicity",{single_val(Ethnicity)}
+"Patient.dateOfDeath",{date("Date of Death")}
+##"Enrollment",
+"Enrollment.patientId",{single_val(Subject)}
+Enrollment.enrollmentApprovalDate, {date("Date of Diagnosis")}
+##"Diagnosis",
+"Diagnosis.patientId",{single_val(Subject)}
+"Diagnosis.diagnosisDate",{date("Date of Diagnosis")}
+"Diagnosis.histology",{single_val(Histology)}
+##"Treatment",
+##"Treatment.0",
+"Treatment.0,{candigv1.treatment(Subject, "1st line Chemo- Cycle 1"."Agent Name", "1st line Chemo- Cycle 1"."Start Date")}
+##"Outcome",
+"Outcome.0",{candigv1.outcome(Subject, Survival."Date of Death", Survival."Patient Status")}
+##"Sample",
+"Sample.0",{candigv1.sample(Subject, Biopsy."Date of biopsy", Biopsy.Location)}

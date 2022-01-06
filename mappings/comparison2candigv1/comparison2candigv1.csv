@@ -1,0 +1,25 @@
+"subject.id*",{single_val(Subject)}
+##"Patient",
+"Patient.patientId",{single_val(Subject)}
+"Patient.gender",{single_val(GENDER_CODE)}
+"Patient.dateOfBirth", {date(BIRTH_DATE_YM_INT)}
+"Patient.ethnicity",{single_val(ETHNICITY_CODE)}
+"Patient.provinceOfResidence", {COMPARISON.province_from_site(Demographics.Site)}
+"Patient.dateOfDeath",{date(DTH_DT)}
+##"Enrollment",
+"Enrollment.patientId",{single_val(Subject)}
+"Enrollment.ageAtEnrollment",{single_val(WEC_AGE)}
+##"Diagnosis",
+"Diagnosis.patientId",{single_val(Subject)}
+"Diagnosis.diagnosisDate",{date(DIAG_PA)}
+"Diagnosis.cancerType",{single_val(MALIGNANCY)}
+"Diagnosis.histology",{single_val(HISTO_CYTO_DIAG)}
+"Diagnosis.tumorGrade",{single_val(GRADE_DIAG)}
+"Diagnosis.specificStage",{single_val(STAGE_DIAG)}
+##"Treatment",
+##"Treatment.0",
+"Treatment.0,{COMPARISON.treatment(Subject, THER_TX_NAME, STRT_DT, LAST_DATE, THER_BR)}
+##"Outcome",
+"Outcome.0",{COMPARISON.outcome(Subject, FU_STATUS_DT, DISEASE_STATUS)}
+##"Sample",
+"Sample.0",{COMPARISON.sample(Subject, SAMPLE_ID, SURG_DT, ARCH_TMR_SITE, CANCER_TYPE_LONG)}

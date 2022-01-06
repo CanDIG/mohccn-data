@@ -1,0 +1,8 @@
+##mcodepacket element (* is required),description (overwrite with mapped element)
+"id",{single_val(Subject)}
+"subject.id*",{single_val(Subject)}
+"subject.date_of_birth",{date("Date of Birth")}
+"subject.sex",{single_val(Gender)}
+"subject.deceased",{has_value("Date of Death")}
+"subject.ethnicity",{single_val(Ethnicity)}
+"date_of_death",{date("Date of Death")}

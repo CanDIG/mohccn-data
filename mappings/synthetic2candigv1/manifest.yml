@@ -1,0 +1,6 @@
+description: Mapping of synthetic_clinical_data_2 dataset to candigv1 format
+mapping: candigv1.csv
+schema: candigv1
+identifier: Subject
+functions:
+  - candigv1
