@@ -34,7 +34,6 @@ exit
 # prep for ETL to katsu:
 git clone https://github.com/CanDIG/clinical_ETL.git
 cd clinical_ETL
-git checkout daisieh/updates
 pip install -r requirements.txt
 cd ..
 

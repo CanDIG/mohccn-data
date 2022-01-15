@@ -28,12 +28,10 @@ def treatment(mapping):
 #             "responseToTreatment": "THER_BR"
 #         })
     treatment = []
-    return treatment
     patient = mappings.single_val({"sub": mapping["Subject"]})
     ther_txs = mappings.list_val({"Agent Name": mapping["Agent Name"]})
-    strt_dts = mappings.list_val({"Agent Name": mapping["Agent Name"]})
+    strt_dts = mappings.list_val({"Agent Name": mapping["Start Date"]})
     for i in range(0, len(ther_txs)):
-        print(ther_txs[i])
         treatment_dict = {
             "patientId": patient,
             "therapeuticModality": ther_txs[i].lower(),
@@ -41,7 +39,7 @@ def treatment(mapping):
         }
         if len(strt_dts) > 0:
             if len(strt_dts) == len(ther_txs):
-                treatment_dict["startDate"] = mappings.date({"date": strt_dts[i]})
+                treatment_dict["startDate"] = mappings.date({"date": {"date": strt_dts[i]}})
             else:
                 raise mappings.MappingError(f"There are {len(ther_txs)} Agent Name but only {len(strt_dts)} Start Date")
 
@@ -59,14 +57,16 @@ def outcome(mapping):
 #         })
     outcome = []
     patient = mappings.single_val({"Subject": mapping["Subject"]})
-    dates = mappings.single_val({"Date of Death": mapping["Date of Death"]})
-    statuses = mappings.single_val({"Patient Status": mapping["Patient Status"]})
+    date = mappings.date({"Date of Death": mapping["Date of Death"]})
+    status = mappings.single_val({"Patient Status": mapping["Patient Status"]})
     outcome_dict = {
         "patientId": patient,
-        "dateOfAssessment": mappings.date({"date": dates}),
-        "diseaseResponseOrStatus": statuses.strip('"'),
         "localId": f"{patient}_outcome_0"
     }
+    if date is not None:
+        outcome_dict["dateOfAssessment"] = date
+    if status is not None:
+        outcome_dict["diseaseResponseOrStatus"] = status.strip('"')
     outcome.append(outcome_dict)
     return outcome
 
@@ -83,14 +83,16 @@ def sample(mapping):
 #         })
     sample = []
     patient = mappings.single_val({"Subject": mapping["Subject"]})
-    collectionDates = mappings.single_val({"Date of biopsy": mapping["Date of biopsy"]})
-    sampleTypes = mappings.single_val({"Location": mapping["Location"]})
+    collectionDate = mappings.date({"Date of biopsy": mapping["Date of biopsy"]})
+    sampleType = mappings.single_val({"Location": mapping["Location"]})
     sample_dict = {
         "patientId": patient,
-        "sampleId": f"{patient}_0",
-        "collectionDate": mappings.date({"date": collectionDates}),
-        "sampleType": sampleTypes
+        "sampleId": f"{patient}_0"
     }
+    if collectionDate is not None:
+        sample_dict["collectionDate"] = collectionDate
+    if sampleType is not None:
+        sample_dict["sampleType"] = sampleType
     sample.append(sample_dict)
     
     return sample
