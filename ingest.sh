@@ -2,6 +2,7 @@
 
 set -euxo pipefail
 
+
 bgzip --version
 if [ $? -ne 0 ]; then
   echo "htslib is required to manage variant files: installation instructions are at https://www.htslib.org/download/" 
@@ -14,54 +15,10 @@ if [ $? -ne 0 ]; then
   exit 1
 fi
 
-# generate sample data
-mkdir samples
-cd samples
-python ../generate_genomic.py
-vcffiles=`ls *.vcf`
-mkdir compressed
-for f in $vcffiles
-do
-    bgzip -c $f > compressed/$f.gz
-    tabix compressed/$f.gz
-done
+# find docker containers:
+htsget=$(docker ps --format "{{.Names}}" | grep "htsget")
+candig_server=$(docker ps --format "{{.Names}}" | grep "candig-server")
 
-cd ..
-docker cp samples/compressed candigv2_chord-metadata_1:samples
-docker cp samples/compressed candigv2_htsget-app_1:samples
-exit
-
-# prep for ETL to katsu:
-git clone https://github.com/CanDIG/clinical_ETL.git
-cd clinical_ETL
-pip install -r requirements.txt
-cd ..
-
-# prep data in mcode format:
-python ../clinical_ETL/CSVConvert.py --input Synthetic_Clinical+Genomic_data/Synthetic_Clinical_Data_2.xlsx --mapping mappings/synthetic2mcode/manifest.yml
-docker cp Synthetic_Clinical+Genomic_data/Synthetic_Clinical_Data_2_map.json candigv2_chord-metadata_1:Synthetic_Clinical_Data_2_map_mcode.json
-
-# ingest data into katsu
-python katsu_ingest.py mohccn mcode-synthetic mcode-synthetic http://0.0.0.0:8008 /Synthetic_Clinical_Data_2_map_mcode.json mcodepacket
-
-# prep data in candigv1 format:
-python ../clinical_ETL/CSVConvert.py --input Synthetic_Clinical+Genomic_data/Synthetic_Clinical_Data_2.xlsx --mapping mappings/synthetic2candigv1/manifest.yml
-docker cp Synthetic_Clinical+Genomic_data/Synthetic_Clinical_Data_2_map.json candigv2_chord-metadata_1:Synthetic_Clinical_Data_2_map_candigv1.json
-
-# ingest data into candigv1
-
-# load clinical data
-docker exec candigv2_candig-server_1 ingest candig-example-data/registry.db 
-mohccn /Synthetic_Clinical_Data_2_map_candigv1.json
-
-# load reference data
-docker exec candigv2_candig-server_1 wget http://ftp.1000genomes.ebi.ac.uk/vol1/ftp/technical/reference/phase2_reference_assembly_sequence/hs37d5.fa.gz
-docker exec candigv2_candig-server_1 wget http://ftp.1000genomes.ebi.ac.uk/vol1/ftp/technical/reference/phase2_reference_assembly_sequence/hs37d5.fa.gz.gzi
-docker exec candigv2_candig-server_1 candig_repo add-referenceset candig-example-data/registry.db hs37d5.fa.gz \
-    --description "NCBI37 assembly of the human genome" \
-    --species '{"termId": "NCBI:9606", "term": "Homo sapiens"}' \
-    --name hs37d5 \
-    --sourceUri http://ftp.1000genomes.ebi.ac.uk/vol1/ftp/technical/reference/phase2_reference_assembly_sequence/hs37d5.fa.gz
 
 # load variant data
 samples=`curl https://raw.githubusercontent.com/CanDIG/mohccn-data/main/Synthetic_Clinical%2BGenomic_data/ID_Matching_Table.csv`
@@ -74,10 +31,10 @@ do
         first=1
     else
         val=`echo $sample | awk -F, '{print $3 " " $3 "_0 /samples/" $4 ".vcf.gz"}'`
-        com="docker exec candigv2_candig-server_1 candig_repo add-variantset candig-example-data/registry.db mohccn $val -R hs37d5"
+        com="docker exec $candig_server candig_repo add-variantset candig-example-data/registry.db mohccn $val -R hs37d5"
         eval $com
         # ingest data into htsget
-        val=`echo $sample | awk -F, '{print "python htsget_ingest.py " $4 " /samples/ http://localhost:3333"}'`
+        val=`echo $sample | awk -F, '{print "python htsget_ingest.py " $4 " /samples/ $CANDIG_PUBLIC_URL"}'`
         eval $val
 
     fi
