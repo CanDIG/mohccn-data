@@ -3,12 +3,6 @@
 set -euxo pipefail
 
 
-bgzip --version
-if [ $? -ne 0 ]; then
-  echo "htslib is required to manage variant files: installation instructions are at https://www.htslib.org/download/" 
-  exit 1
-fi
-
 pip install -r requirements.txt
 if [ $? -ne 0 ]; then
   echo "make sure pip is installed" 

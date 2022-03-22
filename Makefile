@@ -14,7 +14,7 @@ HTSGET=$(shell docker ps --format "{{.Names}}" | grep "htsget")
 CANDIG_SERVER=$(shell docker ps --format "{{.Names}}" | grep "candig-server")
 
 .PHONY: all
-all: copy-samples katsu_ready candig_server_ready
+all: copy-samples katsu.ready candig_server.ready
 	@./ingest.sh
 	
 .PHONY: copy-samples
@@ -27,23 +27,22 @@ samples/*.vcf: | /samples
 	@echo "generating..."
 	$(shell cd samples; python ../generate_genomic.py)
 
-samples/*.gz.tbi: | samples/*.vcf 
+samples/*.gz.tbi: 
 ifeq (, $(shell which bgzip))
 $(error "bgzip is part of htslib; htslib is required to manage variant files: installation instructions are at https://www.htslib.org/download/")
 endif
-	@echo "compressing... $(wildcard samples/*.vcf)"
 $(foreach F, $(wildcard samples/*.vcf), $(shell bgzip -i $(F)))
 
 /samples:
 	@mkdir -p $(DIR)/samples
 
-clinical_ETL_ready:
+clinical_ETL.ready:
 	git clone https://github.com/CanDIG/clinical_ETL.git
 	@pip install -r clinical_ETL/requirements.txt
 	@pip install -r requirements.txt
-	@touch clinical_ETL_ready
+	@touch clinical_ETL.ready
 
-reference_loaded: hs37d5.fa.gz hs37d5.fa.gz.gzi
+reference.ready: hs37d5.fa.gz hs37d5.fa.gz.gzi
 	@echo "loading reference data"
 	docker cp hs37d5.fa.gz $(CANDIG_SERVER):/app/candig-server
 	docker cp hs37d5.fa.gz.gzi $(CANDIG_SERVER):/app/candig-server
@@ -52,7 +51,7 @@ reference_loaded: hs37d5.fa.gz hs37d5.fa.gz.gzi
 		--species '{"termId": "NCBI:9606", "term": "Homo sapiens"}' \
 		--name hs37d5 \
 		--sourceUri http://ftp.1000genomes.ebi.ac.uk/vol1/ftp/technical/reference/phase2_reference_assembly_sequence/hs37d5.fa.gz
-	@touch reference_loaded
+	@touch reference.ready
 
 hs37d5.fa.gz: 
 	curl http://ftp.1000genomes.ebi.ac.uk/vol1/ftp/technical/reference/phase2_reference_assembly_sequence/hs37d5.fa.gz --output hs37d5.fa.gz
@@ -60,23 +59,23 @@ hs37d5.fa.gz:
 hs37d5.fa.gz.gzi:
 	curl http://ftp.1000genomes.ebi.ac.uk/vol1/ftp/technical/reference/phase2_reference_assembly_sequence/hs37d5.fa.gz.gzi --output hs37d5.fa.gz.gzi
 
-katsu_ready: | clinical_ETL_ready
+katsu.ready: | clinical_ETL.ready
 	python clinical_ETL/CSVConvert.py --input Synthetic_Clinical+Genomic_data/Synthetic_Clinical_Data_2.xlsx --mapping mappings/synthetic2mcode/manifest.yml
 	docker cp Synthetic_Clinical+Genomic_data/Synthetic_Clinical_Data_2_map.json $(KATSU):Synthetic_Clinical_Data_2_map_mcode.json
 	python katsu_ingest.py mohccn mcode-synthetic mcode-synthetic $(CHORD_METADATA_PUBLIC_URL) /Synthetic_Clinical_Data_2_map_mcode.json mcodepacket
-	@touch katsu_ready
+	@touch katsu.ready
 
-candig_server_ready: | clinical_ETL_ready reference_loaded
+candig_server.ready: | clinical_ETL.ready reference.ready
 	python clinical_ETL/CSVConvert.py --input Synthetic_Clinical+Genomic_data/Synthetic_Clinical_Data_2.xlsx --mapping mappings/synthetic2candigv1/manifest.yml
 	docker cp Synthetic_Clinical+Genomic_data/Synthetic_Clinical_Data_2_map.json $(CANDIG_SERVER):Synthetic_Clinical_Data_2_map_candigv1.json
 	docker exec $(CANDIG_SERVER) ingest candig-example-data/registry.db mohccn /Synthetic_Clinical_Data_2_map_candigv1.json
-	@touch candig_server_ready
+	@touch candig_server.ready
 
 .PHONY: clean
 clean:
-	rm -f candig_server_ready
-	rm -f katsu_ready
+	rm -f candig_server.ready
+	rm -f katsu.ready
 	rm -f hs37d5.fa.gz*
-	rm -f reference_loaded
+	rm -f reference.ready
 	rm -Rf samples
 	rm -Rf clinical_ETL*
