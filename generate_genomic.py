@@ -61,6 +61,7 @@ def get_variant_obj(chrom, start, end, ids):
 
 
 if __name__ == '__main__':
-    thou_gen_ids = get_ids.get_ids()["1000 Genomes_ID"]
+    thou_gen_ids = get_ids.get_ids("1000 Genomes_ID")
+    print(thou_gen_ids)
     get_variant_obj(21, 9000000, 9500000, thou_gen_ids)
 

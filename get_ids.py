@@ -24,10 +24,17 @@ def get_ids(args):
                 entries = line.split(",")
                 for i in range(0,len(result.keys())):
                     result[list(result.keys())[i]].append(entries[i])
-    if args.key is not None:
+    if "str" in str(type(args)):
+        return result[args]
+    if "key" in args and args.key is not None:
         return result[args.key]
     return result
 
+def main():
+    parser = argparse.ArgumentParser(description="A script that gets ids from the ID matching table")
+    parser.add_argument("key", help="column to get")
+    args = parser.parse_args()
+    return get_ids(args)
 
 if __name__ == '__main__':
     print(json.dumps(get_ids(parse_args())))
