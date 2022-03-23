@@ -39,7 +39,7 @@ $(foreach F, $(wildcard samples/*.vcf), $(shell bgzip -i $(F)))
 	@mkdir -p $(DIR)/samples
 
 clinical_ETL.ready:
-	git clone https://github.com/CanDIG/clinical_ETL.git
+	git submodule update --init
 	@pip install -r clinical_ETL/requirements.txt
 	@pip install -r requirements.txt
 	@touch clinical_ETL.ready
