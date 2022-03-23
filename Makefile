@@ -1,6 +1,8 @@
 #!make
 
 # import global variables
+# NOTE: if your CANDIG_HOME is in a different location, 
+# set the environment variable or set it when calling make
 CANDIG_HOME ?= ../CanDIGv2
 env ?= $(CANDIG_HOME)/.env
 
@@ -70,6 +72,7 @@ candig_server.ready: | clinical_ETL.ready reference.ready
 	docker cp Synthetic_Clinical+Genomic_data/Synthetic_Clinical_Data_2_map.json $(CANDIG_SERVER):Synthetic_Clinical_Data_2_map_candigv1.json
 	docker exec $(CANDIG_SERVER) ingest candig-example-data/registry.db mohccn /Synthetic_Clinical_Data_2_map_candigv1.json
 	@touch candig_server.ready
+
 
 .PHONY: clean
 clean:
