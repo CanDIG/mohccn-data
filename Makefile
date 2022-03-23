@@ -81,4 +81,4 @@ clean:
 	rm -f hs37d5.fa.gz*
 	rm -f reference.ready
 	rm -Rf samples
-	rm -Rf clinical_ETL*
+	rm -Rf clinical_ETL.ready
