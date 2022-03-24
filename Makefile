@@ -14,9 +14,11 @@ DIR = $(PWD)
 KATSU = $(shell docker ps --format "{{.Names}}" | grep "chord-metadata")
 HTSGET=$(shell docker ps --format "{{.Names}}" | grep "htsget")
 CANDIG_SERVER=$(shell docker ps --format "{{.Names}}" | grep "candig-server")
+# either opa container will work
+OPA=$(shell docker ps --format "{{.Names}}" | grep -m 1 "opa")
 
 .PHONY: all
-all: copy-samples katsu.ready candig_server.ready
+all: copy-samples katsu.ready candig_server.ready opa.ready
 	@./ingest.sh
 	
 .PHONY: copy-samples
@@ -74,6 +76,12 @@ candig_server.ready: | clinical_ETL.ready reference.ready
 	@touch candig_server.ready
 
 
+opa.ready: | katsu.ready candig_server.ready
+	python opa_init.py $(shell cat $(CANDIG_HOME)/tmp/secrets/keycloak-test-user) mcode-synthetic \
+		$(OPA_URL) $(CANDIG_OPA_SECRET) > access.json
+	docker cp access.json $(OPA):/app/permissions_engine/access.json
+	@touch opa.ready
+
 .PHONY: clean
 clean:
 	rm -f candig_server.ready
@@ -82,3 +90,4 @@ clean:
 	rm -f reference.ready
 	rm -Rf samples
 	rm -Rf clinical_ETL.ready
+	rm -f opa.ready
