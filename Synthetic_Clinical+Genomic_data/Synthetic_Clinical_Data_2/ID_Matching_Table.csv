@@ -1,4 +1,4 @@
-donor_sex,icgc_donor_id,Clinical_ID,1000 Genomes_ID
+donor_sex,icgc_donor_id,Subject,1000 Genomes_ID
 male,DO23018,UBU001,HG00096
 female,DO23010,UBU003,HG00097
 female,DO23023,UBU005,HG00099
