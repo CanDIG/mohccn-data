@@ -64,13 +64,13 @@ hs37d5.fa.gz.gzi:
 	curl http://ftp.1000genomes.ebi.ac.uk/vol1/ftp/technical/reference/phase2_reference_assembly_sequence/hs37d5.fa.gz.gzi --output hs37d5.fa.gz.gzi
 
 katsu.ready: | clinical_ETL.ready
-	python clinical_ETL/CSVConvert.py --input Synthetic_Clinical+Genomic_data/Synthetic_Clinical_Data_2.xlsx --mapping mappings/synthetic2mcode/manifest.yml
+	python clinical_ETL/CSVConvert.py --input Synthetic_Clinical+Genomic_data/Synthetic_Clinical_Data_2 --mapping mappings/synthetic2mcode/manifest.yml
 	docker cp Synthetic_Clinical+Genomic_data/Synthetic_Clinical_Data_2_map.json $(KATSU):Synthetic_Clinical_Data_2_map_mcode.json
 	python katsu_ingest.py mohccn mcode-synthetic mcode-synthetic $(CHORD_METADATA_PUBLIC_URL) /Synthetic_Clinical_Data_2_map_mcode.json mcodepacket
 	@touch katsu.ready
 
 candig_server.ready: | clinical_ETL.ready reference.ready
-	python clinical_ETL/CSVConvert.py --input Synthetic_Clinical+Genomic_data/Synthetic_Clinical_Data_2.xlsx --mapping mappings/synthetic2candigv1/manifest.yml
+	python clinical_ETL/CSVConvert.py --input Synthetic_Clinical+Genomic_data/Synthetic_Clinical_Data_2 --mapping mappings/synthetic2candigv1/manifest.yml
 	docker cp Synthetic_Clinical+Genomic_data/Synthetic_Clinical_Data_2_map.json $(CANDIG_SERVER):Synthetic_Clinical_Data_2_map_candigv1.json
 	docker exec $(CANDIG_SERVER) ingest candig-example-data/registry.db mohccn /Synthetic_Clinical_Data_2_map_candigv1.json
 	@touch candig_server.ready
