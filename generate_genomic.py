@@ -3,7 +3,7 @@ import requests
 import get_ids
 
 
-## Generate single-sample VCF files for the samples listed in https://github.com/CanDIG/mohccn-data/blob/main/Synthetic_Clinical%2BGenomic_data/ID_Matching_Table.csv.
+## Generate single-sample VCF files for the samples listed in https://github.com/CanDIG/mohccn-data/blob/main/Synthetic_Clinical%2BGenomic_data/Synthetic_Clinical_Data_2/ID_Matching_Table.csv.
 ## We're using a small segment of chr21 (9000000-95000000) as the test region.
 
 
