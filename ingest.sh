@@ -15,7 +15,7 @@ candig_server=$(docker ps --format "{{.Names}}" | grep "candig-server")
 
 
 # load variant data
-samples=`curl https://raw.githubusercontent.com/CanDIG/mohccn-data/main/Synthetic_Clinical%2BGenomic_data/ID_Matching_Table.csv`
+samples=`curl https://raw.githubusercontent.com/CanDIG/mohccn-data/main/Synthetic_Clinical%2BGenomic_data/Synthetic_Clinical_Data_2/ID_Matching_Table.csv`
 first=0
 Field_Separator=$IFS
 IFS=$'\n\r'
