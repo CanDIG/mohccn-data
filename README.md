@@ -27,4 +27,12 @@ curl -X "POST" "http://auth.docker.localhost:8080/auth/realms/candig/protocol/op
 
 ```
 curl "http://docker.localhost:5080/katsu/api/datasets" \
-     -H 'Authorization: Bearer <token>``` 
+     -H 'Authorization: Bearer <token>
+``` 
+
+* You should also be able to access all of the samples in the mcode-synthetic dataset via htsget if you're logged in as that user. If you're logged in as a different user (for example, the user specified in `$CANDIG_HOME/tmp/secrets/keycloak-test-user2`), you should get 403s. If you're not logged in at all, you'll get 401s.
+
+```
+curl "http://docker.localhost:3333/htsget/v1/variants/NA20787" \
+     -H 'Authorization: Bearer <access_token>'
+```
