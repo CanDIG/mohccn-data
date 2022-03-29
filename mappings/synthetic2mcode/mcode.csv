@@ -6,3 +6,4 @@
 "subject.deceased",{has_value("Date of Death")}
 "subject.ethnicity",{single_val(Ethnicity)}
 "date_of_death",{date("Date of Death")}
+"genomics_report.extra_properties",{mcode.connect_variant("1000 Genomes_ID")}

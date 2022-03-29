@@ -15,7 +15,7 @@ candig_server=$(docker ps --format "{{.Names}}" | grep "candig-server")
 
 
 # load variant data
-samples=`curl https://raw.githubusercontent.com/CanDIG/mohccn-data/main/Synthetic_Clinical%2BGenomic_data/ID_Matching_Table.csv`
+samples=`curl https://raw.githubusercontent.com/CanDIG/mohccn-data/main/Synthetic_Clinical%2BGenomic_data/Synthetic_Clinical_Data_2/ID_Matching_Table.csv`
 first=0
 Field_Separator=$IFS
 IFS=$'\n\r'
@@ -28,7 +28,7 @@ do
         com="docker exec $candig_server candig_repo add-variantset candig-example-data/registry.db mohccn $val -R hs37d5"
         eval $com
         # ingest data into htsget
-        val=`echo $sample | awk -F, '{print "python htsget_ingest.py " $4 " /samples/ $CANDIG_PUBLIC_URL"}'`
+        val=`echo $sample | awk -F, '{print "python htsget_ingest.py " $4 " /samples/ http://$CANDIG_DOMAIN:$HTSGET_PORT"}'`
         eval $val
 
     fi

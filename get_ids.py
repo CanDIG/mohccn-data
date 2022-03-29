@@ -14,7 +14,7 @@ def parse_args():
 def get_ids(args):
     thou_gen_ids = []
     result = {}
-    with requests.get("https://raw.githubusercontent.com/CanDIG/mohccn-data/main/Synthetic_Clinical%2BGenomic_data/ID_Matching_Table.csv") as r:
+    with requests.get("https://raw.githubusercontent.com/CanDIG/mohccn-data/main/Synthetic_Clinical%2BGenomic_data/Synthetic_Clinical_Data_2/ID_Matching_Table.csv") as r:
         for line in r.iter_lines(decode_unicode=True):
             if len(result.keys()) == 0:
                 headers = line.split(",")
