@@ -28,7 +28,7 @@ do
         com="docker exec $candig_server candig_repo add-variantset candig-example-data/registry.db mohccn $val -R hs37d5"
         eval $com
         # ingest data into htsget
-        val=`echo $sample | awk -F, '{print "python htsget_ingest.py " $4 " /samples/ $CANDIG_PUBLIC_URL"}'`
+        val=`echo $sample | awk -F, '{print "python htsget_ingest.py " $4 " /samples/ http://$CANDIG_DOMAIN:$HTSGET_PORT"}'`
         eval $val
 
     fi
