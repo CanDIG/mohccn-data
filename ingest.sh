@@ -25,7 +25,7 @@ do
         first=1
     else
         val=`echo $sample | awk -F, '{print $3 " " $3 "_0 /samples/" $4 ".vcf.gz"}'`
-        com="docker exec $candig_server candig_repo add-variantset candig-example-data/registry.db mohccn $val -R hs37d5"
+        com="docker exec $candig_server candig_repo add-variantset candig-example-data/registry.db $DATASET $val -R hs37d5"
         eval $com
         # ingest data into htsget
         val=`echo $sample | awk -F, '{print "python htsget_ingest.py " $4 " /samples/ http://$CANDIG_DOMAIN:$HTSGET_PORT"}'`
