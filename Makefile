@@ -21,7 +21,7 @@ DATASET="mcode-synthetic"
 
 .PHONY: all
 all: copy-samples katsu.ready candig_server.ready opa.ready
-	@./ingest.sh
+	source ./ingest.sh $(DATASET)
 	
 .PHONY: copy-samples
 copy-samples: samples/*.gz.tbi

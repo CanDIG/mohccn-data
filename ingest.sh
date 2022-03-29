@@ -2,6 +2,7 @@
 
 set -euxo pipefail
 
+DATASET=$1
 
 pip install -r requirements.txt
 if [ $? -ne 0 ]; then
