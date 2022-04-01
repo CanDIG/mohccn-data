@@ -27,7 +27,7 @@ all: copy-samples katsu.ready candig_server.ready opa.ready
 copy-samples: samples/*.gz.tbi
 	docker cp samples $(KATSU):samples
 	docker cp samples $(HTSGET):samples
-	docker cp samples $(CANDIG_SERVER):samples
+	docker cp samples $(CANDIG_SERVER):/samples
 
 samples/*.vcf: | /samples
 	@echo "generating..."
@@ -37,7 +37,7 @@ samples/*.gz.tbi: | /samples
 ifeq (, $(shell which bgzip))
 $(error "bgzip is part of htslib; htslib is required to manage variant files: installation instructions are at https://www.htslib.org/download/")
 endif
-$(foreach F, $(wildcard samples/*.vcf), $(shell bgzip -i $(F)))
+$(foreach F, $(wildcard samples/*.vcf), $(shell bgzip $(F); tabix $(F).gz))
 
 /samples:
 	@mkdir -p $(DIR)/samples
