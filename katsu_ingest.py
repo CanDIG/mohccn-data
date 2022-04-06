@@ -114,6 +114,9 @@ def create_table(katsu_server_url, dataset_uuid, table_name, data_type):
         for r in results.json()["results"]:
             if r["name"] == table_name:
                 return r["identifier"]
+    else:
+        print(r3.json())
+        sys.exit()
 
 
 def ingest_data(katsu_server_url, table_id, data_file, data_type):
