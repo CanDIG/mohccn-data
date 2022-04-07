@@ -85,7 +85,7 @@ opa.ready: | katsu.ready candig_server.ready
 	@touch opa.ready
 
 .PHONY: clean
-clean:
+clean: | clean-katsu
 	rm -f candig_server.ready
 	rm -f katsu.ready
 	rm -f hs37d5.fa.gz*
@@ -93,3 +93,8 @@ clean:
 	rm -Rf samples
 	rm -Rf clinical_ETL.ready
 	rm -f opa.ready
+
+clean-katsu:
+	docker cp $(KATSU):Synthetic_Clinical_Data_2_map_mcode.json Synthetic_Clinical+Genomic_data/Synthetic_Clinical_Data_2_map_mcode.json
+	python katsu_clean.py $(DATASET) $(DATASET) $(DATASET) $(CHORD_METADATA_PUBLIC_URL) Synthetic_Clinical+Genomic_data/Synthetic_Clinical_Data_2_map_mcode.json mcodepacket
+	rm Synthetic_Clinical+Genomic_data/Synthetic_Clinical_Data_2_map_mcode.json
