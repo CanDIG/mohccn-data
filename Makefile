@@ -94,6 +94,7 @@ clean: | clean-katsu
 	rm -Rf clinical_ETL.ready
 	rm -f opa.ready
 
+.PHONY: clean-katsu
 clean-katsu:
 	docker cp $(KATSU):Synthetic_Clinical_Data_2_map_mcode.json Synthetic_Clinical+Genomic_data/Synthetic_Clinical_Data_2_map_mcode.json
 	python katsu_clean.py $(DATASET) $(DATASET) $(DATASET) $(CHORD_METADATA_PUBLIC_URL) Synthetic_Clinical+Genomic_data/Synthetic_Clinical_Data_2_map_mcode.json mcodepacket
