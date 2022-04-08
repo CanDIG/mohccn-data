@@ -20,7 +20,7 @@ OPA=$(shell docker ps --format "{{.Names}}" | grep -m 1 "opa")
 DATASET="mcode-synthetic"
 
 .PHONY: all
-all: copy-samples katsu.ready candig_server.ready opa.ready
+all: copy-samples opa.ready katsu.ready candig_server.ready
 	source ./ingest.sh $(DATASET)
 	
 .PHONY: copy-samples
@@ -78,7 +78,7 @@ candig_server.ready: | clinical_ETL.ready reference.ready
 	@touch candig_server.ready
 
 
-opa.ready: | katsu.ready candig_server.ready
+opa.ready: 
 	python opa_init.py $(shell cat $(CANDIG_HOME)/tmp/secrets/keycloak-test-user) $(DATASET) \
 		$(OPA_URL) $(CANDIG_OPA_SECRET) > access.json
 	docker cp access.json $(OPA):/app/permissions_engine/access.json
