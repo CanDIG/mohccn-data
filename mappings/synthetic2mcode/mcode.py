@@ -6,3 +6,12 @@ def connect_variant(mapping):
     if genomic_id is None:
         return None
     return {"genomic_id": genomic_id}
+
+def connect_code(mapping):
+    return "code"
+    
+def connect_org(mapping):
+    return "org"
+    
+def date(mapping):
+    return "2022-04-05"

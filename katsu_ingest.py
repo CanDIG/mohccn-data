@@ -43,12 +43,10 @@ def create_project(katsu_server_url, project_title):
         )
         return project_uuid
     elif r.status_code == 400:
-        print(
-            "A project of title '{}' exists, please choose a different title, or delete this project.".format(
-                project_title
-            )
-        )
-        sys.exit()
+        results = requests.get(katsu_server_url + "/api/projects")
+        for r in results.json()["results"]:
+            if r["title"] == project_title:
+                return r["identifier"]
     else:
         print(r.json())
         sys.exit()
@@ -83,12 +81,10 @@ def create_dataset(katsu_server_url, project_uuid, dataset_title):
         )
         return dataset_uuid
     elif r2.status_code == 400:
-        print(
-            "A dataset of title '{}' exists, please choose a different title, or delete this dataset.".format(
-                dataset_title
-            )
-        )
-        sys.exit()
+        results = requests.get(katsu_server_url + "/api/datasets")
+        for r in results.json()["results"]:
+            if r["title"] == dataset_title:
+                return r["identifier"]
     else:
         print(r2.json())
         sys.exit()
@@ -113,8 +109,13 @@ def create_table(katsu_server_url, dataset_uuid, table_name, data_type):
         table_id = r3.json()["id"]
         print("Table {} with uuid {} has been created!".format(table_name, table_id))
         return table_id
+    elif r3.status_code == 500:
+        results = requests.get(katsu_server_url + "/api/tables")
+        for r in results.json()["results"]:
+            if r["name"] == table_name:
+                return r["identifier"]
     else:
-        print("Something else went wrong. It might be that your a table with the same name already exists.")
+        print(r3.json())
         sys.exit()
 
 
