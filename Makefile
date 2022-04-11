@@ -75,6 +75,7 @@ candig_server.ready: | clinical_ETL.ready reference.ready
 	python clinical_ETL/CSVConvert.py --input Synthetic_Clinical+Genomic_data/Synthetic_Clinical_Data_2 --mapping mappings/synthetic2candigv1/manifest.yml
 	docker cp Synthetic_Clinical+Genomic_data/Synthetic_Clinical_Data_2_map.json $(CANDIG_SERVER):Synthetic_Clinical_Data_2_map_candigv1.json
 	docker exec $(CANDIG_SERVER) ingest candig-example-data/registry.db $(DATASET) /Synthetic_Clinical_Data_2_map_candigv1.json
+	docker restart $(CANDIG_SERVER)
 	@touch candig_server.ready
 
 
