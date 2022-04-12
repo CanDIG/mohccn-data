@@ -34,5 +34,7 @@ do
 
     fi
 done
+
+docker restart $candig_server
 IFS=Field_Separator
 
