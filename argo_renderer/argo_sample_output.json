@@ -1,0 +1,71 @@
+{
+    "composition_objects": [
+        {
+            "donor": {
+                "submitter_donor_id": "INS-001",
+                "vital_status": true,
+                "gender": "Male"
+            },
+            "primary_diagnoses": [
+                {
+                    "submitter_primary_diagnosis_id": "1000-0",
+                    "cancer_type_code": {
+                        "id": "SNOMED:103329007",
+                        "label": "Not available"
+                    }
+                }
+            ],
+            "treatments": [
+                {
+                    "submitter_treatment_id": "1000-0",
+                    "treatment_type": "Radiation therapy",
+                    "radiation_therapy_modality": {
+                        "id": "SNOMED:103329007",
+                        "label": "Not available"
+                    },
+                    "anatomical_site_irradiated": " TONGUE BASE AND NECK"
+                },
+                {
+                    "submitter_treatment_id": "1000-1",
+                    "treatment_type": "Radiation therapy",
+                    "radiation_therapy_modality": {
+                        "id": "SNOMED:103329007",
+                        "label": "Not available"
+                    },
+                    "anatomical_site_irradiated": " LUNG"
+                },
+                {
+                    "submitter_treatment_id": "1000-2",
+                    "treatment_type": "Radiation therapy",
+                    "radiation_therapy_modality": {
+                        "id": "SNOMED:103329007",
+                        "label": "Not available"
+                    },
+                    "anatomical_site_irradiated": " LUNG"
+                },
+                {
+                    "submitter_treatment_id": "1000-3",
+                    "treatment_type": "Surgery"
+                },
+                {
+                    "submitter_treatment_id": "1000-4",
+                    "treatment_type": "Surgery"
+                }
+            ],
+            "immunotherapies_chemotherapies_hormone_therapies": [
+                {
+                    "submitter_treatment_id": "1000-0",
+                    "drug_rxnormcui": "PEMBROLIZUMAB"
+                },
+                {
+                    "submitter_treatment_id": "1000-1",
+                    "drug_rxnormcui": "CARBOPLATIN"
+                },
+                {
+                    "submitter_treatment_id": "1000-2",
+                    "drug_rxnormcui": "TAXOL"
+                }
+            ]
+        }
+    ]
+}
