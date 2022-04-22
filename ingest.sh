@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 
-set -euxo pipefail
+set -uxo pipefail
 
 DATASET=$1
 
@@ -34,5 +34,7 @@ do
 
     fi
 done
+
+docker restart $candig_server
 IFS=Field_Separator
 
