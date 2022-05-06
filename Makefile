@@ -68,7 +68,7 @@ hs37d5.fa.gz.gzi:
 katsu.ready: | clinical_ETL.ready
 	python clinical_ETL/CSVConvert.py --input Synthetic_Clinical+Genomic_data/Synthetic_Clinical_Data_2 --mapping mappings/synthetic2mcode/manifest.yml
 	docker cp Synthetic_Clinical+Genomic_data/Synthetic_Clinical_Data_2_map.json $(KATSU):Synthetic_Clinical_Data_2_map_mcode.json
-	python katsu_ingest.py $(DATASET) $(DATASET) $(DATASET) $(CHORD_METADATA_PUBLIC_URL) /Synthetic_Clinical_Data_2_map_mcode.json mcodepacket
+	python katsu_ingest.py $(DATASET) $(DATASET) $(DATASET) $(CHORD_METADATA_INGEST_URL) /Synthetic_Clinical_Data_2_map_mcode.json mcodepacket
 	@touch katsu.ready
 
 candig_server.ready: | clinical_ETL.ready reference.ready
