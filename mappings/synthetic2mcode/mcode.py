@@ -15,3 +15,6 @@ def connect_org(mapping):
     
 def date(mapping):
     return "2022-04-05"
+    
+def language(mapping):
+    return "English"
