@@ -1,6 +1,0 @@
-description: Mapping of synthetic_clinical_data_2 dataset to mcode format
-mapping: mcode.csv
-schema: mcode
-identifier: Subject
-functions:
-  - mcode
