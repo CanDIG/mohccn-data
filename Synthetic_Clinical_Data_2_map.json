@@ -1,0 +1,3214 @@
+[
+    {
+        "id": "UBU001",
+        "subject": {
+            "id": "UBU001",
+            "date_of_birth": "1967-08-01",
+            "sex": "male",
+            "deceased": true,
+            "ethnicity": "Not Hispanic or Latino",
+            "ecog_performance_status": {
+                "id": "ECOG: 1",
+                "label": "Restricted in physically strenuous activity but ambulatory and able to carry out work of a light or sedentary nature, e.g., light house work, office work"
+            },
+            "extra_properties": {
+                "communication_language": "English"
+            }
+        },
+        "genomics_report": {
+            "id": "UBU001",
+            "code": "code",
+            "performing_organization_name": "org",
+            "issued": "2022-04-05",
+            "extra_properties": {
+                "genomic_id": "HG00096"
+            }
+        },
+        "cancer_condition": {
+            "id": "UBU001-0",
+            "condition_type": "primary",
+            "body_site": "Spleen",
+            "code": {
+                "id": "SNOMED:103329007",
+                "label": "Not available"
+            },
+            "date_of_diagnosis": [
+                "2017-08-18"
+            ]
+        },
+        "medication_statement": [
+            {
+                "id": "UBU001-med0",
+                "medication_code": [
+                    {
+                        "id": "RXCUI:51499",
+                        "label": "irinotecan"
+                    }
+                ],
+                "termination_reason": [
+                    "Disease progression, relapse during active treatment"
+                ],
+                "start_date": "2019-09-17",
+                "end_date": "2019-02-17"
+            }
+        ],
+        "cancer_disease_status": {
+            "id": "SNOMED:359746009",
+            "label": "Patient's condition stable (finding)"
+        }
+    },
+    {
+        "id": "UBU002",
+        "subject": {
+            "id": "UBU002",
+            "date_of_birth": "1956-07-01",
+            "sex": "male",
+            "deceased": true,
+            "ethnicity": "Not Hispanic or Latino",
+            "ecog_performance_status": {
+                "id": "ECOG: 1",
+                "label": "Restricted in physically strenuous activity but ambulatory and able to carry out work of a light or sedentary nature, e.g., light house work, office work"
+            },
+            "extra_properties": {
+                "communication_language": "English"
+            }
+        },
+        "genomics_report": {
+            "id": "UBU002",
+            "code": "code",
+            "performing_organization_name": "org",
+            "issued": "2022-04-05",
+            "extra_properties": {
+                "genomic_id": "HG00151"
+            }
+        },
+        "cancer_condition": {
+            "id": "UBU002-0",
+            "condition_type": "primary",
+            "body_site": "Pancreas",
+            "code": {
+                "id": "SNOMED:103329007",
+                "label": "Not available"
+            },
+            "date_of_diagnosis": [
+                "2016-07-27"
+            ]
+        },
+        "medication_statement": [
+            {
+                "id": "UBU002-med1",
+                "medication_code": [
+                    {
+                        "id": "RXCUI:4492",
+                        "label": "fluorouracil"
+                    }
+                ],
+                "termination_reason": [
+                    "Disease progression, relapse during active treatment"
+                ],
+                "start_date": "2019-10-01",
+                "end_date": "2010-03-12"
+            }
+        ],
+        "cancer_disease_status": {
+            "id": "SNOMED:359746009",
+            "label": "Patient's condition stable (finding)"
+        }
+    },
+    {
+        "id": "UBU003",
+        "subject": {
+            "id": "UBU003",
+            "date_of_birth": "1981-03-01",
+            "sex": "female",
+            "deceased": true,
+            "ethnicity": "Not Hispanic or Latino",
+            "ecog_performance_status": {
+                "id": "ECOG: 1",
+                "label": "Restricted in physically strenuous activity but ambulatory and able to carry out work of a light or sedentary nature, e.g., light house work, office work"
+            },
+            "extra_properties": {
+                "communication_language": "English"
+            }
+        },
+        "genomics_report": {
+            "id": "UBU003",
+            "code": "code",
+            "performing_organization_name": "org",
+            "issued": "2022-04-05",
+            "extra_properties": {
+                "genomic_id": "HG00097"
+            }
+        },
+        "cancer_condition": {
+            "id": "UBU003-0",
+            "condition_type": "primary",
+            "body_site": "Lung",
+            "code": {
+                "id": "SNOMED:103329007",
+                "label": "Not available"
+            },
+            "date_of_diagnosis": [
+                "2013-07-11"
+            ]
+        },
+        "medication_statement": [
+            {
+                "id": "UBU003-med2",
+                "medication_code": [
+                    {
+                        "id": "RXCUI:32592",
+                        "label": "oxaliplatin"
+                    }
+                ],
+                "termination_reason": [
+                    "Disease progression, relapse during active treatment"
+                ],
+                "start_date": "2019-10-01",
+                "end_date": "2020-01-11"
+            }
+        ],
+        "cancer_disease_status": {
+            "id": "SNOMED:359746009",
+            "label": "Patient's condition stable (finding)"
+        }
+    },
+    {
+        "id": "UBU004",
+        "subject": {
+            "id": "UBU004",
+            "date_of_birth": "1961-10-01",
+            "sex": "male",
+            "deceased": true,
+            "ethnicity": "Not Hispanic or Latino",
+            "ecog_performance_status": {
+                "id": "ECOG: 0",
+                "label": "Fully active, able to carry on all pre-disease performance without restriction"
+            },
+            "extra_properties": {
+                "communication_language": "English"
+            }
+        },
+        "genomics_report": {
+            "id": "UBU004",
+            "code": "code",
+            "performing_organization_name": "org",
+            "issued": "2022-04-05"
+        },
+        "cancer_condition": {
+            "id": "UBU004-0",
+            "condition_type": "primary",
+            "body_site": "Lung",
+            "code": {
+                "id": "SNOMED:103329007",
+                "label": "Not available"
+            },
+            "date_of_diagnosis": [
+                "2015-07-09"
+            ]
+        },
+        "medication_statement": [
+            {
+                "id": "UBU004-med3",
+                "medication_code": [
+                    {
+                        "id": "RXCUI:6313",
+                        "label": "leucovorin"
+                    }
+                ],
+                "termination_reason": [
+                    "Disease progression, relapse during active treatment"
+                ],
+                "start_date": "2019-10-01",
+                "end_date": "2019-11-11"
+            }
+        ],
+        "cancer_disease_status": {
+            "id": "SNOMED:359746009",
+            "label": "Patient's condition stable (finding)"
+        }
+    },
+    {
+        "id": "UBU005",
+        "subject": {
+            "id": "UBU005",
+            "date_of_birth": "1943-11-01",
+            "sex": "female",
+            "deceased": true,
+            "ethnicity": "Not Hispanic or Latino",
+            "ecog_performance_status": {
+                "id": "ECOG: 1",
+                "label": "Restricted in physically strenuous activity but ambulatory and able to carry out work of a light or sedentary nature, e.g., light house work, office work"
+            },
+            "extra_properties": {
+                "communication_language": "English"
+            }
+        },
+        "genomics_report": {
+            "id": "UBU005",
+            "code": "code",
+            "performing_organization_name": "org",
+            "issued": "2022-04-05",
+            "extra_properties": {
+                "genomic_id": "HG00099"
+            }
+        },
+        "cancer_condition": {
+            "id": "UBU005-0",
+            "condition_type": "primary",
+            "body_site": "Liver",
+            "code": {
+                "id": "SNOMED:103329007",
+                "label": "Not available"
+            },
+            "date_of_diagnosis": [
+                "2016-10-01"
+            ]
+        },
+        "medication_statement": [
+            {
+                "id": "UBU005-med4",
+                "medication_code": [
+                    {
+                        "id": "RXCUI:51499",
+                        "label": "irinotecan"
+                    }
+                ],
+                "termination_reason": [
+                    "Death on study"
+                ],
+                "start_date": "2019-10-01",
+                "end_date": "2019-12-02"
+            }
+        ],
+        "date_of_death": "2019-12-02",
+        "cancer_disease_status": {
+            "id": "SNOMED:359746009",
+            "label": "Patient's condition stable (finding)"
+        }
+    },
+    {
+        "id": "UBU006",
+        "subject": {
+            "id": "UBU006",
+            "date_of_birth": "1950-05-01",
+            "sex": "male",
+            "deceased": true,
+            "ethnicity": "Not Hispanic or Latino",
+            "ecog_performance_status": {
+                "id": "ECOG: 0",
+                "label": "Fully active, able to carry on all pre-disease performance without restriction"
+            },
+            "extra_properties": {
+                "communication_language": "English"
+            }
+        },
+        "genomics_report": {
+            "id": "UBU006",
+            "code": "code",
+            "performing_organization_name": "org",
+            "issued": "2022-04-05"
+        },
+        "cancer_condition": {
+            "id": "UBU006-0",
+            "condition_type": "primary",
+            "body_site": "Pancreas",
+            "code": {
+                "id": "SNOMED:103329007",
+                "label": "Not available"
+            },
+            "date_of_diagnosis": [
+                "2015-02-06"
+            ]
+        },
+        "medication_statement": [
+            {
+                "id": "UBU006-med5",
+                "medication_code": [
+                    {
+                        "id": "RXCUI:4492",
+                        "label": "fluorouracil"
+                    }
+                ],
+                "termination_reason": [
+                    "Disease progression, relapse during active treatment"
+                ],
+                "start_date": "2019-10-14",
+                "end_date": "2020-02-14"
+            }
+        ],
+        "date_of_death": "2020-07-07",
+        "cancer_disease_status": {
+            "id": "SNOMED:359746009",
+            "label": "Patient's condition stable (finding)"
+        }
+    },
+    {
+        "id": "UBU007",
+        "subject": {
+            "id": "UBU007",
+            "date_of_birth": "1961-08-01",
+            "sex": "male",
+            "deceased": true,
+            "ethnicity": "Not Hispanic or Latino",
+            "ecog_performance_status": {
+                "id": "ECOG: 0",
+                "label": "Fully active, able to carry on all pre-disease performance without restriction"
+            },
+            "extra_properties": {
+                "communication_language": "English"
+            }
+        },
+        "genomics_report": {
+            "id": "UBU007",
+            "code": "code",
+            "performing_organization_name": "org",
+            "issued": "2022-04-05"
+        },
+        "cancer_condition": {
+            "id": "UBU007-0",
+            "condition_type": "primary",
+            "body_site": "Liver",
+            "code": {
+                "id": "SNOMED:103329007",
+                "label": "Not available"
+            },
+            "date_of_diagnosis": [
+                "2016-01-20"
+            ]
+        },
+        "medication_statement": [
+            {
+                "id": "UBU007-med6",
+                "medication_code": [
+                    {
+                        "id": "RXCUI:32592",
+                        "label": "oxaliplatin"
+                    }
+                ],
+                "termination_reason": [
+                    "Disease progression, relapse during active treatment"
+                ],
+                "start_date": "2019-10-14",
+                "end_date": "2019-12-19"
+            }
+        ],
+        "date_of_death": "2020-08-15",
+        "cancer_disease_status": {
+            "id": "SNOMED:359746009",
+            "label": "Patient's condition stable (finding)"
+        }
+    },
+    {
+        "id": "UBU008",
+        "subject": {
+            "id": "UBU008",
+            "date_of_birth": "1942-04-01",
+            "sex": "male",
+            "deceased": true,
+            "ethnicity": "Not Hispanic or Latino",
+            "ecog_performance_status": {
+                "id": "ECOG: 1",
+                "label": "Restricted in physically strenuous activity but ambulatory and able to carry out work of a light or sedentary nature, e.g., light house work, office work"
+            },
+            "extra_properties": {
+                "communication_language": "English"
+            }
+        },
+        "genomics_report": {
+            "id": "UBU008",
+            "code": "code",
+            "performing_organization_name": "org",
+            "issued": "2022-04-05"
+        },
+        "cancer_condition": {
+            "id": "UBU008-0",
+            "condition_type": "primary",
+            "body_site": "Liver",
+            "code": {
+                "id": "SNOMED:103329007",
+                "label": "Not available"
+            },
+            "date_of_diagnosis": [
+                "2012-08-08"
+            ]
+        },
+        "medication_statement": [
+            {
+                "id": "UBU008-med7",
+                "medication_code": [
+                    {
+                        "id": "RXCUI:6313",
+                        "label": "leucovorin"
+                    }
+                ],
+                "termination_reason": [
+                    "Disease progression, relapse during active treatment"
+                ],
+                "start_date": "2019-10-14",
+                "end_date": "2019-11-24"
+            }
+        ],
+        "date_of_death": "2020-04-13",
+        "cancer_disease_status": {
+            "id": "SNOMED:359746009",
+            "label": "Patient's condition stable (finding)"
+        }
+    },
+    {
+        "id": "UBU009",
+        "subject": {
+            "id": "UBU009",
+            "date_of_birth": "1954-09-01",
+            "sex": "female",
+            "deceased": true,
+            "ethnicity": "Not Hispanic or Latino",
+            "ecog_performance_status": {
+                "id": "ECOG: 1",
+                "label": "Restricted in physically strenuous activity but ambulatory and able to carry out work of a light or sedentary nature, e.g., light house work, office work"
+            },
+            "extra_properties": {
+                "communication_language": "English"
+            }
+        },
+        "genomics_report": {
+            "id": "UBU009",
+            "code": "code",
+            "performing_organization_name": "org",
+            "issued": "2022-04-05",
+            "extra_properties": {
+                "genomic_id": "HG00100"
+            }
+        },
+        "cancer_condition": {
+            "id": "UBU009-0",
+            "condition_type": "primary",
+            "body_site": "Pancreas",
+            "code": {
+                "id": "SNOMED:103329007",
+                "label": "Not available"
+            },
+            "date_of_diagnosis": [
+                "2015-03-01"
+            ]
+        },
+        "medication_statement": [
+            {
+                "id": "UBU009-med8",
+                "medication_code": [
+                    {
+                        "id": "RXCUI:51499",
+                        "label": "irinotecan"
+                    }
+                ],
+                "termination_reason": [
+                    "Disease progression, relapse during active treatment"
+                ],
+                "start_date": "2019-10-14",
+                "end_date": "2020-02-17"
+            }
+        ],
+        "date_of_death": "2020-07-17",
+        "cancer_disease_status": {
+            "id": "SNOMED:359746009",
+            "label": "Patient's condition stable (finding)"
+        }
+    },
+    {
+        "id": "UBU010",
+        "subject": {
+            "id": "UBU010",
+            "date_of_birth": "1943-10-01",
+            "sex": "female",
+            "deceased": true,
+            "ethnicity": "Not Hispanic or Latino",
+            "ecog_performance_status": {
+                "id": "ECOG: 1",
+                "label": "Restricted in physically strenuous activity but ambulatory and able to carry out work of a light or sedentary nature, e.g., light house work, office work"
+            },
+            "extra_properties": {
+                "communication_language": "English"
+            }
+        },
+        "genomics_report": {
+            "id": "UBU010",
+            "code": "code",
+            "performing_organization_name": "org",
+            "issued": "2022-04-05",
+            "extra_properties": {
+                "genomic_id": "HG00102"
+            }
+        },
+        "cancer_condition": {
+            "id": "UBU010-0",
+            "condition_type": "primary",
+            "body_site": "Pancreas",
+            "code": {
+                "id": "SNOMED:103329007",
+                "label": "Not available"
+            },
+            "date_of_diagnosis": [
+                "2017-09-28"
+            ]
+        },
+        "medication_statement": [
+            {
+                "id": "UBU010-med9",
+                "medication_code": [
+                    {
+                        "id": "RXCUI:4492",
+                        "label": "fluorouracil"
+                    }
+                ],
+                "termination_reason": [
+                    "Disease progression, relapse during active treatment"
+                ],
+                "start_date": "2019-10-28",
+                "end_date": "2020-03-12"
+            }
+        ],
+        "date_of_death": "2020-10-12",
+        "cancer_disease_status": {
+            "id": "USCRS-352237",
+            "label": "Cancer in partial remission (finding)"
+        }
+    },
+    {
+        "id": "UBU011",
+        "subject": {
+            "id": "UBU011",
+            "date_of_birth": "1938-11-01",
+            "sex": "male",
+            "deceased": true,
+            "ethnicity": "Not Hispanic or Latino",
+            "extra_properties": {
+                "communication_language": "English"
+            }
+        },
+        "genomics_report": {
+            "id": "UBU011",
+            "code": "code",
+            "performing_organization_name": "org",
+            "issued": "2022-04-05"
+        },
+        "cancer_condition": {
+            "id": "UBU011-0",
+            "condition_type": "primary",
+            "body_site": "Liver",
+            "code": {
+                "id": "SNOMED:103329007",
+                "label": "Not available"
+            },
+            "date_of_diagnosis": [
+                "2016-03-11"
+            ]
+        },
+        "medication_statement": [
+            {
+                "id": "UBU011-med10",
+                "medication_code": [
+                    {
+                        "id": "RXCUI:32592",
+                        "label": "oxaliplatin"
+                    }
+                ],
+                "termination_reason": [
+                    "Disease progression, relapse during active treatment"
+                ],
+                "start_date": "2019-10-28",
+                "end_date": "2020-04-28"
+            }
+        ],
+        "date_of_death": "2020-08-02",
+        "cancer_disease_status": {
+            "id": "USCRS-352237",
+            "label": "Cancer in partial remission (finding)"
+        }
+    },
+    {
+        "id": "UBU012",
+        "subject": {
+            "id": "UBU012",
+            "date_of_birth": "1967-04-01",
+            "sex": "female",
+            "deceased": true,
+            "ethnicity": "Not Hispanic or Latino",
+            "extra_properties": {
+                "communication_language": "English"
+            }
+        },
+        "genomics_report": {
+            "id": "UBU012",
+            "code": "code",
+            "performing_organization_name": "org",
+            "issued": "2022-04-05",
+            "extra_properties": {
+                "genomic_id": "HG00104"
+            }
+        },
+        "cancer_condition": {
+            "id": "UBU012-0",
+            "condition_type": "primary",
+            "body_site": "Adrenal gland",
+            "code": {
+                "id": "SNOMED:103329007",
+                "label": "Not available"
+            },
+            "date_of_diagnosis": [
+                "2014-05-22"
+            ]
+        },
+        "medication_statement": [
+            {
+                "id": "UBU012-med11",
+                "medication_code": [
+                    {
+                        "id": "RXCUI:6313",
+                        "label": "leucovorin"
+                    }
+                ],
+                "termination_reason": [
+                    "Disease progression, relapse during active treatment"
+                ],
+                "start_date": "2019-10-28",
+                "end_date": "2020-03-28"
+            }
+        ],
+        "cancer_disease_status": {
+            "id": "USCRS-352237",
+            "label": "Cancer in partial remission (finding)"
+        }
+    },
+    {
+        "id": "UBU013",
+        "subject": {
+            "id": "UBU013",
+            "date_of_birth": "1949-01-01",
+            "sex": "male",
+            "deceased": true,
+            "ethnicity": "Not Hispanic or Latino",
+            "extra_properties": {
+                "communication_language": "English"
+            }
+        },
+        "genomics_report": {
+            "id": "UBU013",
+            "code": "code",
+            "performing_organization_name": "org",
+            "issued": "2022-04-05",
+            "extra_properties": {
+                "genomic_id": "HG00121"
+            }
+        },
+        "cancer_condition": {
+            "id": "UBU013-0",
+            "condition_type": "primary",
+            "body_site": "Liver",
+            "code": {
+                "id": "SNOMED:103329007",
+                "label": "Not available"
+            },
+            "date_of_diagnosis": [
+                "2015-06-01"
+            ]
+        },
+        "medication_statement": [
+            {
+                "id": "UBU013-med12",
+                "medication_code": [
+                    {
+                        "id": "RXCUI:51499",
+                        "label": "irinotecan"
+                    }
+                ],
+                "termination_reason": [
+                    "Disease progression, relapse during active treatment"
+                ],
+                "start_date": "2019-10-28",
+                "end_date": "2020-01-08"
+            }
+        ],
+        "cancer_disease_status": {
+            "id": "USCRS-352237",
+            "label": "Cancer in partial remission (finding)"
+        }
+    },
+    {
+        "id": "UBU014",
+        "subject": {
+            "id": "UBU014",
+            "date_of_birth": "1966-01-01",
+            "sex": "male",
+            "deceased": true,
+            "ethnicity": "Not Hispanic or Latino",
+            "extra_properties": {
+                "communication_language": "English"
+            }
+        },
+        "genomics_report": {
+            "id": "UBU014",
+            "code": "code",
+            "performing_organization_name": "org",
+            "issued": "2022-04-05"
+        },
+        "cancer_condition": {
+            "id": "UBU014-0",
+            "condition_type": "primary",
+            "body_site": "Liver",
+            "code": {
+                "id": "SNOMED:103329007",
+                "label": "Not available"
+            },
+            "date_of_diagnosis": [
+                "2016-04-06"
+            ]
+        },
+        "medication_statement": [
+            {
+                "id": "UBU014-med13",
+                "medication_code": [
+                    {
+                        "id": "RXCUI:4492",
+                        "label": "fluorouracil"
+                    }
+                ],
+                "termination_reason": [
+                    "Alternative Therapy"
+                ],
+                "start_date": "2019-07-18",
+                "end_date": "2020-08-18"
+            }
+        ],
+        "cancer_disease_status": {
+            "id": "USCRS-352237",
+            "label": "Cancer in partial remission (finding)"
+        }
+    },
+    {
+        "id": "UBU015",
+        "subject": {
+            "id": "UBU015",
+            "date_of_birth": "1963-06-01",
+            "sex": "male",
+            "deceased": true,
+            "ethnicity": "Not Hispanic or Latino",
+            "extra_properties": {
+                "communication_language": "English"
+            }
+        },
+        "genomics_report": {
+            "id": "UBU015",
+            "code": "code",
+            "performing_organization_name": "org",
+            "issued": "2022-04-05",
+            "extra_properties": {
+                "genomic_id": "HG00123"
+            }
+        },
+        "cancer_condition": {
+            "id": "UBU015-0",
+            "condition_type": "primary",
+            "body_site": "Pancreas",
+            "code": {
+                "id": "SNOMED:103329007",
+                "label": "Not available"
+            },
+            "date_of_diagnosis": [
+                "2016-01-07"
+            ]
+        },
+        "medication_statement": [
+            {
+                "id": "UBU015-med14",
+                "medication_code": [
+                    {
+                        "id": "RXCUI:32592",
+                        "label": "oxaliplatin"
+                    }
+                ],
+                "termination_reason": [
+                    "Disease progression, relapse during active treatment"
+                ],
+                "start_date": "2019-07-18",
+                "end_date": "2019-12-18"
+            }
+        ],
+        "cancer_disease_status": {
+            "id": "USCRS-352237",
+            "label": "Cancer in partial remission (finding)"
+        }
+    },
+    {
+        "id": "UBU016",
+        "subject": {
+            "id": "UBU016",
+            "date_of_birth": "1946-09-01",
+            "sex": "male",
+            "deceased": true,
+            "ethnicity": "Not Hispanic or Latino",
+            "extra_properties": {
+                "communication_language": "English"
+            }
+        },
+        "genomics_report": {
+            "id": "UBU016",
+            "code": "code",
+            "performing_organization_name": "org",
+            "issued": "2022-04-05",
+            "extra_properties": {
+                "genomic_id": "HG00124"
+            }
+        },
+        "cancer_condition": {
+            "id": "UBU016-0",
+            "condition_type": "primary",
+            "body_site": "Lung",
+            "code": {
+                "id": "SNOMED:103329007",
+                "label": "Not available"
+            },
+            "date_of_diagnosis": [
+                "2004-12-17"
+            ]
+        },
+        "medication_statement": [
+            {
+                "id": "UBU016-med15",
+                "medication_code": [
+                    {
+                        "id": "RXCUI:6313",
+                        "label": "leucovorin"
+                    }
+                ],
+                "termination_reason": [
+                    null
+                ],
+                "start_date": "2019-07-18"
+            }
+        ],
+        "cancer_disease_status": {
+            "id": "USCRS-352237",
+            "label": "Cancer in partial remission (finding)"
+        }
+    },
+    {
+        "id": "UBU017",
+        "subject": {
+            "id": "UBU017",
+            "date_of_birth": "1962-10-01",
+            "sex": "male",
+            "deceased": true,
+            "ethnicity": "Not Hispanic or Latino",
+            "extra_properties": {
+                "communication_language": "English"
+            }
+        },
+        "genomics_report": {
+            "id": "UBU017",
+            "code": "code",
+            "performing_organization_name": "org",
+            "issued": "2022-04-05",
+            "extra_properties": {
+                "genomic_id": "HG00125"
+            }
+        },
+        "cancer_condition": {
+            "id": "UBU017-0",
+            "condition_type": "primary",
+            "body_site": "Liver",
+            "code": {
+                "id": "SNOMED:103329007",
+                "label": "Not available"
+            },
+            "date_of_diagnosis": [
+                "2015-03-09"
+            ]
+        },
+        "medication_statement": [
+            {
+                "id": "UBU017-med16",
+                "medication_code": [
+                    {
+                        "id": "RXCUI:51499",
+                        "label": "irinotecan"
+                    }
+                ],
+                "termination_reason": [
+                    null
+                ],
+                "start_date": "2019-07-18"
+            }
+        ],
+        "cancer_disease_status": {
+            "id": "USCRS-352237",
+            "label": "Cancer in partial remission (finding)"
+        }
+    },
+    {
+        "id": "UBU018",
+        "subject": {
+            "id": "UBU018",
+            "date_of_birth": "1949-06-01",
+            "sex": "male",
+            "deceased": true,
+            "ethnicity": "Not Hispanic or Latino",
+            "ecog_performance_status": {
+                "id": "ECOG: 1",
+                "label": "Restricted in physically strenuous activity but ambulatory and able to carry out work of a light or sedentary nature, e.g., light house work, office work"
+            },
+            "extra_properties": {
+                "communication_language": "English"
+            }
+        },
+        "genomics_report": {
+            "id": "UBU018",
+            "code": "code",
+            "performing_organization_name": "org",
+            "issued": "2022-04-05"
+        },
+        "cancer_condition": {
+            "id": "UBU018-0",
+            "condition_type": "primary",
+            "body_site": "Liver",
+            "code": {
+                "id": "SNOMED:103329007",
+                "label": "Not available"
+            },
+            "date_of_diagnosis": [
+                "2016-12-31"
+            ]
+        },
+        "medication_statement": [
+            {
+                "id": "UBU018-med17",
+                "medication_code": [
+                    {
+                        "id": "RXCUI:4492",
+                        "label": "fluorouracil"
+                    }
+                ],
+                "termination_reason": [
+                    null
+                ],
+                "start_date": "2019-08-01"
+            }
+        ],
+        "cancer_disease_status": {
+            "id": "USCRS-352237",
+            "label": "Cancer in partial remission (finding)"
+        }
+    },
+    {
+        "id": "UBU019",
+        "subject": {
+            "id": "UBU019",
+            "date_of_birth": "1972-07-01",
+            "sex": "male",
+            "deceased": true,
+            "ethnicity": "Not Hispanic or Latino",
+            "ecog_performance_status": {
+                "id": "ECOG: 1",
+                "label": "Restricted in physically strenuous activity but ambulatory and able to carry out work of a light or sedentary nature, e.g., light house work, office work"
+            },
+            "extra_properties": {
+                "communication_language": "English"
+            }
+        },
+        "genomics_report": {
+            "id": "UBU019",
+            "code": "code",
+            "performing_organization_name": "org",
+            "issued": "2022-04-05",
+            "extra_properties": {
+                "genomic_id": "HG00128"
+            }
+        },
+        "cancer_condition": {
+            "id": "UBU019-0",
+            "condition_type": "primary",
+            "body_site": "Pancreas",
+            "code": {
+                "id": "SNOMED:103329007",
+                "label": "Not available"
+            },
+            "date_of_diagnosis": [
+                "2015-12-31"
+            ]
+        },
+        "medication_statement": [
+            {
+                "id": "UBU019-med18",
+                "medication_code": [
+                    {
+                        "id": "RXCUI:4492",
+                        "label": "fluorouracil"
+                    }
+                ],
+                "termination_reason": [
+                    null
+                ],
+                "start_date": "2019-08-01"
+            }
+        ],
+        "cancer_disease_status": {
+            "id": "USCRS-352237",
+            "label": "Cancer in partial remission (finding)"
+        }
+    },
+    {
+        "id": "UBU020",
+        "subject": {
+            "id": "UBU020",
+            "date_of_birth": "1969-12-01",
+            "sex": "male",
+            "deceased": true,
+            "ethnicity": "Not Hispanic or Latino",
+            "ecog_performance_status": {
+                "id": "ECOG: 1",
+                "label": "Restricted in physically strenuous activity but ambulatory and able to carry out work of a light or sedentary nature, e.g., light house work, office work"
+            },
+            "extra_properties": {
+                "communication_language": "English"
+            }
+        },
+        "genomics_report": {
+            "id": "UBU020",
+            "code": "code",
+            "performing_organization_name": "org",
+            "issued": "2022-04-05",
+            "extra_properties": {
+                "genomic_id": "HG00130"
+            }
+        },
+        "cancer_condition": {
+            "id": "UBU020-0",
+            "condition_type": "primary",
+            "body_site": "Pancreas",
+            "code": {
+                "id": "SNOMED:103329007",
+                "label": "Not available"
+            },
+            "date_of_diagnosis": [
+                "2015-11-25"
+            ]
+        },
+        "medication_statement": [
+            {
+                "id": "UBU020-med19",
+                "medication_code": [
+                    {
+                        "id": "RXCUI:32592",
+                        "label": "oxaliplatin"
+                    }
+                ],
+                "termination_reason": [
+                    null
+                ],
+                "start_date": "2019-08-01"
+            }
+        ],
+        "cancer_disease_status": {
+            "id": "USCRS-352237",
+            "label": "Cancer in partial remission (finding)"
+        }
+    },
+    {
+        "id": "UBU021",
+        "subject": {
+            "id": "UBU021",
+            "date_of_birth": "1946-10-01",
+            "sex": "male",
+            "deceased": true,
+            "ethnicity": "Not Hispanic or Latino",
+            "ecog_performance_status": {
+                "id": "ECOG: 1",
+                "label": "Restricted in physically strenuous activity but ambulatory and able to carry out work of a light or sedentary nature, e.g., light house work, office work"
+            },
+            "extra_properties": {
+                "communication_language": "English"
+            }
+        },
+        "genomics_report": {
+            "id": "UBU021",
+            "code": "code",
+            "performing_organization_name": "org",
+            "issued": "2022-04-05",
+            "extra_properties": {
+                "genomic_id": "HG00234"
+            }
+        },
+        "cancer_condition": {
+            "id": "UBU021-0",
+            "condition_type": "primary",
+            "body_site": "Liver",
+            "code": {
+                "id": "SNOMED:103329007",
+                "label": "Not available"
+            },
+            "date_of_diagnosis": [
+                "2013-11-14"
+            ]
+        },
+        "medication_statement": [
+            {
+                "id": "UBU021-med20",
+                "medication_code": [
+                    {
+                        "id": "RXCUI:6313",
+                        "label": "leucovorin"
+                    }
+                ],
+                "termination_reason": [
+                    null
+                ],
+                "start_date": "2019-08-01"
+            }
+        ],
+        "cancer_disease_status": {
+            "id": "USCRS-352237",
+            "label": "Cancer in partial remission (finding)"
+        }
+    },
+    {
+        "id": "UBU022",
+        "subject": {
+            "id": "UBU022",
+            "date_of_birth": "1971-11-01",
+            "sex": "female",
+            "deceased": true,
+            "ethnicity": "Not Hispanic or Latino",
+            "ecog_performance_status": {
+                "id": "ECOG: 1",
+                "label": "Restricted in physically strenuous activity but ambulatory and able to carry out work of a light or sedentary nature, e.g., light house work, office work"
+            },
+            "extra_properties": {
+                "communication_language": "English"
+            }
+        },
+        "genomics_report": {
+            "id": "UBU022",
+            "code": "code",
+            "performing_organization_name": "org",
+            "issued": "2022-04-05",
+            "extra_properties": {
+                "genomic_id": "HG00106"
+            }
+        },
+        "cancer_condition": {
+            "id": "UBU022-0",
+            "condition_type": "primary",
+            "body_site": "Spleen",
+            "code": {
+                "id": "SNOMED:103329007",
+                "label": "Not available"
+            },
+            "date_of_diagnosis": [
+                "2014-11-19"
+            ]
+        },
+        "medication_statement": [
+            {
+                "id": "UBU022-med21",
+                "medication_code": [
+                    {
+                        "id": "RXCUI:51499",
+                        "label": "irinotecan"
+                    }
+                ],
+                "termination_reason": [
+                    null
+                ],
+                "start_date": "2019-07-04"
+            }
+        ],
+        "cancer_disease_status": {
+            "id": "USCRS-352237",
+            "label": "Cancer in partial remission (finding)"
+        }
+    },
+    {
+        "id": "UBU023",
+        "subject": {
+            "id": "UBU023",
+            "date_of_birth": "1958-12-01",
+            "sex": "male",
+            "deceased": true,
+            "ethnicity": "Not Hispanic or Latino",
+            "ecog_performance_status": {
+                "id": "ECOG: 1",
+                "label": "Restricted in physically strenuous activity but ambulatory and able to carry out work of a light or sedentary nature, e.g., light house work, office work"
+            },
+            "extra_properties": {
+                "communication_language": "English"
+            }
+        },
+        "genomics_report": {
+            "id": "UBU023",
+            "code": "code",
+            "performing_organization_name": "org",
+            "issued": "2022-04-05",
+            "extra_properties": {
+                "genomic_id": "HG00134"
+            }
+        },
+        "cancer_condition": {
+            "id": "UBU023-0",
+            "condition_type": "primary",
+            "body_site": "Spleen",
+            "code": {
+                "id": "SNOMED:103329007",
+                "label": "Not available"
+            },
+            "date_of_diagnosis": [
+                "2012-01-01"
+            ]
+        },
+        "medication_statement": [
+            {
+                "id": "UBU023-med22",
+                "medication_code": [
+                    {
+                        "id": "RXCUI:32592",
+                        "label": "oxaliplatin"
+                    }
+                ],
+                "termination_reason": [
+                    null
+                ],
+                "start_date": "2019-07-04"
+            }
+        ],
+        "cancer_disease_status": {
+            "id": "USCRS-352237",
+            "label": "Cancer in partial remission (finding)"
+        }
+    },
+    {
+        "id": "UBU024",
+        "subject": {
+            "id": "UBU024",
+            "date_of_birth": "1943-01-01",
+            "sex": "male",
+            "deceased": true,
+            "ethnicity": "Not Hispanic or Latino",
+            "ecog_performance_status": {
+                "id": "ECOG: 0",
+                "label": "Fully active, able to carry on all pre-disease performance without restriction"
+            },
+            "extra_properties": {
+                "communication_language": "English"
+            }
+        },
+        "genomics_report": {
+            "id": "UBU024",
+            "code": "code",
+            "performing_organization_name": "org",
+            "issued": "2022-04-05",
+            "extra_properties": {
+                "genomic_id": "HG00101"
+            }
+        },
+        "cancer_condition": {
+            "id": "UBU024-0",
+            "condition_type": "primary",
+            "body_site": "Pancreas",
+            "code": {
+                "id": "SNOMED:103329007",
+                "label": "Not available"
+            },
+            "date_of_diagnosis": [
+                "2013-09-01"
+            ]
+        },
+        "medication_statement": [
+            {
+                "id": "UBU024-med23",
+                "medication_code": [
+                    {
+                        "id": "RXCUI:6313",
+                        "label": "leucovorin"
+                    }
+                ],
+                "termination_reason": [
+                    null
+                ],
+                "start_date": "2019-07-04"
+            }
+        ],
+        "cancer_disease_status": {
+            "id": "USCRS-352237",
+            "label": "Cancer in partial remission (finding)"
+        }
+    },
+    {
+        "id": "UBU025",
+        "subject": {
+            "id": "UBU025",
+            "date_of_birth": "1963-05-01",
+            "sex": "male",
+            "deceased": true,
+            "ethnicity": "Not Hispanic or Latino",
+            "ecog_performance_status": {
+                "id": "ECOG: 1",
+                "label": "Restricted in physically strenuous activity but ambulatory and able to carry out work of a light or sedentary nature, e.g., light house work, office work"
+            },
+            "extra_properties": {
+                "communication_language": "English"
+            }
+        },
+        "genomics_report": {
+            "id": "UBU025",
+            "code": "code",
+            "performing_organization_name": "org",
+            "issued": "2022-04-05",
+            "extra_properties": {
+                "genomic_id": "HG00103"
+            }
+        },
+        "cancer_condition": {
+            "id": "UBU025-0",
+            "condition_type": "primary",
+            "body_site": "Lung",
+            "code": {
+                "id": "SNOMED:103329007",
+                "label": "Not available"
+            },
+            "date_of_diagnosis": [
+                "2013-11-08"
+            ]
+        },
+        "medication_statement": [
+            {
+                "id": "UBU025-med24",
+                "medication_code": [
+                    {
+                        "id": "RXCUI:51499",
+                        "label": "irinotecan"
+                    }
+                ],
+                "termination_reason": [
+                    null
+                ],
+                "start_date": "2019-07-04"
+            }
+        ],
+        "cancer_disease_status": {
+            "id": "USCRS-352237",
+            "label": "Cancer in partial remission (finding)"
+        }
+    },
+    {
+        "id": "UBU026",
+        "subject": {
+            "id": "UBU026",
+            "date_of_birth": "1943-11-01",
+            "sex": "female",
+            "deceased": true,
+            "ethnicity": "Not Hispanic or Latino",
+            "ecog_performance_status": {
+                "id": "ECOG: 1",
+                "label": "Restricted in physically strenuous activity but ambulatory and able to carry out work of a light or sedentary nature, e.g., light house work, office work"
+            },
+            "extra_properties": {
+                "communication_language": "English"
+            }
+        },
+        "genomics_report": {
+            "id": "UBU026",
+            "code": "code",
+            "performing_organization_name": "org",
+            "issued": "2022-04-05",
+            "extra_properties": {
+                "genomic_id": "HG00110"
+            }
+        },
+        "cancer_condition": {
+            "id": "UBU026-0",
+            "condition_type": "primary",
+            "body_site": "Liver",
+            "code": {
+                "id": "SNOMED:103329007",
+                "label": "Not available"
+            },
+            "date_of_diagnosis": [
+                "2015-01-01"
+            ]
+        },
+        "medication_statement": [
+            {
+                "id": "UBU026-med25",
+                "medication_code": [
+                    {
+                        "id": "RXCUI:4492",
+                        "label": "fluorouracil"
+                    }
+                ],
+                "termination_reason": [
+                    null
+                ],
+                "start_date": "2019-04-25"
+            }
+        ],
+        "cancer_disease_status": {
+            "id": "USCRS-352237",
+            "label": "Cancer in partial remission (finding)"
+        }
+    },
+    {
+        "id": "UBU027",
+        "subject": {
+            "id": "UBU027",
+            "date_of_birth": "1939-03-01",
+            "sex": "male",
+            "deceased": true,
+            "ethnicity": "Not Hispanic or Latino",
+            "ecog_performance_status": {
+                "id": "ECOG: 1",
+                "label": "Restricted in physically strenuous activity but ambulatory and able to carry out work of a light or sedentary nature, e.g., light house work, office work"
+            },
+            "extra_properties": {
+                "communication_language": "English"
+            }
+        },
+        "genomics_report": {
+            "id": "UBU027",
+            "code": "code",
+            "performing_organization_name": "org",
+            "issued": "2022-04-05",
+            "extra_properties": {
+                "genomic_id": "HG00155"
+            }
+        },
+        "cancer_condition": {
+            "id": "UBU027-0",
+            "condition_type": "primary",
+            "body_site": "Liver",
+            "code": {
+                "id": "SNOMED:103329007",
+                "label": "Not available"
+            },
+            "date_of_diagnosis": [
+                "2014-10-27"
+            ]
+        },
+        "medication_statement": [
+            {
+                "id": "UBU027-med26",
+                "medication_code": [
+                    {
+                        "id": "RXCUI:32592",
+                        "label": "oxaliplatin"
+                    }
+                ],
+                "termination_reason": [
+                    null
+                ],
+                "start_date": "2019-04-25"
+            }
+        ],
+        "cancer_disease_status": {
+            "id": "USCRS-352237",
+            "label": "Cancer in partial remission (finding)"
+        }
+    },
+    {
+        "id": "UBU028",
+        "subject": {
+            "id": "UBU028",
+            "date_of_birth": "1963-01-01",
+            "sex": "female",
+            "deceased": true,
+            "ethnicity": "Not Hispanic or Latino",
+            "ecog_performance_status": {
+                "id": "ECOG: 1",
+                "label": "Restricted in physically strenuous activity but ambulatory and able to carry out work of a light or sedentary nature, e.g., light house work, office work"
+            },
+            "extra_properties": {
+                "communication_language": "English"
+            }
+        },
+        "genomics_report": {
+            "id": "UBU028",
+            "code": "code",
+            "performing_organization_name": "org",
+            "issued": "2022-04-05",
+            "extra_properties": {
+                "genomic_id": "HG00111"
+            }
+        },
+        "cancer_condition": {
+            "id": "UBU028-0",
+            "condition_type": "primary",
+            "body_site": "Pancreas",
+            "code": {
+                "id": "SNOMED:103329007",
+                "label": "Not available"
+            },
+            "date_of_diagnosis": [
+                "2012-10-11"
+            ]
+        },
+        "medication_statement": [
+            {
+                "id": "UBU028-med27",
+                "medication_code": [
+                    {
+                        "id": "RXCUI:6313",
+                        "label": "leucovorin"
+                    }
+                ],
+                "termination_reason": [
+                    null
+                ],
+                "start_date": "2019-04-25"
+            }
+        ]
+    },
+    {
+        "id": "UBU029",
+        "subject": {
+            "id": "UBU029",
+            "date_of_birth": "1947-06-01",
+            "sex": "female",
+            "deceased": true,
+            "ethnicity": "Not Hispanic or Latino",
+            "ecog_performance_status": {
+                "id": "ECOG: 1",
+                "label": "Restricted in physically strenuous activity but ambulatory and able to carry out work of a light or sedentary nature, e.g., light house work, office work"
+            },
+            "extra_properties": {
+                "communication_language": "English"
+            }
+        },
+        "genomics_report": {
+            "id": "UBU029",
+            "code": "code",
+            "performing_organization_name": "org",
+            "issued": "2022-04-05"
+        },
+        "cancer_condition": {
+            "id": "UBU029-0",
+            "condition_type": "primary",
+            "body_site": "Liver",
+            "code": {
+                "id": "SNOMED:103329007",
+                "label": "Not available"
+            },
+            "date_of_diagnosis": [
+                "2012-11-15"
+            ]
+        },
+        "medication_statement": [
+            {
+                "id": "UBU029-med28",
+                "medication_code": [
+                    {
+                        "id": "RXCUI:51499",
+                        "label": "irinotecan"
+                    }
+                ],
+                "termination_reason": [
+                    null
+                ],
+                "start_date": "2019-04-25"
+            }
+        ]
+    },
+    {
+        "id": "UBU030",
+        "subject": {
+            "id": "UBU030",
+            "date_of_birth": "1988-05-01",
+            "sex": "male",
+            "deceased": true,
+            "ethnicity": "Not Hispanic or Latino",
+            "ecog_performance_status": {
+                "id": "ECOG: 0",
+                "label": "Fully active, able to carry on all pre-disease performance without restriction"
+            },
+            "extra_properties": {
+                "communication_language": "English"
+            }
+        },
+        "genomics_report": {
+            "id": "UBU030",
+            "code": "code",
+            "performing_organization_name": "org",
+            "issued": "2022-04-05",
+            "extra_properties": {
+                "genomic_id": "HG00159"
+            }
+        },
+        "cancer_condition": {
+            "id": "UBU030-0",
+            "condition_type": "primary",
+            "body_site": "Pancreas",
+            "code": {
+                "id": "SNOMED:103329007",
+                "label": "Not available"
+            },
+            "date_of_diagnosis": [
+                "2014-11-11"
+            ]
+        },
+        "medication_statement": [
+            {
+                "id": "UBU030-med29",
+                "medication_code": [
+                    {
+                        "id": "RXCUI:4492",
+                        "label": "fluorouracil"
+                    }
+                ],
+                "termination_reason": [
+                    null
+                ],
+                "start_date": "2019-05-09"
+            }
+        ]
+    },
+    {
+        "id": "UBU031",
+        "subject": {
+            "id": "UBU031",
+            "date_of_birth": "1973-05-01",
+            "sex": "female",
+            "deceased": true,
+            "ethnicity": "Not Hispanic or Latino",
+            "ecog_performance_status": {
+                "id": "ECOG: 0",
+                "label": "Fully active, able to carry on all pre-disease performance without restriction"
+            },
+            "extra_properties": {
+                "communication_language": "English"
+            }
+        },
+        "genomics_report": {
+            "id": "UBU031",
+            "code": "code",
+            "performing_organization_name": "org",
+            "issued": "2022-04-05"
+        },
+        "cancer_condition": {
+            "id": "UBU031-0",
+            "condition_type": "primary",
+            "body_site": "Lung",
+            "code": {
+                "id": "SNOMED:103329007",
+                "label": "Not available"
+            },
+            "date_of_diagnosis": [
+                "2013-03-12"
+            ]
+        },
+        "medication_statement": [
+            {
+                "id": "UBU031-med30",
+                "medication_code": [
+                    {
+                        "id": "RXCUI:32592",
+                        "label": "oxaliplatin"
+                    }
+                ],
+                "termination_reason": [
+                    null
+                ],
+                "start_date": "2019-05-09"
+            }
+        ]
+    },
+    {
+        "id": "UBU032",
+        "subject": {
+            "id": "UBU032",
+            "date_of_birth": "1955-10-01",
+            "sex": "male",
+            "deceased": true,
+            "ethnicity": "Not Hispanic or Latino",
+            "ecog_performance_status": {
+                "id": "ECOG: 0",
+                "label": "Fully active, able to carry on all pre-disease performance without restriction"
+            },
+            "extra_properties": {
+                "communication_language": "English"
+            }
+        },
+        "genomics_report": {
+            "id": "UBU032",
+            "code": "code",
+            "performing_organization_name": "org",
+            "issued": "2022-04-05",
+            "extra_properties": {
+                "genomic_id": "HG00108"
+            }
+        },
+        "cancer_condition": {
+            "id": "UBU032-0",
+            "condition_type": "primary",
+            "body_site": "Liver",
+            "code": {
+                "id": "SNOMED:103329007",
+                "label": "Not available"
+            },
+            "date_of_diagnosis": [
+                "2016-06-24"
+            ]
+        },
+        "medication_statement": [
+            {
+                "id": "UBU032-med31",
+                "medication_code": [
+                    {
+                        "id": "RXCUI:6313",
+                        "label": "leucovorin"
+                    }
+                ],
+                "termination_reason": [
+                    null
+                ],
+                "start_date": "2019-05-09"
+            }
+        ]
+    },
+    {
+        "id": "UBU033",
+        "subject": {
+            "id": "UBU033",
+            "date_of_birth": "1950-07-01",
+            "sex": "male",
+            "deceased": true,
+            "ethnicity": "Not Hispanic or Latino",
+            "ecog_performance_status": {
+                "id": "ECOG: 0",
+                "label": "Fully active, able to carry on all pre-disease performance without restriction"
+            },
+            "extra_properties": {
+                "communication_language": "English"
+            }
+        },
+        "genomics_report": {
+            "id": "UBU033",
+            "code": "code",
+            "performing_organization_name": "org",
+            "issued": "2022-04-05",
+            "extra_properties": {
+                "genomic_id": "HG00109"
+            }
+        },
+        "cancer_condition": {
+            "id": "UBU033-0",
+            "condition_type": "primary",
+            "body_site": "Pancreas",
+            "code": {
+                "id": "SNOMED:103329007",
+                "label": "Not available"
+            },
+            "date_of_diagnosis": [
+                "2013-11-11"
+            ]
+        },
+        "medication_statement": [
+            {
+                "id": "UBU033-med32",
+                "medication_code": [
+                    {
+                        "id": "RXCUI:51499",
+                        "label": "irinotecan"
+                    }
+                ],
+                "termination_reason": [
+                    null
+                ],
+                "start_date": "2019-05-09"
+            }
+        ]
+    },
+    {
+        "id": "UBU034",
+        "subject": {
+            "id": "UBU034",
+            "date_of_birth": "1995-07-01",
+            "sex": "female",
+            "deceased": true,
+            "ethnicity": "Not Hispanic or Latino",
+            "ecog_performance_status": {
+                "id": "ECOG: 0",
+                "label": "Fully active, able to carry on all pre-disease performance without restriction"
+            },
+            "extra_properties": {
+                "communication_language": "English"
+            }
+        },
+        "genomics_report": {
+            "id": "UBU034",
+            "code": "code",
+            "performing_organization_name": "org",
+            "issued": "2022-04-05",
+            "extra_properties": {
+                "genomic_id": "HG00122"
+            }
+        },
+        "cancer_condition": {
+            "id": "UBU034-0",
+            "condition_type": "primary",
+            "body_site": "Liver",
+            "code": {
+                "id": "SNOMED:103329007",
+                "label": "Not available"
+            },
+            "date_of_diagnosis": [
+                "2014-03-25"
+            ]
+        },
+        "medication_statement": [
+            {
+                "id": "UBU034-med33",
+                "medication_code": [
+                    {
+                        "id": "RXCUI:4492",
+                        "label": "fluorouracil"
+                    }
+                ],
+                "termination_reason": [
+                    null
+                ],
+                "start_date": "2019-05-23"
+            }
+        ]
+    },
+    {
+        "id": "UBU035",
+        "subject": {
+            "id": "UBU035",
+            "date_of_birth": "1959-06-01",
+            "sex": "male",
+            "deceased": true,
+            "ethnicity": "Not Hispanic or Latino",
+            "extra_properties": {
+                "communication_language": "English"
+            }
+        },
+        "genomics_report": {
+            "id": "UBU035",
+            "code": "code",
+            "performing_organization_name": "org",
+            "issued": "2022-04-05",
+            "extra_properties": {
+                "genomic_id": "HG00112"
+            }
+        },
+        "cancer_condition": {
+            "id": "UBU035-0",
+            "condition_type": "primary",
+            "body_site": "Liver",
+            "code": {
+                "id": "SNOMED:103329007",
+                "label": "Not available"
+            },
+            "date_of_diagnosis": [
+                "2015-07-09"
+            ]
+        },
+        "medication_statement": [
+            {
+                "id": "UBU035-med34",
+                "medication_code": [
+                    {
+                        "id": "RXCUI:32592",
+                        "label": "oxaliplatin"
+                    }
+                ],
+                "termination_reason": [
+                    null
+                ],
+                "start_date": "2019-05-23"
+            }
+        ]
+    },
+    {
+        "id": "UBU036",
+        "subject": {
+            "id": "UBU036",
+            "date_of_birth": "1934-11-01",
+            "sex": "male",
+            "deceased": true,
+            "ethnicity": "Not Hispanic or Latino",
+            "extra_properties": {
+                "communication_language": "English"
+            }
+        },
+        "genomics_report": {
+            "id": "UBU036",
+            "code": "code",
+            "performing_organization_name": "org",
+            "issued": "2022-04-05",
+            "extra_properties": {
+                "genomic_id": "HG00113"
+            }
+        },
+        "cancer_condition": {
+            "id": "UBU036-0",
+            "condition_type": "primary",
+            "body_site": "Pancreas",
+            "code": {
+                "id": "SNOMED:103329007",
+                "label": "Not available"
+            },
+            "date_of_diagnosis": [
+                "2013-09-17"
+            ]
+        },
+        "medication_statement": [
+            {
+                "id": "UBU036-med35",
+                "medication_code": [
+                    {
+                        "id": "RXCUI:6313",
+                        "label": "leucovorin"
+                    }
+                ],
+                "termination_reason": [
+                    null
+                ],
+                "start_date": "2019-05-23"
+            }
+        ]
+    },
+    {
+        "id": "UBU037",
+        "subject": {
+            "id": "UBU037",
+            "date_of_birth": "1972-07-01",
+            "sex": "female",
+            "deceased": true,
+            "ethnicity": "Not Hispanic or Latino",
+            "extra_properties": {
+                "communication_language": "English"
+            }
+        },
+        "genomics_report": {
+            "id": "UBU037",
+            "code": "code",
+            "performing_organization_name": "org",
+            "issued": "2022-04-05"
+        },
+        "cancer_condition": {
+            "id": "UBU037-0",
+            "condition_type": "primary",
+            "body_site": "Liver",
+            "code": {
+                "id": "SNOMED:103329007",
+                "label": "Not available"
+            },
+            "date_of_diagnosis": [
+                "2016-10-10"
+            ]
+        },
+        "medication_statement": [
+            {
+                "id": "UBU037-med36",
+                "medication_code": [
+                    {
+                        "id": "RXCUI:51499",
+                        "label": "irinotecan"
+                    }
+                ],
+                "termination_reason": [
+                    null
+                ],
+                "start_date": "2019-05-23"
+            }
+        ],
+        "cancer_disease_status": {
+            "id": "SNOMED:271299001",
+            "label": "Patient's condition worsened (finding)"
+        }
+    },
+    {
+        "id": "UBU038",
+        "subject": {
+            "id": "UBU038",
+            "date_of_birth": "1980-11-01",
+            "sex": "female",
+            "deceased": true,
+            "ethnicity": "Not Hispanic or Latino",
+            "extra_properties": {
+                "communication_language": "English"
+            }
+        },
+        "genomics_report": {
+            "id": "UBU038",
+            "code": "code",
+            "performing_organization_name": "org",
+            "issued": "2022-04-05"
+        },
+        "cancer_condition": {
+            "id": "UBU038-0",
+            "condition_type": "primary",
+            "body_site": "Pancreas",
+            "code": {
+                "id": "SNOMED:103329007",
+                "label": "Not available"
+            },
+            "date_of_diagnosis": [
+                "2014-05-27"
+            ]
+        },
+        "medication_statement": [
+            {
+                "id": "UBU038-med37",
+                "medication_code": [
+                    {
+                        "id": "RXCUI:4492",
+                        "label": "fluorouracil"
+                    }
+                ],
+                "termination_reason": [
+                    null
+                ],
+                "start_date": "2019-06-06"
+            }
+        ],
+        "cancer_disease_status": {
+            "id": "SNOMED:271299001",
+            "label": "Patient's condition worsened (finding)"
+        }
+    },
+    {
+        "id": "UBU039",
+        "subject": {
+            "id": "UBU039",
+            "date_of_birth": "1978-07-01",
+            "sex": "female",
+            "deceased": true,
+            "ethnicity": "Not Hispanic or Latino",
+            "extra_properties": {
+                "communication_language": "English"
+            }
+        },
+        "genomics_report": {
+            "id": "UBU039",
+            "code": "code",
+            "performing_organization_name": "org",
+            "issued": "2022-04-05"
+        },
+        "cancer_condition": {
+            "id": "UBU039-0",
+            "condition_type": "primary",
+            "body_site": "Pancreas",
+            "code": {
+                "id": "SNOMED:103329007",
+                "label": "Not available"
+            },
+            "date_of_diagnosis": [
+                "2016-12-23"
+            ]
+        },
+        "medication_statement": [
+            {
+                "id": "UBU039-med38",
+                "medication_code": [
+                    {
+                        "id": "RXCUI:32592",
+                        "label": "oxaliplatin"
+                    }
+                ],
+                "termination_reason": [
+                    null
+                ],
+                "start_date": "2019-06-06"
+            }
+        ],
+        "cancer_disease_status": {
+            "id": "SNOMED:271299001",
+            "label": "Patient's condition worsened (finding)"
+        }
+    },
+    {
+        "id": "UBU040",
+        "subject": {
+            "id": "UBU040",
+            "date_of_birth": "1942-09-01",
+            "sex": "male",
+            "deceased": true,
+            "ethnicity": "Not Hispanic or Latino",
+            "extra_properties": {
+                "communication_language": "English"
+            }
+        },
+        "genomics_report": {
+            "id": "UBU040",
+            "code": "code",
+            "performing_organization_name": "org",
+            "issued": "2022-04-05",
+            "extra_properties": {
+                "genomic_id": "HG00114"
+            }
+        },
+        "cancer_condition": {
+            "id": "UBU040-0",
+            "condition_type": "primary",
+            "body_site": "Pancreas",
+            "code": {
+                "id": "SNOMED:103329007",
+                "label": "Not available"
+            },
+            "date_of_diagnosis": [
+                "2012-10-15"
+            ]
+        },
+        "medication_statement": [
+            {
+                "id": "UBU040-med39",
+                "medication_code": [
+                    {
+                        "id": "RXCUI:6313",
+                        "label": "leucovorin"
+                    }
+                ],
+                "termination_reason": [
+                    null
+                ],
+                "start_date": "2019-06-06"
+            }
+        ],
+        "cancer_disease_status": {
+            "id": "SNOMED:271299001",
+            "label": "Patient's condition worsened (finding)"
+        }
+    },
+    {
+        "id": "UBU041",
+        "subject": {
+            "id": "UBU041",
+            "date_of_birth": "1950-07-01",
+            "sex": "female",
+            "deceased": true,
+            "ethnicity": "Not Hispanic or Latino",
+            "extra_properties": {
+                "communication_language": "English"
+            }
+        },
+        "genomics_report": {
+            "id": "UBU041",
+            "code": "code",
+            "performing_organization_name": "org",
+            "issued": "2022-04-05"
+        },
+        "cancer_condition": {
+            "id": "UBU041-0",
+            "condition_type": "primary",
+            "body_site": "Lymph nodes",
+            "code": {
+                "id": "SNOMED:103329007",
+                "label": "Not available"
+            },
+            "date_of_diagnosis": [
+                "2014-04-22"
+            ]
+        },
+        "medication_statement": [
+            {
+                "id": "UBU041-med40",
+                "medication_code": [
+                    {
+                        "id": "RXCUI:51499",
+                        "label": "irinotecan"
+                    }
+                ],
+                "termination_reason": [
+                    null
+                ],
+                "start_date": "2019-06-06"
+            }
+        ],
+        "cancer_disease_status": {
+            "id": "SNOMED:271299001",
+            "label": "Patient's condition worsened (finding)"
+        }
+    },
+    {
+        "id": "UBU042",
+        "subject": {
+            "id": "UBU042",
+            "date_of_birth": "1976-11-01",
+            "sex": "female",
+            "deceased": true,
+            "ethnicity": "Not Hispanic or Latino",
+            "extra_properties": {
+                "communication_language": "English"
+            }
+        },
+        "genomics_report": {
+            "id": "UBU042",
+            "code": "code",
+            "performing_organization_name": "org",
+            "issued": "2022-04-05",
+            "extra_properties": {
+                "genomic_id": "HG00127"
+            }
+        },
+        "cancer_condition": {
+            "id": "UBU042-0",
+            "condition_type": "primary",
+            "body_site": "Kidney",
+            "code": {
+                "id": "SNOMED:103329007",
+                "label": "Not available"
+            },
+            "date_of_diagnosis": [
+                "2013-05-06"
+            ]
+        },
+        "medication_statement": [
+            {
+                "id": "UBU042-med41",
+                "medication_code": [
+                    {
+                        "id": "RXCUI:4492",
+                        "label": "fluorouracil"
+                    }
+                ],
+                "termination_reason": [
+                    null
+                ],
+                "start_date": "2019-06-20"
+            }
+        ],
+        "cancer_disease_status": {
+            "id": "SNOMED:271299001",
+            "label": "Patient's condition worsened (finding)"
+        }
+    },
+    {
+        "id": "UBU043",
+        "subject": {
+            "id": "UBU043",
+            "date_of_birth": "1942-03-01",
+            "sex": "male",
+            "deceased": true,
+            "ethnicity": "Not Hispanic or Latino",
+            "extra_properties": {
+                "communication_language": "English"
+            }
+        },
+        "genomics_report": {
+            "id": "UBU043",
+            "code": "code",
+            "performing_organization_name": "org",
+            "issued": "2022-04-05",
+            "extra_properties": {
+                "genomic_id": "HG00160"
+            }
+        },
+        "cancer_condition": {
+            "id": "UBU043-0",
+            "condition_type": "primary",
+            "body_site": "Lymph nodes",
+            "code": {
+                "id": "SNOMED:103329007",
+                "label": "Not available"
+            },
+            "date_of_diagnosis": [
+                "2013-03-05"
+            ]
+        },
+        "medication_statement": [
+            {
+                "id": "UBU043-med42",
+                "medication_code": [
+                    {
+                        "id": "RXCUI:32592",
+                        "label": "oxaliplatin"
+                    }
+                ],
+                "termination_reason": [
+                    null
+                ],
+                "start_date": "2019-06-20"
+            }
+        ],
+        "cancer_disease_status": {
+            "id": "SNOMED:271299001",
+            "label": "Patient's condition worsened (finding)"
+        }
+    },
+    {
+        "id": "UBU044",
+        "subject": {
+            "id": "UBU044",
+            "date_of_birth": "1942-12-01",
+            "sex": "female",
+            "deceased": true,
+            "ethnicity": "Not Hispanic or Latino",
+            "extra_properties": {
+                "communication_language": "English"
+            }
+        },
+        "genomics_report": {
+            "id": "UBU044",
+            "code": "code",
+            "performing_organization_name": "org",
+            "issued": "2022-04-05"
+        },
+        "cancer_condition": {
+            "id": "UBU044-0",
+            "condition_type": "primary",
+            "body_site": "Lung",
+            "code": {
+                "id": "SNOMED:103329007",
+                "label": "Not available"
+            },
+            "date_of_diagnosis": [
+                "2015-01-30"
+            ]
+        },
+        "medication_statement": [
+            {
+                "id": "UBU044-med43",
+                "medication_code": [
+                    {
+                        "id": "RXCUI:6313",
+                        "label": "leucovorin"
+                    }
+                ],
+                "termination_reason": [
+                    null
+                ],
+                "start_date": "2019-06-20"
+            }
+        ],
+        "cancer_disease_status": {
+            "id": "SNOMED:271299001",
+            "label": "Patient's condition worsened (finding)"
+        }
+    },
+    {
+        "id": "UBU045",
+        "subject": {
+            "id": "UBU045",
+            "date_of_birth": "1946-05-01",
+            "sex": "female",
+            "deceased": true,
+            "ethnicity": "Not Hispanic or Latino",
+            "extra_properties": {
+                "communication_language": "English"
+            }
+        },
+        "genomics_report": {
+            "id": "UBU045",
+            "code": "code",
+            "performing_organization_name": "org",
+            "issued": "2022-04-05"
+        },
+        "cancer_condition": {
+            "id": "UBU045-0",
+            "condition_type": "primary",
+            "body_site": "Liver",
+            "code": {
+                "id": "SNOMED:103329007",
+                "label": "Not available"
+            },
+            "date_of_diagnosis": [
+                "2016-12-31"
+            ]
+        },
+        "medication_statement": [
+            {
+                "id": "UBU045-med44",
+                "medication_code": [
+                    {
+                        "id": "RXCUI:51499",
+                        "label": "irinotecan"
+                    }
+                ],
+                "termination_reason": [
+                    null
+                ],
+                "start_date": "2019-06-20"
+            }
+        ],
+        "cancer_disease_status": {
+            "id": "SNOMED:271299001",
+            "label": "Patient's condition worsened (finding)"
+        }
+    },
+    {
+        "id": "UBU046",
+        "subject": {
+            "id": "UBU046",
+            "date_of_birth": "1968-10-01",
+            "sex": "male",
+            "deceased": true,
+            "ethnicity": "Not Hispanic or Latino",
+            "extra_properties": {
+                "communication_language": "English"
+            }
+        },
+        "genomics_report": {
+            "id": "UBU046",
+            "code": "code",
+            "performing_organization_name": "org",
+            "issued": "2022-04-05",
+            "extra_properties": {
+                "genomic_id": "HG00116"
+            }
+        },
+        "cancer_condition": {
+            "id": "UBU046-0",
+            "condition_type": "primary",
+            "body_site": "Pancreas",
+            "code": {
+                "id": "SNOMED:103329007",
+                "label": "Not available"
+            },
+            "date_of_diagnosis": [
+                "2017-05-24"
+            ]
+        },
+        "medication_statement": [
+            {
+                "id": "UBU046-med45",
+                "medication_code": [
+                    {
+                        "id": "RXCUI:4492",
+                        "label": "fluorouracil"
+                    }
+                ],
+                "termination_reason": [
+                    null
+                ],
+                "start_date": "2019-01-14"
+            }
+        ],
+        "cancer_disease_status": {
+            "id": "SNOMED:271299001",
+            "label": "Patient's condition worsened (finding)"
+        }
+    },
+    {
+        "id": "UBU047",
+        "subject": {
+            "id": "UBU047",
+            "date_of_birth": "1960-09-01",
+            "sex": "male",
+            "deceased": true,
+            "ethnicity": "Not Hispanic or Latino",
+            "ecog_performance_status": {
+                "id": "ECOG: 1",
+                "label": "Restricted in physically strenuous activity but ambulatory and able to carry out work of a light or sedentary nature, e.g., light house work, office work"
+            },
+            "extra_properties": {
+                "communication_language": "English"
+            }
+        },
+        "genomics_report": {
+            "id": "UBU047",
+            "code": "code",
+            "performing_organization_name": "org",
+            "issued": "2022-04-05",
+            "extra_properties": {
+                "genomic_id": "HG00117"
+            }
+        },
+        "cancer_condition": {
+            "id": "UBU047-0",
+            "condition_type": "primary",
+            "body_site": "Lung",
+            "code": {
+                "id": "SNOMED:103329007",
+                "label": "Not available"
+            },
+            "date_of_diagnosis": [
+                "2014-07-11"
+            ]
+        },
+        "medication_statement": [
+            {
+                "id": "UBU047-med46",
+                "medication_code": [
+                    {
+                        "id": "RXCUI:32592",
+                        "label": "oxaliplatin"
+                    }
+                ],
+                "termination_reason": [
+                    null
+                ],
+                "start_date": "2019-01-31"
+            }
+        ],
+        "cancer_disease_status": {
+            "id": "SNOMED:271299001",
+            "label": "Patient's condition worsened (finding)"
+        }
+    },
+    {
+        "id": "UBU048",
+        "subject": {
+            "id": "UBU048",
+            "date_of_birth": "1945-04-01",
+            "sex": "male",
+            "deceased": true,
+            "ethnicity": "Not Hispanic or Latino",
+            "ecog_performance_status": {
+                "id": "ECOG: 0",
+                "label": "Fully active, able to carry on all pre-disease performance without restriction"
+            },
+            "extra_properties": {
+                "communication_language": "English"
+            }
+        },
+        "genomics_report": {
+            "id": "UBU048",
+            "code": "code",
+            "performing_organization_name": "org",
+            "issued": "2022-04-05",
+            "extra_properties": {
+                "genomic_id": "HG00118"
+            }
+        },
+        "cancer_condition": {
+            "id": "UBU048-0",
+            "condition_type": "primary",
+            "body_site": "Pancreas",
+            "code": {
+                "id": "SNOMED:103329007",
+                "label": "Not available"
+            },
+            "date_of_diagnosis": [
+                "2012-07-13"
+            ]
+        },
+        "medication_statement": [
+            {
+                "id": "UBU048-med47",
+                "medication_code": [
+                    {
+                        "id": "RXCUI:6313",
+                        "label": "leucovorin"
+                    }
+                ],
+                "termination_reason": [
+                    null
+                ],
+                "start_date": "2019-02-15"
+            }
+        ],
+        "cancer_disease_status": {
+            "id": "SNOMED:359746009",
+            "label": "Patient's condition stable (finding)"
+        }
+    },
+    {
+        "id": "UBU049",
+        "subject": {
+            "id": "UBU049",
+            "date_of_birth": "1959-03-01",
+            "sex": "male",
+            "deceased": true,
+            "ethnicity": "Not Hispanic or Latino",
+            "ecog_performance_status": {
+                "id": "ECOG: 1",
+                "label": "Restricted in physically strenuous activity but ambulatory and able to carry out work of a light or sedentary nature, e.g., light house work, office work"
+            },
+            "extra_properties": {
+                "communication_language": "English"
+            }
+        },
+        "genomics_report": {
+            "id": "UBU049",
+            "code": "code",
+            "performing_organization_name": "org",
+            "issued": "2022-04-05",
+            "extra_properties": {
+                "genomic_id": "HG00119"
+            }
+        },
+        "cancer_condition": {
+            "id": "UBU049-0",
+            "condition_type": "primary",
+            "body_site": "Liver",
+            "code": {
+                "id": "SNOMED:103329007",
+                "label": "Not available"
+            },
+            "date_of_diagnosis": [
+                "2017-10-05"
+            ]
+        },
+        "medication_statement": [
+            {
+                "id": "UBU049-med48",
+                "medication_code": [
+                    {
+                        "id": "RXCUI:51499",
+                        "label": "irinotecan"
+                    }
+                ],
+                "termination_reason": [
+                    null
+                ],
+                "start_date": "2019-02-28"
+            }
+        ],
+        "cancer_disease_status": {
+            "id": "SNOMED:359746009",
+            "label": "Patient's condition stable (finding)"
+        }
+    },
+    {
+        "id": "UBU050",
+        "subject": {
+            "id": "UBU050",
+            "date_of_birth": "1954-11-01",
+            "sex": "male",
+            "deceased": true,
+            "ethnicity": "Not Hispanic or Latino",
+            "ecog_performance_status": {
+                "id": "ECOG: 1",
+                "label": "Restricted in physically strenuous activity but ambulatory and able to carry out work of a light or sedentary nature, e.g., light house work, office work"
+            },
+            "extra_properties": {
+                "communication_language": "English"
+            }
+        },
+        "genomics_report": {
+            "id": "UBU050",
+            "code": "code",
+            "performing_organization_name": "org",
+            "issued": "2022-04-05",
+            "extra_properties": {
+                "genomic_id": "HG00126"
+            }
+        },
+        "cancer_condition": {
+            "id": "UBU050-0",
+            "condition_type": "primary",
+            "body_site": "Spleen",
+            "code": {
+                "id": "SNOMED:103329007",
+                "label": "Not available"
+            },
+            "date_of_diagnosis": [
+                "2015-10-11"
+            ]
+        },
+        "medication_statement": [
+            {
+                "id": "UBU050-med49",
+                "medication_code": [
+                    {
+                        "id": "RXCUI:4492",
+                        "label": "fluorouracil"
+                    }
+                ],
+                "termination_reason": [
+                    null
+                ],
+                "start_date": "2019-03-25"
+            }
+        ],
+        "cancer_disease_status": {
+            "id": "SNOMED:359746009",
+            "label": "Patient's condition stable (finding)"
+        }
+    },
+    {
+        "id": "UBU051",
+        "subject": {
+            "id": "UBU051",
+            "date_of_birth": "1945-12-01",
+            "sex": "male",
+            "deceased": true,
+            "ethnicity": "Not Hispanic or Latino",
+            "ecog_performance_status": {
+                "id": "ECOG: 1",
+                "label": "Restricted in physically strenuous activity but ambulatory and able to carry out work of a light or sedentary nature, e.g., light house work, office work"
+            },
+            "extra_properties": {
+                "communication_language": "English"
+            }
+        },
+        "genomics_report": {
+            "id": "UBU051",
+            "code": "code",
+            "performing_organization_name": "org",
+            "issued": "2022-04-05",
+            "extra_properties": {
+                "genomic_id": "HG00129"
+            }
+        },
+        "cancer_condition": {
+            "id": "UBU051-0",
+            "condition_type": "primary",
+            "body_site": "Liver",
+            "code": {
+                "id": "SNOMED:103329007",
+                "label": "Not available"
+            },
+            "date_of_diagnosis": [
+                "2017-07-12"
+            ]
+        },
+        "medication_statement": [
+            {
+                "id": "UBU051-med50",
+                "medication_code": [
+                    {
+                        "id": "RXCUI:12574",
+                        "label": "gemcitabine"
+                    }
+                ],
+                "termination_reason": [
+                    null
+                ],
+                "start_date": "2019-04-11"
+            }
+        ],
+        "cancer_disease_status": {
+            "id": "SNOMED:359746009",
+            "label": "Patient's condition stable (finding)"
+        }
+    },
+    {
+        "id": "UBU052",
+        "subject": {
+            "id": "UBU052",
+            "date_of_birth": "1959-04-01",
+            "sex": "male",
+            "deceased": true,
+            "ethnicity": "Not Hispanic or Latino",
+            "ecog_performance_status": {
+                "id": "ECOG: 1",
+                "label": "Restricted in physically strenuous activity but ambulatory and able to carry out work of a light or sedentary nature, e.g., light house work, office work"
+            },
+            "extra_properties": {
+                "communication_language": "English"
+            }
+        },
+        "genomics_report": {
+            "id": "UBU052",
+            "code": "code",
+            "performing_organization_name": "org",
+            "issued": "2022-04-05",
+            "extra_properties": {
+                "genomic_id": "HG00131"
+            }
+        },
+        "cancer_condition": {
+            "id": "UBU052-0",
+            "condition_type": "primary",
+            "body_site": "Pancreas",
+            "code": {
+                "id": "SNOMED:103329007",
+                "label": "Not available"
+            },
+            "date_of_diagnosis": [
+                "2013-08-21"
+            ]
+        },
+        "medication_statement": [
+            {
+                "id": "UBU052-med51",
+                "medication_code": [
+                    {
+                        "id": "RXCUI:589511",
+                        "label": "Abraxane"
+                    }
+                ],
+                "termination_reason": [
+                    null
+                ],
+                "start_date": "2019-01-14"
+            }
+        ],
+        "cancer_disease_status": {
+            "id": "SNOMED:359746009",
+            "label": "Patient's condition stable (finding)"
+        }
+    },
+    {
+        "id": "UBU053",
+        "subject": {
+            "id": "UBU053",
+            "date_of_birth": "1949-10-01",
+            "sex": "male",
+            "deceased": true,
+            "ethnicity": "Not Hispanic or Latino",
+            "ecog_performance_status": {
+                "id": "ECOG: 1",
+                "label": "Restricted in physically strenuous activity but ambulatory and able to carry out work of a light or sedentary nature, e.g., light house work, office work"
+            },
+            "extra_properties": {
+                "communication_language": "English"
+            }
+        },
+        "genomics_report": {
+            "id": "UBU053",
+            "code": "code",
+            "performing_organization_name": "org",
+            "issued": "2022-04-05",
+            "extra_properties": {
+                "genomic_id": "HG00138"
+            }
+        },
+        "cancer_condition": {
+            "id": "UBU053-0",
+            "condition_type": "primary",
+            "body_site": "Liver",
+            "code": {
+                "id": "SNOMED:103329007",
+                "label": "Not available"
+            },
+            "date_of_diagnosis": [
+                "2017-07-01"
+            ]
+        },
+        "medication_statement": [
+            {
+                "id": "UBU053-med52",
+                "medication_code": [
+                    {
+                        "id": "RXCUI:589511",
+                        "label": "Abraxane"
+                    }
+                ],
+                "termination_reason": [
+                    null
+                ],
+                "start_date": "2019-01-14"
+            }
+        ],
+        "cancer_disease_status": {
+            "id": "SNOMED:359746009",
+            "label": "Patient's condition stable (finding)"
+        }
+    },
+    {
+        "id": "UBU054",
+        "subject": {
+            "id": "UBU054",
+            "date_of_birth": "1951-09-01",
+            "sex": "male",
+            "deceased": true,
+            "ethnicity": "Not Hispanic or Latino",
+            "ecog_performance_status": {
+                "id": "ECOG: 1",
+                "label": "Restricted in physically strenuous activity but ambulatory and able to carry out work of a light or sedentary nature, e.g., light house work, office work"
+            },
+            "extra_properties": {
+                "communication_language": "English"
+            }
+        },
+        "genomics_report": {
+            "id": "UBU054",
+            "code": "code",
+            "performing_organization_name": "org",
+            "issued": "2022-04-05",
+            "extra_properties": {
+                "genomic_id": "HG00139"
+            }
+        },
+        "cancer_condition": {
+            "id": "UBU054-0",
+            "condition_type": "primary",
+            "body_site": "Liver",
+            "code": {
+                "id": "SNOMED:103329007",
+                "label": "Not available"
+            },
+            "date_of_diagnosis": [
+                "2015-11-03"
+            ]
+        },
+        "medication_statement": [
+            {
+                "id": "UBU054-med53",
+                "medication_code": [
+                    {
+                        "id": "RXCUI:12574",
+                        "label": "gemcitabine"
+                    }
+                ],
+                "termination_reason": [
+                    null
+                ],
+                "start_date": "2019-01-14"
+            }
+        ],
+        "cancer_disease_status": {
+            "id": "SNOMED:359746009",
+            "label": "Patient's condition stable (finding)"
+        }
+    },
+    {
+        "id": "UBU055",
+        "subject": {
+            "id": "UBU055",
+            "date_of_birth": "1956-07-01",
+            "sex": "male",
+            "deceased": true,
+            "ethnicity": "Not Hispanic or Latino",
+            "ecog_performance_status": {
+                "id": "ECOG: 1",
+                "label": "Restricted in physically strenuous activity but ambulatory and able to carry out work of a light or sedentary nature, e.g., light house work, office work"
+            },
+            "extra_properties": {
+                "communication_language": "English"
+            }
+        },
+        "genomics_report": {
+            "id": "UBU055",
+            "code": "code",
+            "performing_organization_name": "org",
+            "issued": "2022-04-05",
+            "extra_properties": {
+                "genomic_id": "HG00140"
+            }
+        },
+        "cancer_condition": {
+            "id": "UBU055-0",
+            "condition_type": "primary",
+            "body_site": "Pancreas",
+            "code": {
+                "id": "SNOMED:103329007",
+                "label": "Not available"
+            },
+            "date_of_diagnosis": [
+                "2014-12-09"
+            ]
+        },
+        "medication_statement": [
+            {
+                "id": "UBU055-med54",
+                "medication_code": [
+                    {
+                        "id": "RXCUI:589511",
+                        "label": "Abraxane"
+                    }
+                ],
+                "termination_reason": [
+                    null
+                ],
+                "start_date": "2019-01-31"
+            }
+        ],
+        "cancer_disease_status": {
+            "id": "SNOMED:359746009",
+            "label": "Patient's condition stable (finding)"
+        }
+    },
+    {
+        "id": "UBU056",
+        "subject": {
+            "id": "UBU056",
+            "date_of_birth": "1947-09-01",
+            "sex": "male",
+            "deceased": true,
+            "ethnicity": "Not Hispanic or Latino",
+            "ecog_performance_status": {
+                "id": "ECOG: 0",
+                "label": "Fully active, able to carry on all pre-disease performance without restriction"
+            },
+            "extra_properties": {
+                "communication_language": "English"
+            }
+        },
+        "genomics_report": {
+            "id": "UBU056",
+            "code": "code",
+            "performing_organization_name": "org",
+            "issued": "2022-04-05",
+            "extra_properties": {
+                "genomic_id": "HG00141"
+            }
+        },
+        "cancer_condition": {
+            "id": "UBU056-0",
+            "condition_type": "primary",
+            "body_site": "Pancreas",
+            "code": {
+                "id": "SNOMED:103329007",
+                "label": "Not available"
+            },
+            "date_of_diagnosis": [
+                "2016-05-10"
+            ]
+        },
+        "medication_statement": [
+            {
+                "id": "UBU056-med55",
+                "medication_code": [
+                    {
+                        "id": "RXCUI:12574",
+                        "label": "gemcitabine"
+                    }
+                ],
+                "termination_reason": [
+                    null
+                ],
+                "start_date": "2019-01-31"
+            }
+        ]
+    },
+    {
+        "id": "UBU057",
+        "subject": {
+            "id": "UBU057",
+            "date_of_birth": "1951-11-01",
+            "sex": "male",
+            "deceased": true,
+            "ethnicity": "Not Hispanic or Latino",
+            "ecog_performance_status": {
+                "id": "ECOG: 1",
+                "label": "Restricted in physically strenuous activity but ambulatory and able to carry out work of a light or sedentary nature, e.g., light house work, office work"
+            },
+            "extra_properties": {
+                "communication_language": "English"
+            }
+        },
+        "genomics_report": {
+            "id": "UBU057",
+            "code": "code",
+            "performing_organization_name": "org",
+            "issued": "2022-04-05",
+            "extra_properties": {
+                "genomic_id": "HG00142"
+            }
+        },
+        "cancer_condition": {
+            "id": "UBU057-0",
+            "condition_type": "primary",
+            "body_site": "Liver",
+            "code": {
+                "id": "SNOMED:103329007",
+                "label": "Not available"
+            },
+            "date_of_diagnosis": [
+                "2015-09-29"
+            ]
+        },
+        "medication_statement": [
+            {
+                "id": "UBU057-med56",
+                "medication_code": [
+                    {
+                        "id": "RXCUI:589511",
+                        "label": "Abraxane"
+                    }
+                ],
+                "termination_reason": [
+                    null
+                ],
+                "start_date": "2019-01-31"
+            }
+        ]
+    },
+    {
+        "id": "UBU058",
+        "subject": {
+            "id": "UBU058",
+            "date_of_birth": "1955-05-01",
+            "sex": "male",
+            "deceased": true,
+            "ethnicity": "Not Hispanic or Latino",
+            "ecog_performance_status": {
+                "id": "ECOG: 1",
+                "label": "Restricted in physically strenuous activity but ambulatory and able to carry out work of a light or sedentary nature, e.g., light house work, office work"
+            },
+            "extra_properties": {
+                "communication_language": "English"
+            }
+        },
+        "genomics_report": {
+            "id": "UBU058",
+            "code": "code",
+            "performing_organization_name": "org",
+            "issued": "2022-04-05",
+            "extra_properties": {
+                "genomic_id": "HG00143"
+            }
+        },
+        "cancer_condition": {
+            "id": "UBU058-0",
+            "condition_type": "primary",
+            "body_site": "Peritoneum",
+            "code": {
+                "id": "SNOMED:103329007",
+                "label": "Not available"
+            },
+            "date_of_diagnosis": [
+                "2015-10-20"
+            ]
+        },
+        "medication_statement": [
+            {
+                "id": "UBU058-med57",
+                "medication_code": [
+                    {
+                        "id": "RXCUI:12574",
+                        "label": "gemcitabine"
+                    }
+                ],
+                "termination_reason": [
+                    null
+                ],
+                "start_date": "2019-02-15"
+            }
+        ]
+    },
+    {
+        "id": "UBU059",
+        "subject": {
+            "id": "UBU059",
+            "date_of_birth": "1965-02-12",
+            "sex": "female",
+            "deceased": true,
+            "ethnicity": "Not Hispanic or Latino",
+            "ecog_performance_status": {
+                "id": "ECOG: 1",
+                "label": "Restricted in physically strenuous activity but ambulatory and able to carry out work of a light or sedentary nature, e.g., light house work, office work"
+            },
+            "extra_properties": {
+                "communication_language": "English"
+            }
+        },
+        "genomics_report": {
+            "id": "UBU059",
+            "code": "code",
+            "performing_organization_name": "org",
+            "issued": "2022-04-05",
+            "extra_properties": {
+                "genomic_id": "HG00150"
+            }
+        },
+        "cancer_condition": {
+            "id": "UBU059-0",
+            "condition_type": "primary",
+            "body_site": "Pancreas",
+            "code": {
+                "id": "SNOMED:103329007",
+                "label": "Not available"
+            },
+            "date_of_diagnosis": [
+                "2016-10-09"
+            ]
+        },
+        "medication_statement": [
+            {
+                "id": "UBU059-med58",
+                "medication_code": [
+                    {
+                        "id": "RXCUI:32592",
+                        "label": "oxaliplatin"
+                    }
+                ],
+                "termination_reason": [
+                    null
+                ],
+                "start_date": "2019-02-15"
+            }
+        ]
+    }
+]
