@@ -4,12 +4,6 @@ samples/*.vcf: | /samples
 	@echo "generating..."
 	$(shell cd samples; python ../generate_genomic.py)
 
-samples/*.gz.tbi: | /samples
-ifeq (, $(shell which bgzip))
-$(error "bgzip is part of htslib; htslib is required to manage variant files: installation instructions are at https://www.htslib.org/download/")
-endif
-$(foreach F, $(wildcard samples/*.vcf), $(shell bgzip $(F); tabix $(F).gz))
-
 /samples:
 	@mkdir -p $(PWD)/samples
 
