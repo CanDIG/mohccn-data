@@ -1,0 +1,39 @@
+## schema based on version 2.11.0,
+## directly checked out from https://github.com/CanDIG/katsu.git, commit 7d252e9e7ea6cabc77b265946c1e880b7e766dd0
+## mcodepacket element, description (overwrite with mapped element)
+## (.0 is an array element) (* is required) (+ denotes ontology term),
+"id",{single_val(Subject)}
+##"subject","##An individual who is a subject of mcodepacket."
+"subject.id*",{single_val(Subject)}
+##"subject.alternate_ids","##A list of alternative identifiers for an individual."
+"subject.alternate_ids.0","##One of possibly many alternative identifiers for an individual."
+"subject.date_of_birth",{single_date("Date of Birth")}
+"subject.age","##The age or age range of the individual."
+"subject.sex",{single_val(Gender)}
+"subject.karyotypic_sex","##The karyotypic sex of an individual."
+"subject.taxonomy+","##An ontology term specified when more than one organism may be studied. It is advised that codesfrom the NCBI Taxonomy resource are used, e.g. NCBITaxon:9606 for humans."
+"subject.active","##Whether a patient's record is in active use."
+"subject.deceased",{has_value("Date of Death")}
+"subject.race","##A code for a person's race (mCode)."
+"subject.ethnicity",{single_val(Ethnicity)}
+##"subject.comorbid_condition","##One or more conditions that occur with primary condition."
+"subject.comorbid_condition.clinical_status+","##An ontology term."
+"subject.comorbid_condition.code+","##An ontology term."
+"subject.ecog_performance_status+",{mcode.ecog_performance_status(ECOG)}
+"subject.karnofsky+","##Value representing the Karnofsky Performance status."
+"subject.extra_properties.communication_language",{mcode.language("Subject")}
+##"genomics_report","##A genomics report associated with an Individual."
+"genomics_report.id*",{single_val(Subject)}
+"genomics_report.code*+",{mcode.connect_code("1000 Genomes_ID")}
+"genomics_report.performing_organization_name",{mcode.connect_org("1000 Genomes_ID")}
+"genomics_report.issued*",{mcode.date("1000 Genomes_ID")}
+"genomics_report.extra_properties",{mcode.connect_variant("1000 Genomes_ID")}
+cancer_condition,{mcode.cancer_condition(Subject, Diagnosis.Site, Diagnosis."Date of Diagnosis")} 
+"medication_statement.0.id*",{mcode.med_statement_id(index, Subject)}
+"medication_statement.0.medication_code*+",{mcode.med_code("Agent Name")}
+"medication_statement.0.termination_reason.0+",{single_val("Off Treatment"."Reason")}
+"medication_statement.0.start_date",{single_date("1st line Chemo- Cycle 1"."Start Date")}
+"medication_statement.0.end_date",{single_date("Off treatment date")}
+"date_of_death",{single_date("Date of Death")}
+cancer_disease_status+, {mcode.disease_status(Overall Response)}
+"extra_properties",

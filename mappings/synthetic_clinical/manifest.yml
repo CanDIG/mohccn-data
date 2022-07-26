@@ -1,0 +1,32 @@
+description: Synthetic_clinical_data_2 dataset to mcode format
+etl_version: https://github.com/CanDIG/clinical_ETL_code/tree/v1.0.1
+mapping: mcode.csv
+schema: mcode
+identifier: Subject
+functions:
+  - mcode
+indexed:
+  - 1st line Chemo- Cycle 1
+sheets:
+  raw:
+    - 1st line Chemo- Cycle 1.csv
+    - Biochemistry.csv
+    - Biopsy.csv
+    - Demography.csv
+    - Diagnosis.csv
+    - Haematology.csv
+    - ID_Matching_Table.csv
+    - Off Treatment.csv
+    - Survival.csv
+    - Tumor Marker.csv
+    - Vital Signs.csv
+    - Volume of disease and response.csv
+  final:
+    - Demography.csv
+    - ID_Matching_Table.csv
+    - Survival.csv
+    - 1st line Chemo- Cycle 1.csv
+    - Vital Signs.csv
+    - Diagnosis.csv
+    - Off Treatment.csv
+    - Volume of disease and response.csv
