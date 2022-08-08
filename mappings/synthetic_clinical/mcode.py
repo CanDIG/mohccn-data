@@ -57,7 +57,7 @@ def ecog_performance_status(mapping):
 def cancer_condition(mapping):
     subject_id = mappings.single_val({"Subject": mapping["Subject"]})
     body_site = mappings.single_val({"Site": mapping["Site"]})
-    date = mappings.date({'Date of Diagnosis': mapping['Date of Diagnosis']})
+    date = mappings.single_date({'Date of Diagnosis': mapping['Date of Diagnosis']})
 
     if body_site is None and date is None: 
         new_dict = {

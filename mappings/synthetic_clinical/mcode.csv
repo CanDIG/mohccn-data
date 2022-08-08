@@ -28,7 +28,7 @@
 "genomics_report.performing_organization_name",{mcode.connect_org("1000 Genomes_ID")}
 "genomics_report.issued*",{mcode.date("1000 Genomes_ID")}
 "genomics_report.extra_properties",{mcode.connect_variant("1000 Genomes_ID")}
-cancer_condition,{mcode.cancer_condition(Subject, Diagnosis.Site, Diagnosis."Date of Diagnosis")} 
+cancer_condition,{mcode.cancer_condition(Subject, Diagnosis.Site, Diagnosis."Date of Diagnosis")}
 "medication_statement.0.id*",{mcode.med_statement_id(index, Subject)}
 "medication_statement.0.medication_code*+",{mcode.med_code("Agent Name")}
 "medication_statement.0.termination_reason.0+",{single_val("Off Treatment"."Reason")}
