@@ -20,6 +20,12 @@ def date(mapping):
 def language(mapping):
     return "English"
 
+def placeholder_ontology(mapping):
+    return {
+                "id": "UNK:0000",
+                "label": "abcd"
+            }
+
 #Local ontologies for ecog perfomance status saved in a dict  
 def ecog_performance_status(mapping):
     ecog_performance_status_dict =  {
@@ -56,7 +62,7 @@ def ecog_performance_status(mapping):
 
 def cancer_condition(mapping):
     subject_id = mappings.single_val({"Subject": mapping["Subject"]})
-    body_site = mappings.single_val({"Site": mapping["Site"]})
+    body_site = [placeholder_ontology({"Site": mapping["Site"]})]
     date = mappings.single_date({'Date of Diagnosis': mapping['Date of Diagnosis']})
 
     if body_site is None and date is None: 
@@ -139,7 +145,7 @@ def disease_status(mapping):
 
 # Medication statement dicts (based on termination_reason dict) stored in a array 
 def med_code(mapping): #(Subject, "Agent Name", "1st line Chemo- Cycle 1"."Start Date", "Off treatment date", "Off Treatment"."Reason")
-    medication_statement_list = []
+    medication_statement_list = None
     medication = mappings.single_val({"Agent Name": mapping["Agent Name"]})
     
     medication_dict = {
@@ -153,7 +159,7 @@ def med_code(mapping): #(Subject, "Agent Name", "1st line Chemo- Cycle 1"."Start
 
     for med in medication_dict.keys():
         if medication.lower() == med.lower():
-            medication_statement_list.append({"id": medication_dict[med], "label": med})
+            medication_statement_list = {"id": medication_dict[med], "label": med}
     return medication_statement_list
 
 def med_statement_id(mapping):

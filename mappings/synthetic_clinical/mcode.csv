@@ -24,14 +24,14 @@
 "subject.extra_properties.communication_language",{mcode.language("Subject")}
 ##"genomics_report","##A genomics report associated with an Individual."
 "genomics_report.id*",{single_val(Subject)}
-"genomics_report.code*+",{mcode.connect_code("1000 Genomes_ID")}
+"genomics_report.code*+",{mcode.placeholder_ontology("1000 Genomes_ID")}
 "genomics_report.performing_organization_name",{mcode.connect_org("1000 Genomes_ID")}
 "genomics_report.issued*",{mcode.date("1000 Genomes_ID")}
 "genomics_report.extra_properties",{mcode.connect_variant("1000 Genomes_ID")}
 cancer_condition,{mcode.cancer_condition(Subject, Diagnosis.Site, Diagnosis."Date of Diagnosis")}
 "medication_statement.0.id*",{mcode.med_statement_id(index, Subject)}
 "medication_statement.0.medication_code*+",{mcode.med_code("Agent Name")}
-"medication_statement.0.termination_reason.0+",{single_val("Off Treatment"."Reason")}
+"medication_statement.0.termination_reason+",{mcode.placeholder_ontology("Off Treatment"."Reason")}
 "medication_statement.0.start_date",{single_date("1st line Chemo- Cycle 1"."Start Date")}
 "medication_statement.0.end_date",{single_date("Off treatment date")}
 "date_of_death",{single_date("Date of Death")}
