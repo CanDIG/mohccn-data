@@ -1,0 +1,62 @@
+Primary Diagnosis,Primary Diagnosis,Primary Diagnosis,Primary Diagnosis,Primary Diagnosis,Primary Diagnosis,Primary Diagnosis,Primary Diagnosis,Primary Diagnosis,Primary Diagnosis,Primary Diagnosis,Primary Diagnosis,Primary Diagnosis,Primary Diagnosis
+program_id,submitter_donor_id,submitter_primary_diagnosis_id,date_of_diagnosis,cancer_type_code,basis_of_diagnosis,lymph_nodes_examined_status,lymph_nodes_examined_method,number_lymph_nodes_positive,clinical_tumour_staging_system,clinical_t_category,clinical_n_category,clinical_m_category,clinical_stage_group
+MoHCCN_01,MoH_001,MoH_Dx_01,2013 OCT UN,C04.9,Histology of a primary tumour,Cannot be determined,Imaging,,AJCC,3,2C,0,4A
+MoHCCN_01,MoH_002,MoH_Dx_02,2013 NOV UN,C04.9,Histology of a primary tumour,No,Lymph node dissection/pathological exam,,AJCC,4A,1,0,4A
+MoHCCN_01,Moh_003,MoH_Dx_03,2012 OCT UN,C04.9,Histology of a primary tumour,No lymph nodes found in resected specimen,Physical palpation of patient,,AJCC,3,2B,0,4A
+MoHCCN_01,MoH_004,MoH_Dx_04,2016 FEB 02,C04.9,Histology of a primary tumour,Not applicable,Imaging,,AJCC,2,2B,0,4A
+MoHCCN_01,MoH_005,MoH_Dx_05,2013 MAR UN,C04.9,Histology of a primary tumour,Yes,Lymph node dissection/pathological exam,35,AJCC,2,0,0,2
+MoHCCN_01,MoH_006,MoH_Dx_06,2012 APR 11,C04.9,Histology of a primary tumour,Cannot be determined,Physical palpation of patient,,AJCC,2,0,0,2
+MoHCCN_01,MoH_007,MoH_Dx_07,2011 UNK UN,C04.9,Histology of a primary tumour,No,Imaging,,AJCC,2,1,0,3
+MoHCCN_01,MoH_008,MoH_Dx_08,2011 MAR UN,C04.9,Histology of a primary tumour,No lymph nodes found in resected specimen,Lymph node dissection/pathological exam,,AJCC,3,0,0,3
+MoHCCN_01,MoH_009,MoH_Dx_09,2016 UNK UN,,Histology of a primary tumour,Not applicable,Physical palpation of patient,,AJCC,3,0,0,3
+MoHCCN_01,MoH_010,MoH_Dx_10,2016 FEB 05,C64.9,Histology of a primary tumour,Yes,Imaging,15,AJCC,4A,0,0,4A
+MoHCCN_01,MoH_011,MoH_Dx_11,2015 MAY UN,C64.9,Histology of a primary tumour,Cannot be determined,Lymph node dissection/pathological exam,,AJCC,2,1,0,3
+MoHCCN_01,MoH_012,MoH_Dx_12,2013 MAR 15,C64.9,Histology of a primary tumour,No,Physical palpation of patient,,AJCC,4A,1,0,4A
+MoHCCN_01,MoH_013,MoH_Dx_13,2016 MAR 08,,Histology of a primary tumour,No lymph nodes found in resected specimen,Imaging,,AJCC,3,2B,0,4A
+MoHCCN_01,MoH_014,MoH_Dx_14,2016 JUL 25,,Histology of a primary tumour,Not applicable,Lymph node dissection/pathological exam,,AJCC,2,1,0,3
+MoHCCN_01,MoH_015,MoH_Dx_15,2013 JUL 25,C04.9,Histology of a primary tumour,Yes,Physical palpation of patient,22,AJCC,4A,0,0,4A
+MoHCCN_01,MoH_016,MoH_Dx_16,2015 JUL UN,C64.9,Histology of a primary tumour,Cannot be determined,Imaging,,AJCC,2,0,0,2
+MoHCCN_01,MoH_017,MoH_Dx_17,2011 JUL UN,C64.9,Histology of a primary tumour,No,Lymph node dissection/pathological exam,,AJCC,4A,0,0,4A
+MoHCCN_01,MoH_018,MoH_Dx_18,2011 UNK UN,C64.9,Histology of a primary tumour,No lymph nodes found in resected specimen,Physical palpation of patient,,AJCC,2,2B,0,4A
+MoHCCN_01,MoH_019,MoH_Dx_19,2011 UNK UN,C04.9,Histology of a primary tumour,Not applicable,Imaging,,AJCC,4A,1,0,4A
+MoHCCN_01,MoH_020,MoH_Dx_20,2011 UNK UN,C64.9,Histology of a primary tumour,Yes,Lymph node dissection/pathological exam,19,AJCC,3,1,0,3
+MoHCCN_01,MoH_021,MoH_Dx_21,2011 UNK UN,C64.9,Histology of a primary tumour,Cannot be determined,Physical palpation of patient,,AJCC,3,2C,0,4A
+MoHCCN_01,MoH_022,MoH_Dx_22,2016 UNK UN,,Histology of a primary tumour,No,Imaging,,AJCC,4A,1,0,4A
+MoHCCN_01,MoH_023,MoH_Dx_23,2016 UNK UN,,Histology of a primary tumour,No lymph nodes found in resected specimen,Lymph node dissection/pathological exam,,AJCC,3,2B,0,4A
+MoHCCN_01,MoH_024,MoH_Dx_24,2016 UNK UN,,Histology of a primary tumour,Not applicable,Physical palpation of patient,,AJCC,2,2B,0,4A
+MoHCCN_01,MoH_025,MoH_Dx_25,2016 UNK UN,,Histology of a primary tumour,Yes,Imaging,11,AJCC,2,0,0,2
+MoHCCN_01,MoH_026,MoH_Dx_26,2012JAN 17,C64.9,Histology of a primary tumour,Cannot be determined,Lymph node dissection/pathological exam,,AJCC,2,0,0,2
+MoHCCN_01,MoH_027,MoH_Dx_27,2013 JAN 17,C64.9,Histology of a primary tumour,No,Physical palpation of patient,,AJCC,2,1,0,3
+MoHCCN_01,MoH_028,MoH_Dx_28,2011 OCT 01,C64.9,Histology of a primary tumour,No lymph nodes found in resected specimen,Imaging,,AJCC,3,0,0,3
+MoHCCN_01,MoH_029,MoH_Dx_29,,C64.9,Histology of a primary tumour,Not applicable,Lymph node dissection/pathological exam,,AJCC,3,0,0,3
+MoHCCN_01,MoH_030,MoH_Dx_30,2013 MAR UN,C64.9,Histology of a primary tumour,Yes,Physical palpation of patient,67,AJCC,4A,0,0,4A
+MoHCCN_01,MoH_031,MoH_Dx_31,2012 UNK UN,C64.9,Histology of a primary tumour,Cannot be determined,Imaging,,AJCC,2,1,0,3
+MoHCCN_01,MoH_032,MoH_Dx_32,2012 APR UN,C64.9,Histology of a primary tumour,No,Lymph node dissection/pathological exam,,AJCC,4A,1,0,4A
+MoHCCN_01,MoH_033,MoH_Dx_33,2012 APR UN,C64.9,Histology of a primary tumour,No lymph nodes found in resected specimen,Physical palpation of patient,,AJCC,3,2B,0,4A
+MoHCCN_01,MoH_034,MoH_Dx_34,2013 JAN UN,C64.9,Histology of a primary tumour,Not applicable,Imaging,,AJCC,2,1,0,3
+MoHCCN_01,MoH_035,MoH_Dx_35,2012 MAR UN,C64.9,Histology of a primary tumour,Yes,Lymph node dissection/pathological exam,33,AJCC,4A,0,0,4A
+MoHCCN_01,MoH_036,MoH_Dx_36,2012 MAR UN,C64.9,Histology of a primary tumour,Cannot be determined,Physical palpation of patient,,AJCC,2,0,0,2
+MoHCCN_01,MoH_037,MoH_Dx_37,2013 UNK UN,C64.9,Histology of a primary tumour,No,Imaging,,AJCC,4A,0,0,4A
+MoHCCN_01,MoH_038,MoH_Dx_38,2011 APR UN,C64.9,Histology of a primary tumour,No lymph nodes found in resected specimen,Lymph node dissection/pathological exam,,AJCC,2,2B,0,4A
+MoHCCN_01,MoH_039,MoH_Dx_39,2013 UNK UN,C64.9,Histology of a primary tumour,Not applicable,Physical palpation of patient,,AJCC,4A,1,0,4A
+MoHCCN_01,MoH_040,MoH_Dx_40,2013 APR UN,C64.9,Histology of a primary tumour,Yes,Imaging,47,AJCC,3,1,0,3
+MoHCCN_01,MoH_041,MoH_Dx_41,2012 FEB UN,C64.9,Histology of a primary tumour,Cannot be determined,Lymph node dissection/pathological exam,,AJCC,3,2C,0,4A
+MoHCCN_01,MoH_042,MoH_Dx_42,2012 FEB UN,C64.9,Histology of a primary tumour,No,Physical palpation of patient,,AJCC,4A,1,0,4A
+MoHCCN_01,MoH_043,MoH_Dx_43,2012 FEB UN,C64.9,Histology of a primary tumour,No lymph nodes found in resected specimen,Imaging,,AJCC,3,2B,0,4A
+MoHCCN_01,MoH_044,MoH_Dx_44,2011 FEB UN,C64.9,Histology of a primary tumour,Not applicable,Lymph node dissection/pathological exam,,AJCC,2,2B,0,4A
+MoHCCN_01,MoH_045,MoH_Dx_45,2013 FEB UN,C64.9,Histology of a primary tumour,Yes,Physical palpation of patient,45,AJCC,2,0,0,2
+MoHCCN_01,MoH_046,MoH_Dx_46,2017 UNK UN,,Histology of a primary tumour,Cannot be determined,Imaging,,AJCC,2,0,0,2
+MoHCCN_01,MoH_047,MoH_Dx_47,2001 UNK UN,C02.9,Histology of a primary tumour,No,Lymph node dissection/pathological exam,,AJCC,2,1,0,3
+MoHCCN_01,MoH_048,MoH_Dx_48,2001 UNK UN,,Histology of a primary tumour,No lymph nodes found in resected specimen,Physical palpation of patient,,AJCC,3,0,0,3
+MoHCCN_01,MoH_049,MoH_Dx_49,2001 UNK UN,,Histology of a primary tumour,Not applicable,Imaging,,AJCC,3,0,0,3
+MoHCCN_01,MoH_050,MoH_Dx_50,2001 UNK UN,,Histology of a primary tumour,Yes,Lymph node dissection/pathological exam,77,AJCC,4A,0,0,4A
+MoHCCN_01,MoH_051,MoH_Dx_51,2017 JUN UN,,Histology of a primary tumour,Cannot be determined,Physical palpation of patient,,AJCC,2,1,0,3
+MoHCCN_01,MoH_052,MoH_Dx_52,2017 JUN UN,,Histology of a primary tumour,No,Imaging,,AJCC,4A,1,0,4A
+MoHCCN_01,MoH_053,MoH_Dx_53,2001 UNK UN,,Histology of a primary tumour,No lymph nodes found in resected specimen,Lymph node dissection/pathological exam,,AJCC,3,2B,0,4A
+MoHCCN_01,MoH_054,MoH_Dx_54,2016 JAN UN,,Histology of a primary tumour,Not applicable,Physical palpation of patient,,AJCC,2,1,0,3
+MoHCCN_01,MoH_055,MoH_Dx_55,2017 UNK UN,,Histology of a primary tumour,Yes,Imaging,56,AJCC,4A,0,0,4A
+MoHCCN_01,MoH_056,MoH_Dx_56,2007 DEC 05,,Histology of a primary tumour,Cannot be determined,Lymph node dissection/pathological exam,,AJCC,2,0,0,2
+MoHCCN_01,MoH_057,MoH_Dx_57,2012 SEP UN,C64.9,Histology of a primary tumour,No,Physical palpation of patient,,AJCC,4A,0,0,4A
+MoHCCN_01,MoH_058,MoH_Dx_58,2014 UNK UN,C64.9,Histology of a primary tumour,No lymph nodes found in resected specimen,Imaging,,AJCC,2,2B,0,4A
+MoHCCN_01,MoH_059,MoH_Dx_59,2015 UNK UN,C64.9,Histology of a primary tumour,Not applicable,Lymph node dissection/pathological exam,,AJCC,4A,1,0,4A
+,,,,,,,,,,,,,

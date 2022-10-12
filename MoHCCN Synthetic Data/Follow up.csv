@@ -1,0 +1,62 @@
+Follow Up,Follow Up,Follow Up,Follow Up,Follow Up,Follow Up,Follow Up,Follow Up,Follow Up,Follow Up,Follow Up,Follow Up,Follow Up,Follow Up,Follow Up,Follow Up,Follow Up,Follow Up
+program_id,submitter_donor_id,submitter_follow_up_id,submitter_primary_diagnosis_id,submitter_treatment_id,date_of_followup,lost_to_followup,lost_to_followup_reason,disease_status_at_followup,relapse_type,date_of_relapse,method_of_progression_status,anatomic_site_progression_or_recurrence,recurrence_tumour_staging_system,recurrence_t_category,recurrence_n_category,recurrence_m_category,recurrence_stage_group
+MoHCCN_01,MoH_001,MoH_FU_01,MoH_Dx_01,MoH_Tx_01,,No,,,,,Imaging (procedure),C33.9,AJCC 8th edition,3,1,0,3A
+MoHCCN_02,MoH_002,MoH_FU_02,MoH_Dx_02,MoH_Tx_02,,No,,Distant progression,Local recurrence,,Histopathology test (procedure),C33.9,AJCC 8th edition,2a,0,0,1B
+MoHCCN_03,Moh_003,MoH_FU_03,MoH_Dx_03,MoH_Tx_03,,No,,Loco-regional progression,Local recurrence and distant metastasis,,Assessment of symptom control (procedure),C33.9,AJCC 8th edition,1b,0,0,1A
+MoHCCN_04,MoH_004,MoH_FU_04,MoH_Dx_04,MoH_Tx_04,,No,,No evidence of disease,,,Physical examination procedure (procedure),C33.9,AJCC 8th edition,2b,0,1b,4
+MoHCCN_05,MoH_005,MoH_FU_05,MoH_Dx_05,MoH_Tx_05,,No,,Partial remission,Biochemical progression,,Tumor marker measurement (procedure)  ,C33.9,AJCC 8th edition,2b,0,0,2A
+MoHCCN_06,MoH_006,MoH_FU_06,MoH_Dx_06,MoH_Tx_06,,No,,Progression NOS,Distant recurrence/metastasis,,Laboratory data interpretation (procedure) ,C33.9,AJCC 8th edition,4,1,1,4
+MoHCCN_07,MoH_007,MoH_FU_07,MoH_Dx_07,MoH_Tx_07,,No,,Relapse or recurrence,Local recurrence,,Imaging (procedure),C33.9,AJCC 8th edition,2a,1,0,2A
+MoHCCN_08,MoH_008,MoH_FU_08,MoH_Dx_08,MoH_Tx_08,,Yes,Discharged to palliative care,,,,Histopathology test (procedure),C33.9,AJCC 8th edition,3,0,0,2B
+MoHCCN_09,MoH_009,MoH_FU_09,MoH_Dx_09,MoH_Tx_09,,Yes,Lost contact,,,,Assessment of symptom control (procedure),C65.9,AJCC 8th edition,3,0,0,2B
+MoHCCN_10,MoH_010,MoH_FU_10,MoH_Dx_10,MoH_Tx_10,,Yes,Not applicable,Distant progression,Biochemical progression,,Physical examination procedure (procedure),C65.9,AJCC 8th edition,2b,0,0,2A
+MoHCCN_11,MoH_011,MoH_FU_11,MoH_Dx_11,MoH_Tx_11,,Yes,Unknown,Loco-regional progression,Distant recurrence/metastasis,,Tumor marker measurement (procedure)  ,C65.9,AJCC 8th edition,2a,1,0,2A
+MoHCCN_12,MoH_012,MoH_FU_12,MoH_Dx_12,MoH_Tx_12,,Yes,Withdrew from study,No evidence of disease,,,Laboratory data interpretation (procedure) ,C65.9,AJCC 8th edition,4,1,0,3B
+MoHCCN_13,MoH_013,MoH_FU_13,MoH_Dx_13,MoH_Tx_13,,Yes,Completed study,Partial remission,Local recurrence and distant metastasis,,Imaging (procedure),C65.9,AJCC 8th edition,2a,0,0,1B
+MoHCCN_14,MoH_014,MoH_FU_14,MoH_Dx_14,MoH_Tx_14,,Yes,Discharged to palliative care,Progression NOS,Progression (liquid tumours),,Histopathology test (procedure),C65.9,AJCC 8th edition,4,2,1,4
+MoHCCN_15,MoH_015,MoH_FU_15,MoH_Dx_15,MoH_Tx_15,,Yes,Lost contact,Relapse or recurrence,Biochemical progression,,Assessment of symptom control (procedure),C65.9,AJCC 8th edition,2a,1,0,2A
+MoHCCN_16,MoH_016,MoH_FU_16,MoH_Dx_16,MoH_Tx_16,,Yes,Not applicable,,Distant recurrence/metastasis,,Physical examination procedure (procedure),C65.9,AJCC 8th edition,2a,0,0,1B
+MoHCCN_17,MoH_017,MoH_FU_17,MoH_Dx_17,MoH_Tx_17,,Yes,Unknown,,,,Tumor marker measurement (procedure)  ,C65.9,AJCC 8th edition,1b,0,0,1A
+MoHCCN_18,MoH_018,MoH_FU_18,MoH_Dx_18,MoH_Tx_18,,Yes,Withdrew from study,Distant progression,Local recurrence and distant metastasis,,Laboratory data interpretation (procedure) ,C65.9,AJCC 8th edition,2a,0,0,1B
+MoHCCN_19,MoH_019,MoH_FU_19,MoH_Dx_19,MoH_Tx_19,,Yes,Completed study,Loco-regional progression,Progression (liquid tumours),,Imaging (procedure),C65.9,AJCC 8th edition,4,1,0,3A
+MoHCCN_20,MoH_020,MoH_FU_20,MoH_Dx_20,MoH_Tx_20,,Yes,Discharged to palliative care,No evidence of disease,Biochemical progression,,Histopathology test (procedure),C65.9,AJCC 8th edition,1b,0,0,1A
+MoHCCN_21,MoH_021,MoH_FU_21,MoH_Dx_21,MoH_Tx_21,,Yes,Lost contact,Partial remission,Distant recurrence/metastasis,,Assessment of symptom control (procedure),C65.9,AJCC 8th edition,3,1,0,3A
+MoHCCN_22,MoH_022,MoH_FU_22,MoH_Dx_22,MoH_Tx_22,,No,,Progression NOS,Local recurrence,,Physical examination procedure (procedure),C65.9,AJCC 8th edition,2a,0,0,1B
+MoHCCN_23,MoH_023,MoH_FU_23,MoH_Dx_23,MoH_Tx_23,,No,,Relapse or recurrence,Local recurrence and distant metastasis,,Tumor marker measurement (procedure)  ,C65.9,AJCC 8th edition,1b,0,0,1A
+MoHCCN_24,MoH_024,MoH_FU_24,MoH_Dx_24,MoH_Tx_24,,No,,,,,Laboratory data interpretation (procedure) ,C65.9,AJCC 8th edition,2b,0,1b,4
+MoHCCN_25,MoH_025,MoH_FU_25,MoH_Dx_25,MoH_Tx_25,,Yes,Completed study,,,,Imaging (procedure),C65.9,AJCC 8th edition,2b,0,0,2A
+MoHCCN_26,MoH_026,MoH_FU_26,MoH_Dx_26,MoH_Tx_26,,Yes,Discharged to palliative care,Distant progression,Distant recurrence/metastasis,,Histopathology test (procedure),C65.9,AJCC 8th edition,4,1,1,4
+MoHCCN_27,MoH_027,MoH_FU_27,MoH_Dx_27,MoH_Tx_27,,Yes,Lost contact,Loco-regional progression,Local recurrence,,Assessment of symptom control (procedure),C65.9,AJCC 8th edition,2a,1,0,2A
+MoHCCN_28,MoH_028,MoH_FU_28,MoH_Dx_28,MoH_Tx_28,,Yes,Not applicable,No evidence of disease,Local recurrence and distant metastasis,,Physical examination procedure (procedure),C65.9,AJCC 8th edition,3,0,0,2B
+MoHCCN_29,MoH_029,MoH_FU_29,MoH_Dx_29,MoH_Tx_29,,Yes,Unknown,Partial remission,Progression (liquid tumours),,Tumor marker measurement (procedure)  ,C65.9,AJCC 8th edition,3,0,0,2B
+MoHCCN_30,MoH_030,MoH_FU_30,MoH_Dx_30,MoH_Tx_30,,Yes,Withdrew from study,Progression NOS,Biochemical progression,,Laboratory data interpretation (procedure) ,C65.9,AJCC 8th edition,2b,0,0,2A
+MoHCCN_31,MoH_031,MoH_FU_31,MoH_Dx_31,MoH_Tx_31,,Yes,Completed study,Relapse or recurrence,Distant recurrence/metastasis,,Imaging (procedure),C65.9,AJCC 8th edition,2a,1,0,2A
+MoHCCN_32,MoH_032,MoH_FU_32,MoH_Dx_32,MoH_Tx_32,,Yes,Discharged to palliative care,,,,Histopathology test (procedure),C65.9,AJCC 8th edition,4,1,0,3B
+MoHCCN_33,MoH_033,MoH_FU_33,MoH_Dx_33,MoH_Tx_33,,Yes,Lost contact,,,,Assessment of symptom control (procedure),C65.9,AJCC 8th edition,2a,0,0,1B
+MoHCCN_34,MoH_034,MoH_FU_34,MoH_Dx_34,MoH_Tx_34,,Yes,Not applicable,Distant progression,Progression (liquid tumours),,Physical examination procedure (procedure),C65.9,AJCC 8th edition,4,2,1,4
+MoHCCN_35,MoH_035,MoH_FU_35,MoH_Dx_35,MoH_Tx_35,,Yes,Unknown,Loco-regional progression,Biochemical progression,,Tumor marker measurement (procedure)  ,C65.9,AJCC 8th edition,2a,1,0,2A
+MoHCCN_36,MoH_036,MoH_FU_36,MoH_Dx_36,MoH_Tx_36,,Yes,Withdrew from study,No evidence of disease,Distant recurrence/metastasis,,Laboratory data interpretation (procedure) ,C65.9,AJCC 8th edition,2a,0,0,1B
+MoHCCN_37,MoH_037,MoH_FU_37,MoH_Dx_37,MoH_Tx_37,,Yes,Completed study,Partial remission,Local recurrence,,Imaging (procedure),C65.9,AJCC 8th edition,1b,0,0,1A
+MoHCCN_38,MoH_038,MoH_FU_38,MoH_Dx_38,MoH_Tx_38,,No,,Progression NOS,Local recurrence and distant metastasis,,Histopathology test (procedure),C65.9,AJCC 8th edition,2a,0,0,1B
+MoHCCN_39,MoH_039,MoH_FU_39,MoH_Dx_39,MoH_Tx_39,,No,,Relapse or recurrence,Progression (liquid tumours),,Assessment of symptom control (procedure),C65.9,AJCC 8th edition,4,1,0,3A
+MoHCCN_40,MoH_040,MoH_FU_40,MoH_Dx_40,MoH_Tx_40,,No,,,Biochemical progression,,Physical examination procedure (procedure),C65.9,AJCC 8th edition,1b,0,0,1A
+MoHCCN_41,MoH_041,MoH_FU_41,MoH_Dx_41,MoH_Tx_41,,No,,,,,Tumor marker measurement (procedure)  ,C65.9,AJCC 8th edition,3,1,0,3A
+MoHCCN_42,MoH_042,MoH_FU_42,MoH_Dx_42,MoH_Tx_42,,No,,Distant progression,Local recurrence,,Laboratory data interpretation (procedure) ,C65.9,AJCC 8th edition,2a,0,0,1B
+MoHCCN_43,MoH_043,MoH_FU_43,MoH_Dx_43,MoH_Tx_43,,No,,Loco-regional progression,Local recurrence and distant metastasis,,Imaging (procedure),C65.9,AJCC 8th edition,1b,0,0,1A
+MoHCCN_44,MoH_044,MoH_FU_44,MoH_Dx_44,MoH_Tx_44,,No,,No evidence of disease,Progression (liquid tumours),,Histopathology test (procedure),C65.9,AJCC 8th edition,2b,0,1b,4
+MoHCCN_45,MoH_045,MoH_FU_45,MoH_Dx_45,MoH_Tx_45,,No,,Partial remission,Biochemical progression,,Assessment of symptom control (procedure),C65.9,AJCC 8th edition,2b,0,0,2A
+MoHCCN_46,MoH_046,MoH_FU_46,MoH_Dx_46,MoH_Tx_46,,No,,Progression NOS,Distant recurrence/metastasis,,Physical examination procedure (procedure),C65.9,AJCC 8th edition,4,1,1,4
+MoHCCN_47,MoH_047,MoH_FU_47,MoH_Dx_47,MoH_Tx_47,,No,,Relapse or recurrence,Local recurrence,,Tumor marker measurement (procedure)  ,C33.9,AJCC 8th edition,2a,1,0,2A
+MoHCCN_48,MoH_048,MoH_FU_48,MoH_Dx_48,MoH_Tx_48,,Yes,Withdrew from study,,Local recurrence and distant metastasis,,Laboratory data interpretation (procedure) ,C65.9,AJCC 8th edition,3,0,0,2B
+MoHCCN_49,MoH_049,MoH_FU_49,MoH_Dx_49,MoH_Tx_49,,Yes,Completed study,,Progression (liquid tumours),,Imaging (procedure),C65.9,AJCC 8th edition,3,0,0,2B
+MoHCCN_50,MoH_050,MoH_FU_50,MoH_Dx_50,MoH_Tx_50,,Yes,Discharged to palliative care,Distant progression,Biochemical progression,,Histopathology test (procedure),C65.9,AJCC 8th edition,2b,0,0,2A
+MoHCCN_51,MoH_051,MoH_FU_51,MoH_Dx_51,MoH_Tx_51,,Yes,Lost contact,Loco-regional progression,Distant recurrence/metastasis,,Assessment of symptom control (procedure),C65.9,AJCC 8th edition,2a,1,0,2A
+MoHCCN_52,MoH_052,MoH_FU_52,MoH_Dx_52,MoH_Tx_52,,Yes,Not applicable,No evidence of disease,Local recurrence,,Physical examination procedure (procedure),C65.9,AJCC 8th edition,4,1,0,3B
+MoHCCN_53,MoH_053,MoH_FU_53,MoH_Dx_53,MoH_Tx_53,,Yes,Unknown,Partial remission,Local recurrence and distant metastasis,,Tumor marker measurement (procedure)  ,C65.9,AJCC 8th edition,2a,0,0,1B
+MoHCCN_54,MoH_054,MoH_FU_54,MoH_Dx_54,MoH_Tx_54,,Yes,Withdrew from study,Progression NOS,Progression (liquid tumours),,Laboratory data interpretation (procedure) ,C65.9,AJCC 8th edition,4,2,1,4
+MoHCCN_55,MoH_055,MoH_FU_55,MoH_Dx_55,MoH_Tx_55,,Yes,Completed study,Relapse or recurrence,Biochemical progression,,Imaging (procedure),C65.9,AJCC 8th edition,2a,1,0,2A
+MoHCCN_56,MoH_056,MoH_FU_56,MoH_Dx_56,MoH_Tx_56,,Yes,Discharged to palliative care,,Distant recurrence/metastasis,,Histopathology test (procedure),C65.9,AJCC 8th edition,2a,0,0,1B
+MoHCCN_57,MoH_057,MoH_FU_57,MoH_Dx_57,MoH_Tx_57,,Yes,Lost contact,,Local recurrence,,Assessment of symptom control (procedure),C65.9,AJCC 8th edition,1b,0,0,1A
+MoHCCN_58,MoH_058,MoH_FU_58,MoH_Dx_58,MoH_Tx_58,,Yes,Not applicable,Distant progression,Local recurrence and distant metastasis,,Physical examination procedure (procedure),C65.9,AJCC 8th edition,2a,0,0,1B
+MoHCCN_59,MoH_059,MoH_FU_59,MoH_Dx_59,MoH_Tx_59,,Yes,Unknown,Loco-regional progression,Progression (liquid tumours),,Tumor marker measurement (procedure)  ,C65.9,AJCC 8th edition,4,1,0,3A
+,,,,,,,,,,,,,,,,,

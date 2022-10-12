@@ -1,0 +1,62 @@
+Specimen,Specimen,Specimen,Specimen,Specimen,Specimen,Specimen,Specimen,Specimen,Specimen,Specimen,Specimen,Specimen,Specimen,Specimen,Specimen,Specimen,Specimen,Specimen
+program_id,submitter_donor_id,submitter_specimen_id,submitter_primary_diagnosis_id,pathological_tumour_staging_system,pathological_t_category,pathological_n_category,pathological_m_category,pathological_stage_group,specimen_collection_date,specimen_storage,tumour_histological_type,specimen_anatomic_location,reference_pathology_confirmed_diagnosis,reference_pathology_confirmed_tumour_presence,tumour_grading_system,tumour_grade,percent_tumour_cells_range,percent_tumour_cells_measurement_method
+MoHCCN_01,MoH_001,MoH_Spec_01,,AJCC,3,1,0,3A,2013 OCT UN,Cut slide, 9050-9055, C04.0,No,No,Four-tier grading system,Low grade,0-19%,Genomics
+MoHCCN_01,MoH_002,MoH_Spec_02,,AJCC,2a,0,0,1B,2013 NOV UN,Cut slide, 9050-9056, C04.1,No,No,Four-tier grading system,High grade,20-50%,Image analysis
+MoHCCN_01,Moh_003,MoH_Spec_03,,AJCC,1b,0,0,1A,2012 OCT UN,Cut slide, 9050-9057, C04.2,No,No,Four-tier grading system,GX,51-100%,Pathology estimate by percent nuclei
+MoHCCN_01,MoH_004,MoH_Spec_04,,AJCC,2b,0,1b,4,2016 FEB 02,Cut slide, 9050-9058, C04.3,No,No,Four-tier grading system,G1,0-19%,Unknown
+MoHCCN_01,MoH_005,MoH_Spec_05,,AJCC,2b,0,0,2A,2013 MAR UN,Cut slide, 9050-9059, C04.4,No,No,Four-tier grading system,G2,20-50%,Genomics
+MoHCCN_01,MoH_006,MoH_Spec_06,,AJCC,4,1,1,4,2012 APR 11,Cut slide, 9050-9060, C04.5,No,No,Four-tier grading system,G3,51-100%,Image analysis
+MoHCCN_01,MoH_007,MoH_Spec_07,,AJCC,2a,1,0,2A,2011 UNK UN,Cut slide, 9050-9061, C04.6,No,No,Four-tier grading system,G4,0-19%,Pathology estimate by percent nuclei
+MoHCCN_01,MoH_008,MoH_Spec_08,,AJCC,3,0,0,2B,2011 MAR UN,Cut slide, 9050-9062, C04.7,No,No,Four-tier grading system,Low,20-50%,Unknown
+MoHCCN_01,MoH_009,MoH_Spec_09,,AJCC,3,0,0,2B,2016 UNK UN,Cut slide,81403,C64.9,No,No,Four-tier grading system,High,51-100%,Genomics
+MoHCCN_01,MoH_010,MoH_Spec_10,,AJCC,2b,0,0,2A,2016 FEB 05,Cut slide,81403,C64.9,No,No,Four-tier grading system,Grade I,0-19%,Image analysis
+MoHCCN_01,MoH_011,MoH_Spec_11,,AJCC,2a,1,0,2A,2015 MAY UN,Cut slide,81403,C64.9,No,No,Four-tier grading system,Grade II,20-50%,Pathology estimate by percent nuclei
+MoHCCN_01,MoH_012,MoH_Spec_12,,AJCC,4,1,0,3B,2013 MAR 15,Cut slide,81403,C64.9,No,No,Four-tier grading system,Grade III,51-100%,Unknown
+MoHCCN_01,MoH_013,MoH_Spec_13,,AJCC,2a,0,0,1B,2016 MAR 08,Cut slide,81403,C64.9,No,No,Four-tier grading system,Grade IV,0-19%,Genomics
+MoHCCN_01,MoH_014,MoH_Spec_14,,AJCC,4,2,1,4,2016 JUL 25,Cut slide,81403,C64.9,No,No,Four-tier grading system,Grade Group 1,20-50%,Image analysis
+MoHCCN_01,MoH_015,MoH_Spec_15,,AJCC,2a,1,0,2A,2013 JUL 25,Cut slide,81403,C64.9,No,No,Four-tier grading system,Grade Group 2,51-100%,Pathology estimate by percent nuclei
+MoHCCN_01,MoH_016,MoH_Spec_16,,AJCC,2a,0,0,1B,2015 JUL UN,Cut slide,81403,C64.9,No,No,Four-tier grading system,Grade Group 3,0-19%,Unknown
+MoHCCN_01,MoH_017,MoH_Spec_17,,AJCC,1b,0,0,1A,2011 JUL UN,Cut slide,81403,C64.9,Not Done,Not Done,Four-tier grading system,Grade Group 4,20-50%,Genomics
+MoHCCN_01,MoH_018,MoH_Spec_18,,AJCC,2a,0,0,1B,2011 UNK UN,Cut slide,81403,C64.9,Not Done,Not Done,Four-tier grading system,Grade Group 5,51-100%,Image analysis
+MoHCCN_01,MoH_019,MoH_Spec_19,,AJCC,4,1,0,3A,2011 UNK UN,Cut slide,81403,C64.9,Not Done,Not Done,Four-tier grading system,Low grade,0-19%,Pathology estimate by percent nuclei
+MoHCCN_01,MoH_020,MoH_Spec_20,,AJCC,1b,0,0,1A,2011 UNK UN,Cut slide,81403,C64.9,Not Done,Not Done,Four-tier grading system,High grade,20-50%,Unknown
+MoHCCN_01,MoH_021,MoH_Spec_21,,AJCC,3,1,0,3A,2011 UNK UN,Cut slide,81403,C64.9,Not Done,Not Done,Four-tier grading system,GX,51-100%,Genomics
+MoHCCN_01,MoH_022,MoH_Spec_22,,AJCC,2a,0,0,1B,2016 UNK UN,Cut slide,81403,C64.9,Not Done,Not Done,Four-tier grading system,G1,0-19%,Image analysis
+MoHCCN_01,MoH_023,MoH_Spec_23,,AJCC,1b,0,0,1A,2016 UNK UN,Cut slide,81403,C64.9,Yes,Yes,Four-tier grading system,G2,20-50%,Pathology estimate by percent nuclei
+MoHCCN_01,MoH_024,MoH_Spec_24,,AJCC,2b,0,1b,4,2016 UNK UN,Cut slide,81403,C64.9,Yes,Yes,Four-tier grading system,G3,51-100%,Unknown
+MoHCCN_01,MoH_025,MoH_Spec_25,,AJCC,2b,0,0,2A,2016 UNK UN,Cut slide,81403,C64.9,Yes,Yes,Four-tier grading system,G4,0-19%,Genomics
+MoHCCN_01,MoH_026,MoH_Spec_26,,AJCC,4,1,1,4,2012JAN 17,Cut slide,81403,C64.9,Yes,Yes,Four-tier grading system,Low,20-50%,Image analysis
+MoHCCN_01,MoH_027,MoH_Spec_27,,AJCC,2a,1,0,2A,2013 JAN 17,Cut slide,81403,C64.9,Yes,Yes,Four-tier grading system,High,51-100%,Pathology estimate by percent nuclei
+MoHCCN_01,MoH_028,MoH_Spec_28,,AJCC,3,0,0,2B,2011 OCT 01,Cut slide,81403,C64.9,Yes,Yes,Four-tier grading system,Grade I,0-19%,Unknown
+MoHCCN_01,MoH_029,MoH_Spec_29,,AJCC,3,0,0,2B,,Cut slide,81403,C64.9,Yes,Yes,Four-tier grading system,Grade II,20-50%,Genomics
+MoHCCN_01,MoH_030,MoH_Spec_30,,AJCC,2b,0,0,2A,2013 MAR UN,Cut slide,81403,C64.9,Yes,Yes,Four-tier grading system,Grade III,51-100%,Image analysis
+MoHCCN_01,MoH_031,MoH_Spec_31,,AJCC,2a,1,0,2A,2012 UNK UN,Cut slide,81403,C64.9,Yes,Yes,Four-tier grading system,Grade IV,0-19%,Pathology estimate by percent nuclei
+MoHCCN_01,MoH_032,MoH_Spec_32,,AJCC,4,1,0,3B,2012 APR UN,Cut slide,81403,C64.9,Yes,Yes,Four-tier grading system,Grade Group 1,20-50%,Unknown
+MoHCCN_01,MoH_033,MoH_Spec_33,,AJCC,2a,0,0,1B,2012 APR UN,Cut slide,81403,C64.9,Yes,Yes,Four-tier grading system,Grade Group 2,51-100%,Genomics
+MoHCCN_01,MoH_034,MoH_Spec_34,,AJCC,4,2,1,4,2013 JAN UN,Cut slide,81403,C64.9,Yes,Yes,Four-tier grading system,Grade Group 3,0-19%,Image analysis
+MoHCCN_01,MoH_035,MoH_Spec_35,,AJCC,2a,1,0,2A,2012 MAR UN,Cut slide,81403,C64.9,Yes,Yes,Four-tier grading system,Grade Group 4,20-50%,Pathology estimate by percent nuclei
+MoHCCN_01,MoH_036,MoH_Spec_36,,AJCC,2a,0,0,1B,2012 MAR UN,Cut slide,81403,C64.9,Yes,Yes,Four-tier grading system,Grade Group 5,51-100%,Unknown
+MoHCCN_01,MoH_037,MoH_Spec_37,,AJCC,1b,0,0,1A,2013 UNK UN,Cut slide,81403,C64.9,Yes,Yes,Four-tier grading system,Low grade,0-19%,Genomics
+MoHCCN_01,MoH_038,MoH_Spec_38,,AJCC,2a,0,0,1B,2011 APR UN,Cut slide,81403,C64.9,Yes,Yes,Four-tier grading system,High grade,20-50%,Image analysis
+MoHCCN_01,MoH_039,MoH_Spec_39,,AJCC,4,1,0,3A,2013 UNK UN,Cut slide,81403,C64.9,Yes,Yes,Four-tier grading system,GX,51-100%,Pathology estimate by percent nuclei
+MoHCCN_01,MoH_040,MoH_Spec_40,,AJCC,1b,0,0,1A,2013 APR UN,Cut slide,81403,C64.9,Yes,Yes,Four-tier grading system,G1,0-19%,Unknown
+MoHCCN_01,MoH_041,MoH_Spec_41,,AJCC,3,1,0,3A,2012 FEB UN,Cut slide,81403,C64.9,Yes,Yes,Four-tier grading system,G2,20-50%,Genomics
+MoHCCN_01,MoH_042,MoH_Spec_42,,AJCC,2a,0,0,1B,2012 FEB UN,Cut slide,81403,C64.9,Yes,Yes,Four-tier grading system,G3,51-100%,Image analysis
+MoHCCN_01,MoH_043,MoH_Spec_43,,AJCC,1b,0,0,1A,2012 FEB UN,Cut slide,81403,C64.9,Yes,Yes,Four-tier grading system,G4,0-19%,Pathology estimate by percent nuclei
+MoHCCN_01,MoH_044,MoH_Spec_44,,AJCC,2b,0,1b,4,2011 FEB UN,Cut slide,81403,C64.9,Yes,Yes,Four-tier grading system,Low,20-50%,Unknown
+MoHCCN_01,MoH_045,MoH_Spec_45,,AJCC,2b,0,0,2A,2013 FEB UN,Cut slide,81403,C64.9,Yes,Yes,Four-tier grading system,High,51-100%,Genomics
+MoHCCN_01,MoH_046,MoH_Spec_46,,AJCC,4,1,1,4,2017 UNK UN,Cut slide,81403,C64.9,Yes,Yes,Four-tier grading system,Grade I,0-19%,Image analysis
+MoHCCN_01,MoH_047,MoH_Spec_47,,AJCC,2a,1,0,2A,2001 UNK UN,Cut slide,9050-9055, C04.0,Yes,Yes,Four-tier grading system,Grade II,20-50%,Pathology estimate by percent nuclei
+MoHCCN_01,MoH_048,MoH_Spec_48,,AJCC,3,0,0,2B,2001 UNK UN,Cut slide,81403,C64.9,Yes,Yes,Four-tier grading system,Grade III,51-100%,Unknown
+MoHCCN_01,MoH_049,MoH_Spec_49,,AJCC,3,0,0,2B,2001 UNK UN,Cut slide,81403,C64.9,Yes,Yes,Four-tier grading system,Grade IV,0-19%,Genomics
+MoHCCN_01,MoH_050,MoH_Spec_50,,AJCC,2b,0,0,2A,2001 UNK UN,Cut slide,81403,C64.9,Yes,Yes,Four-tier grading system,Grade Group 1,20-50%,Image analysis
+MoHCCN_01,MoH_051,MoH_Spec_51,,AJCC,2a,1,0,2A,2017 JUN UN,Cut slide,81403,C64.9,Yes,Yes,Four-tier grading system,Grade Group 2,51-100%,Pathology estimate by percent nuclei
+MoHCCN_01,MoH_052,MoH_Spec_52,,AJCC,4,1,0,3B,2017 JUN UN,Cut slide,81403,C64.9,Yes,Yes,Four-tier grading system,Grade Group 3,0-19%,Unknown
+MoHCCN_01,MoH_053,MoH_Spec_53,,AJCC,2a,0,0,1B,2001 UNK UN,Cut slide,81403,C64.9,Yes,Yes,Four-tier grading system,Grade Group 4,20-50%,Genomics
+MoHCCN_01,MoH_054,MoH_Spec_54,,AJCC,4,2,1,4,2016 JAN UN,Cut slide,81403,C64.9,Yes,Yes,Four-tier grading system,Grade Group 5,51-100%,Image analysis
+MoHCCN_01,MoH_055,MoH_Spec_55,,AJCC,2a,1,0,2A,2017 UNK UN,Cut slide,81403,C64.9,Yes,Yes,Four-tier grading system,Low grade,0-19%,Pathology estimate by percent nuclei
+MoHCCN_01,MoH_056,MoH_Spec_56,,AJCC,2a,0,0,1B,2007 DEC 05,Cut slide,81403,C64.9,Yes,Yes,Four-tier grading system,High grade,20-50%,Unknown
+MoHCCN_01,MoH_057,MoH_Spec_57,,AJCC,1b,0,0,1A,2012 SEP UN,Cut slide,81403,C64.9,Yes,Yes,Four-tier grading system,GX,51-100%,Genomics
+MoHCCN_01,MoH_058,MoH_Spec_58,,AJCC,2a,0,0,1B,2014 UNK UN,Cut slide,81403,C64.9,Yes,Yes,Four-tier grading system,G1,0-19%,Image analysis
+MoHCCN_01,MoH_059,MoH_Spec_59,,AJCC,4,1,0,3A,2015 UNK UN,Cut slide,81403,C64.9,Yes,Yes,Four-tier grading system,G2,20-50%,Pathology estimate by percent nuclei
+,,,,,,,,,,,,,,,,,,
