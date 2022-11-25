@@ -1,0 +1,62 @@
+Comorbidity,Comorbidity,Comorbidity,Comorbidity,Comorbidity,Comorbidity,Comorbidity,Comorbidity
+program_id,submitter_donor_id,prior_malignancy,laterality_of_prior_malignancy,age_at_comorbidity_diagnosis,comorbidity_type_code,comorbidity_treatment_status,comorbidity_treatment
+MoHCCN_01,MoH_001,Yes,Bilateral,51,E10,Yes,Antibiotics 
+MoHCCN_02,MoH_002,No,Left,51,C50.1,No,Antibiotics 
+MoHCCN_03,Moh_003,Unknown,Midline,71,I11,Unknown,Antibiotics 
+MoHCCN_04,MoH_004,Yes,Not applicable,68,M06,Yes,Antibiotics 
+MoHCCN_05,MoH_005,No,Right,56,E11,No,Antibiotics 
+MoHCCN_06,MoH_006,Unknown,"Unilateral, Side not specified",51,C50.2,Unknown,Antibiotics 
+MoHCCN_07,MoH_007,Yes,Unknown,76,I12,Yes,Antibiotics 
+MoHCCN_08,MoH_008,No,Bilateral,64,M07,No,Antibiotics 
+MoHCCN_09,MoH_009,Unknown,Left,56,E12,Unknown,Antibiotics 
+MoHCCN_10,MoH_010,Yes,Midline,58,C50.3,Yes,Antibiotics 
+MoHCCN_11,MoH_011,No,Not applicable,62,I13,No,Antibiotics 
+MoHCCN_12,MoH_012,Unknown,Right,56,M08,Unknown,Antibiotics 
+MoHCCN_13,MoH_013,Yes,"Unilateral, Side not specified",52,E13,Yes,Antibiotics 
+MoHCCN_14,MoH_014,No,Unknown,56,C50.4,No,Antibiotics 
+MoHCCN_15,MoH_015,Unknown,Bilateral,54,I14,Unknown,Antibiotics 
+MoHCCN_16,MoH_016,Yes,Left,45,M09,Yes,Antibiotics 
+MoHCCN_17,MoH_017,No,Midline,77,E14,No,Antibiotics 
+MoHCCN_18,MoH_018,Unknown,Not applicable,68,C50.5,Unknown,Antibiotics 
+MoHCCN_19,MoH_019,Yes,Right,56,I15,Yes,Antibiotics 
+MoHCCN_20,MoH_020,No,"Unilateral, Side not specified",53,M10,No,Antibiotics 
+MoHCCN_21,MoH_021,Unknown,Unknown,64,E15,Unknown,Antibiotics 
+MoHCCN_22,MoH_022,Yes,Bilateral,65,C50.6,Yes,Antibiotics 
+MoHCCN_23,MoH_023,No,Left,46,I16,No,Antibiotics 
+MoHCCN_24,MoH_024,Unknown,Midline,69,M11,Unknown,Antibiotics 
+MoHCCN_25,MoH_025,Yes,Not applicable,53,E16,Yes,Antibiotics 
+MoHCCN_26,MoH_026,No,Right,60,C50.7,No,Antibiotics 
+MoHCCN_27,MoH_027,Unknown,"Unilateral, Side not specified",45,I17,Unknown,Antibiotics 
+MoHCCN_28,MoH_028,Yes,Unknown,45,M12,Yes,Antibiotics 
+MoHCCN_29,MoH_029,No,Bilateral,47,E17,No,Antibiotics 
+MoHCCN_30,MoH_030,Unknown,Left,73,C50.8,Unknown,Antibiotics 
+MoHCCN_31,MoH_031,Yes,Midline,48,I18,Yes,Antibiotics 
+MoHCCN_32,MoH_032,No,Not applicable,63,M13,No,Antibiotics 
+MoHCCN_33,MoH_033,Unknown,Right,57,E18,Unknown,Antibiotics 
+MoHCCN_34,MoH_034,Yes,"Unilateral, Side not specified",65,C50.9,Yes,Antibiotics 
+MoHCCN_35,MoH_035,No,Unknown,55,I19,No,Antibiotics 
+MoHCCN_36,MoH_036,Unknown,Bilateral,59,M14,Unknown,Antibiotics 
+MoHCCN_37,MoH_037,Yes,Left,77,E19,Yes,Antibiotics 
+MoHCCN_38,MoH_038,No,Midline,48,C50.10,No,Antibiotics 
+MoHCCN_39,MoH_039,Unknown,Not applicable,45,I20,Unknown,Antibiotics 
+MoHCCN_40,MoH_040,Yes,Right,54,M15,Yes,Antibiotics 
+MoHCCN_41,MoH_041,No,"Unilateral, Side not specified",50,E20,No,Antibiotics 
+MoHCCN_42,MoH_042,Unknown,Unknown,59,C50.11,Unknown,Antibiotics 
+MoHCCN_43,MoH_043,Yes,Bilateral,48,I21,Yes,Antibiotics 
+MoHCCN_44,MoH_044,No,Left,50,M16,No,Antibiotics 
+MoHCCN_45,MoH_045,Unknown,Midline,51,E21,Unknown,Antibiotics 
+MoHCCN_46,MoH_046,Yes,Not applicable,63,C50.12,Yes,Antibiotics 
+MoHCCN_47,MoH_047,No,Right,57,I22,No,Antibiotics 
+MoHCCN_48,MoH_048,Unknown,"Unilateral, Side not specified",67,M17,Unknown,Antibiotics 
+MoHCCN_49,MoH_049,Yes,Unknown,55,E22,Yes,Antibiotics 
+MoHCCN_50,MoH_050,No,Bilateral,73,C50.13,No,Antibiotics 
+MoHCCN_51,MoH_051,Unknown,Left,46,I23,Unknown,Antibiotics 
+MoHCCN_52,MoH_052,Yes,Midline,72,M18,Yes,Antibiotics 
+MoHCCN_53,MoH_053,No,Not applicable,61,E23,No,Antibiotics 
+MoHCCN_54,MoH_054,Unknown,Right,75,C50.14,Unknown,Antibiotics 
+MoHCCN_55,MoH_055,Yes,"Unilateral, Side not specified",57,I24,Yes,Antibiotics 
+MoHCCN_56,MoH_056,No,Unknown,62,M19,No,Antibiotics 
+MoHCCN_57,MoH_057,Unknown,Bilateral,53,E24,Unknown,Antibiotics 
+MoHCCN_58,MoH_058,Yes,Left,73,C50.15,Yes,Antibiotics 
+MoHCCN_59,MoH_059,No,Midline,67,I25,No,Antibiotics 
+,,,,,,,

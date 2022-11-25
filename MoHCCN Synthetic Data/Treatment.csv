@@ -1,0 +1,62 @@
+Treatment,Treatment,Treatment,Treatment,Treatment,Treatment,Treatment,Treatment,Treatment,Treatment,Treatment,Treatment,Treatment,Treatment
+program_id,submitter_donor_id,submitter_treatment_id,submitter_primary_diagnosis_id,treatment_type,is_primary_treatment,treatment_start_date,treatment_end_date,treatment_setting,treatment_intent,days_per_cycle,number_of_cycles,response_to_treatment_criteria_method, response_to_treatment
+MoHCCN_01,MoH_001,MoH_Tx_01,MoH_Dx_01,Chemotherapy,Yes,2013 NOV UN,2013 NOV UN,Adjuvant,Palliative,28,4,RECIST 1.1,Complete response
+MoHCCN_01,MoH_002,MoH_Tx_02,MoH_Dx_02,Chemotherapy,Yes,2013 DEC UN,2013 DEC UN,Advanced/Metastatic,Palliative,28,4,RECIST 1.1,Disease progression
+MoHCCN_01,Moh_003,MoH_Tx_03,MoH_Dx_03,Chemotherapy,Yes,2012 NOV UN,2012 NOV UN,Neoadjuvant,Palliative,28,4,RECIST 1.1,NED
+MoHCCN_01,MoH_004,MoH_Tx_04,MoH_Dx_04,Chemotherapy,Yes,2016 MAR 02,2016 MAR 02,Adjuvant,Palliative,28,4,RECIST 1.1,Partial response
+MoHCCN_01,MoH_005,MoH_Tx_05,MoH_Dx_05,Chemotherapy,Yes,2013 APR UN,2013 APR UN,Advanced/Metastatic,Palliative,28,4,RECIST 1.1,Stable disease
+MoHCCN_01,MoH_006,MoH_Tx_06,MoH_Dx_06,Chemotherapy,Yes,2012 MAY 11,2012 MAY 11,Neoadjuvant,Palliative,28,4,RECIST 1.1,Complete response
+MoHCCN_01,MoH_007,MoH_Tx_07,MoH_Dx_07,Chemotherapy,Yes,2011 APR UN,2011 APR UN,Adjuvant,Palliative,28,4,RECIST 1.1,Disease progression
+MoHCCN_01,MoH_008,MoH_Tx_08,MoH_Dx_08,Chemotherapy,Yes,2011 MAR UN,2011 APR UN,Advanced/Metastatic,Palliative,28,4,RECIST 1.1,NED
+MoHCCN_01,MoH_009,MoH_Tx_09,MoH_Dx_09,Chemotherapy,Yes,2016 UNK UN,2016 JUN UN,Neoadjuvant,Palliative,28,4,RECIST 1.1,Partial response
+MoHCCN_01,MoH_010,MoH_Tx_10,MoH_Dx_10,Chemotherapy,No,2016 FEB 05,2016 MAR 05,Adjuvant,Palliative,28,4,RECIST 1.1,Stable disease
+MoHCCN_01,MoH_011,MoH_Tx_11,MoH_Dx_11,Chemotherapy,No,2015 MAY UN,2015 JUNE UN,Advanced/Metastatic,Palliative,28,4,RECIST 1.1,Complete response
+MoHCCN_01,MoH_012,MoH_Tx_12,MoH_Dx_12,Chemotherapy,No,2013 MAR 15,2013 APR 15,Neoadjuvant,Palliative,28,4,RECIST 1.1,Disease progression
+MoHCCN_01,MoH_013,MoH_Tx_13,MoH_Dx_13,Chemotherapy,No,2016 MAR 08,2016 APR 08,Adjuvant,Palliative,28,4,RECIST 1.1,NED
+MoHCCN_01,MoH_014,MoH_Tx_14,MoH_Dx_14,Chemotherapy,No,2016 JUL 25,2016 AUG 25,Advanced/Metastatic,Palliative,28,4,RECIST 1.1,Partial response
+MoHCCN_01,MoH_015,MoH_Tx_15,MoH_Dx_15,Chemotherapy,No,2013 JUL 25,2013 AUG 25,Neoadjuvant,Palliative,28,4,RECIST 1.1,Stable disease
+MoHCCN_01,MoH_016,MoH_Tx_16,MoH_Dx_16,Chemotherapy,No,2015 JUL UN,2015 AUG UN,Adjuvant,Palliative,28,6,RECIST 1.1,Complete response
+MoHCCN_01,MoH_017,MoH_Tx_17,MoH_Dx_17,Chemotherapy,No,2011 JUL UN,2011 AUG UN,Advanced/Metastatic,Palliative,28,6,RECIST 1.1,Disease progression
+MoHCCN_01,MoH_018,MoH_Tx_18,MoH_Dx_18,Chemotherapy,No,2011 UNK UN,2011 SEP UN,Neoadjuvant,Palliative,28,6,RECIST 1.1,NED
+MoHCCN_01,MoH_019,MoH_Tx_19,MoH_Dx_19,Chemotherapy,No,2011 UNK UN,2011 APR UN,Adjuvant,Palliative,28,6,RECIST 1.1,Partial response
+MoHCCN_01,MoH_020,MoH_Tx_20,MoH_Dx_20,Chemotherapy,Yes,2011 UNK UN,2011 NOV UN,Advanced/Metastatic,Palliative,28,6,RECIST 1.1,Stable disease
+MoHCCN_01,MoH_021,MoH_Tx_21,MoH_Dx_21,Chemotherapy,Yes,2011 UNK UN,2011 APR UN,Neoadjuvant,Palliative,28,6,RECIST 1.1,Complete response
+MoHCCN_01,MoH_022,MoH_Tx_22,MoH_Dx_22,Chemotherapy,Yes,2016 UNK UN,2016 JUL UN,Adjuvant,Palliative,28,6,RECIST 1.1,Disease progression
+MoHCCN_01,MoH_023,MoH_Tx_23,MoH_Dx_23,Chemotherapy,Yes,2016 UNK UN,2016 SEP UN,Advanced/Metastatic,Palliative,28,6,RECIST 1.1,NED
+MoHCCN_01,MoH_024,MoH_Tx_24,MoH_Dx_24,Chemotherapy,Yes,2016 UNK UN,2016 AUG UN,Neoadjuvant,Palliative,28,6,RECIST 1.1,Partial response
+MoHCCN_01,MoH_025,MoH_Tx_25,MoH_Dx_25,Chemotherapy,Yes,2016 UNK UN,2016 UNK UN,Adjuvant,Palliative,28,6,RECIST 1.1,Stable disease
+MoHCCN_01,MoH_026,MoH_Tx_26,MoH_Dx_26,Chemotherapy,Yes,2012JAN 17,2012 FEB 17,Advanced/Metastatic,Palliative,28,6,RECIST 1.1,Complete response
+MoHCCN_01,MoH_027,MoH_Tx_27,MoH_Dx_27,Chemotherapy,Yes,2013 JAN 17,2013 FEB 17,Neoadjuvant,Palliative,28,6,RECIST 1.1,Disease progression
+MoHCCN_01,MoH_028,MoH_Tx_28,MoH_Dx_28,Chemotherapy,Yes,2011 OCT 01,2011 NOV 01,Adjuvant,Palliative,28,6,RECIST 1.1,NED
+MoHCCN_01,MoH_029,MoH_Tx_29,MoH_Dx_29,Chemotherapy,Yes,,,Advanced/Metastatic,Palliative,28,6,RECIST 1.1,Partial response
+MoHCCN_01,MoH_030,MoH_Tx_30,MoH_Dx_30,Chemotherapy,Yes,2013 MAR UN,2013 APR UN,Neoadjuvant,Palliative,28,6,RECIST 1.1,Stable disease
+MoHCCN_01,MoH_031,MoH_Tx_31,MoH_Dx_31,Chemotherapy,Yes,2012 UNK UN,2012 APR UN,Adjuvant,Palliative,28,6,RECIST 1.1,Complete response
+MoHCCN_01,MoH_032,MoH_Tx_32,MoH_Dx_32,Chemotherapy,Yes,2012 APR UN,2012 MAY UN,Advanced/Metastatic,Palliative,28,6,RECIST 1.1,Disease progression
+MoHCCN_01,MoH_033,MoH_Tx_33,MoH_Dx_33,Chemotherapy,Yes,2012 APR UN,2012 APR UN,Neoadjuvant,Palliative,28,6,RECIST 1.1,NED
+MoHCCN_01,MoH_034,MoH_Tx_34,MoH_Dx_34,Chemotherapy,Yes,2013 JAN UN,2013 FEB UN,Adjuvant,Palliative,28,8,RECIST 1.1,Partial response
+MoHCCN_01,MoH_035,MoH_Tx_35,MoH_Dx_35,Chemotherapy,Yes,2012 MAR UN,2012 MAR UN,Advanced/Metastatic,Palliative,28,8,RECIST 1.1,Stable disease
+MoHCCN_01,MoH_036,MoH_Tx_36,MoH_Dx_36,Chemotherapy,Yes,2012 MAR UN,2012 MAR UN,Neoadjuvant,Palliative,28,8,RECIST 1.1,Complete response
+MoHCCN_01,MoH_037,MoH_Tx_37,MoH_Dx_37,Chemotherapy,Yes,2013 UNK UN,2013 SEP UN,Adjuvant,Palliative,28,8,RECIST 1.1,Disease progression
+MoHCCN_01,MoH_038,MoH_Tx_38,MoH_Dx_38,Chemotherapy,Yes,2011 APR UN,2011 MAY UN,Advanced/Metastatic,Palliative,28,8,RECIST 1.1,NED
+MoHCCN_01,MoH_039,MoH_Tx_39,MoH_Dx_39,Chemotherapy,Yes,2013 UNK UN,2013 JUNE UN,Neoadjuvant,Palliative,28,8,RECIST 1.1,Partial response
+MoHCCN_01,MoH_040,MoH_Tx_40,MoH_Dx_40,Chemotherapy,Yes,2013 APR UN,2013 JULY UN,Adjuvant,Palliative,28,8,RECIST 1.1,Stable disease
+MoHCCN_01,MoH_041,MoH_Tx_41,MoH_Dx_41,Immunotherapy,No,2012 FEB UN,2012 MAR UN,Advanced/Metastatic,Palliative,28,8,RECIST 1.1,Complete response
+MoHCCN_01,MoH_042,MoH_Tx_42,MoH_Dx_42,Immunotherapy,No,2012 FEB UN,2012 MAR UN,Neoadjuvant,Palliative,28,8,RECIST 1.1,Disease progression
+MoHCCN_01,MoH_043,MoH_Tx_43,MoH_Dx_43,Immunotherapy,No,2012 FEB UN,2012 MAR UN,Adjuvant,Palliative,28,8,RECIST 1.1,NED
+MoHCCN_01,MoH_044,MoH_Tx_44,MoH_Dx_44,Immunotherapy,No,2011 FEB UN,2011 MAR UN,Advanced/Metastatic,Palliative,28,8,RECIST 1.1,Partial response
+MoHCCN_01,MoH_045,MoH_Tx_45,MoH_Dx_45,Immunotherapy,No,2013 FEB UN,2013 MAR UN,Neoadjuvant,Palliative,28,8,RECIST 1.1,Stable disease
+MoHCCN_01,MoH_046,MoH_Tx_46,MoH_Dx_46,Immunotherapy,No,2017 UNK UN,2017 MAR UN,Adjuvant,Palliative,28,8,RECIST 1.1,Complete response
+MoHCCN_01,MoH_047,MoH_Tx_47,MoH_Dx_47,Immunotherapy,Yes,2001 UNK UN,2001 SEP UN,Advanced/Metastatic,Palliative,28,8,RECIST 1.1,Disease progression
+MoHCCN_01,MoH_048,MoH_Tx_48,MoH_Dx_48,Immunotherapy,Yes,2001 UNK UN,2001 NOV UN,Neoadjuvant,Palliative,28,8,RECIST 1.1,NED
+MoHCCN_01,MoH_049,MoH_Tx_49,MoH_Dx_49,Immunotherapy,Yes,2001 UNK UN,2001 DEC UN,Adjuvant,Palliative,28,8,RECIST 1.1,Partial response
+MoHCCN_01,MoH_050,MoH_Tx_50,MoH_Dx_50,Immunotherapy,Yes,2001 UNK UN,2001 JAN UN,Advanced/Metastatic,Palliative,28,8,RECIST 1.1,Stable disease
+MoHCCN_01,MoH_051,MoH_Tx_51,MoH_Dx_51,Immunotherapy,Yes,2017 JUN UN,2017 JULY UN,Neoadjuvant,Palliative,28,8,RECIST 1.1,Complete response
+MoHCCN_01,MoH_052,MoH_Tx_52,MoH_Dx_52,Immunotherapy,Yes,2017 JUN UN,2017 JUN UN,Adjuvant,Palliative,28,8,RECIST 1.1,Disease progression
+MoHCCN_01,MoH_053,MoH_Tx_53,MoH_Dx_53,Immunotherapy,Yes,2001 UNK UN,2001 JULY UN,Advanced/Metastatic,Palliative,28,8,RECIST 1.1,NED
+MoHCCN_01,MoH_054,MoH_Tx_54,MoH_Dx_54,Immunotherapy,Yes,2016 JAN UN,2016 FEB UN,Neoadjuvant,Palliative,28,8,RECIST 1.1,Partial response
+MoHCCN_01,MoH_055,MoH_Tx_55,MoH_Dx_55,Immunotherapy,Yes,2017 UNK UN,2017 MAR UN,Adjuvant,Palliative,28,8,RECIST 1.1,Stable disease
+MoHCCN_01,MoH_056,MoH_Tx_56,MoH_Dx_56,Immunotherapy,Yes,2007 DEC 05,2007 MAR 05,Advanced/Metastatic,Palliative,28,8,RECIST 1.1,Complete response
+MoHCCN_01,MoH_057,MoH_Tx_57,MoH_Dx_57,Immunotherapy,Yes,2012 SEP UN,2012 SEP UN,Neoadjuvant,Palliative,28,8,RECIST 1.1,Disease progression
+MoHCCN_01,MoH_058,MoH_Tx_58,MoH_Dx_58,Immunotherapy,Yes,2014 UNK UN,2014 SEP UN,Adjuvant,Palliative,28,8,RECIST 1.1,NED
+MoHCCN_01,MoH_059,MoH_Tx_59,MoH_Dx_59,Immunotherapy,Yes,2015 UNK UN,2015 FEB UN,Advanced/Metastatic,Palliative,28,8,RECIST 1.1,Partial response
+,,,,,,,,,,,,,

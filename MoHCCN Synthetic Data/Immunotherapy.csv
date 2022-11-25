@@ -1,0 +1,62 @@
+Immunotherapy,Immunotherapy,Immunotherapy,Immunotherapy,Immunotherapy,Immunotherapy
+program_id,submitter_donor_id,submitter_treatment_id,immunotherapy_type,drug_name,drug_rxnormcui
+MoHCCN_01,MoH_001,MoH_Tx_01,N/A,N/A,N/A
+MoHCCN_02,MoH_002,MoH_Tx_02,N/A,N/A,N/A
+MoHCCN_03,Moh_003,MoH_Tx_03,N/A,N/A,N/A
+MoHCCN_04,MoH_004,MoH_Tx_04,N/A,N/A,N/A
+MoHCCN_05,MoH_005,MoH_Tx_05,N/A,N/A,N/A
+MoHCCN_06,MoH_006,MoH_Tx_06,N/A,N/A,N/A
+MoHCCN_07,MoH_007,MoH_Tx_07,N/A,N/A,N/A
+MoHCCN_08,MoH_008,MoH_Tx_08,N/A,N/A,N/A
+MoHCCN_09,MoH_009,MoH_Tx_09,N/A,N/A,N/A
+MoHCCN_10,MoH_010,MoH_Tx_10,N/A,N/A,N/A
+MoHCCN_11,MoH_011,MoH_Tx_11,N/A,N/A,N/A
+MoHCCN_12,MoH_012,MoH_Tx_12,N/A,N/A,N/A
+MoHCCN_13,MoH_013,MoH_Tx_13,N/A,N/A,N/A
+MoHCCN_14,MoH_014,MoH_Tx_14,N/A,N/A,N/A
+MoHCCN_15,MoH_015,MoH_Tx_15,N/A,N/A,N/A
+MoHCCN_16,MoH_016,MoH_Tx_16,N/A,N/A,N/A
+MoHCCN_17,MoH_017,MoH_Tx_17,N/A,N/A,N/A
+MoHCCN_18,MoH_018,MoH_Tx_18,N/A,N/A,N/A
+MoHCCN_19,MoH_019,MoH_Tx_19,N/A,N/A,N/A
+MoHCCN_20,MoH_020,MoH_Tx_20,N/A,N/A,N/A
+MoHCCN_21,MoH_021,MoH_Tx_21,N/A,N/A,N/A
+MoHCCN_22,MoH_022,MoH_Tx_22,N/A,N/A,N/A
+MoHCCN_23,MoH_023,MoH_Tx_23,N/A,N/A,N/A
+MoHCCN_24,MoH_024,MoH_Tx_24,N/A,N/A,N/A
+MoHCCN_25,MoH_025,MoH_Tx_25,N/A,N/A,N/A
+MoHCCN_26,MoH_026,MoH_Tx_26,N/A,N/A,N/A
+MoHCCN_27,MoH_027,MoH_Tx_27,N/A,N/A,N/A
+MoHCCN_28,MoH_028,MoH_Tx_28,N/A,N/A,N/A
+MoHCCN_29,MoH_029,MoH_Tx_29,N/A,N/A,N/A
+MoHCCN_30,MoH_030,MoH_Tx_30,N/A,N/A,N/A
+MoHCCN_31,MoH_031,MoH_Tx_31,N/A,N/A,N/A
+MoHCCN_32,MoH_032,MoH_Tx_32,N/A,N/A,N/A
+MoHCCN_33,MoH_033,MoH_Tx_33,N/A,N/A,N/A
+MoHCCN_34,MoH_034,MoH_Tx_34,N/A,N/A,N/A
+MoHCCN_35,MoH_035,MoH_Tx_35,N/A,N/A,N/A
+MoHCCN_36,MoH_036,MoH_Tx_36,N/A,N/A,N/A
+MoHCCN_37,MoH_037,MoH_Tx_37,N/A,N/A,N/A
+MoHCCN_38,MoH_038,MoH_Tx_38,N/A,N/A,N/A
+MoHCCN_39,MoH_039,MoH_Tx_39,N/A,N/A,N/A
+MoHCCN_40,MoH_040,MoH_Tx_40,N/A,N/A,N/A
+MoHCCN_41,MoH_041,MoH_Tx_41,Immune checkpoint inhibitors,Pembrolizumab,1657746
+MoHCCN_42,MoH_042,MoH_Tx_42,Immune checkpoint inhibitors,Pembrolizumab,1657746
+MoHCCN_43,MoH_043,MoH_Tx_43,Immune checkpoint inhibitors,Pembrolizumab,1657746
+MoHCCN_44,MoH_044,MoH_Tx_44,Immune checkpoint inhibitors,Pembrolizumab,1657746
+MoHCCN_45,MoH_045,MoH_Tx_45,Immune checkpoint inhibitors,Pembrolizumab,1657746
+MoHCCN_46,MoH_046,MoH_Tx_46,Immune checkpoint inhibitors,Pembrolizumab,1657746
+MoHCCN_47,MoH_047,MoH_Tx_47,Immune checkpoint inhibitors,Pembrolizumab,1657746
+MoHCCN_48,MoH_048,MoH_Tx_48,Immune checkpoint inhibitors,Pembrolizumab,1657746
+MoHCCN_49,MoH_049,MoH_Tx_49,Immune checkpoint inhibitors,Pembrolizumab,1657746
+MoHCCN_50,MoH_050,MoH_Tx_50,Immune checkpoint inhibitors,Pembrolizumab,1657746
+MoHCCN_51,MoH_051,MoH_Tx_51,Immune checkpoint inhibitors,Pembrolizumab,1657746
+MoHCCN_52,MoH_052,MoH_Tx_52,Immune checkpoint inhibitors,Pembrolizumab,1657746
+MoHCCN_53,MoH_053,MoH_Tx_53,Immune checkpoint inhibitors,Pembrolizumab,1657746
+MoHCCN_54,MoH_054,MoH_Tx_54,Immune checkpoint inhibitors,Pembrolizumab,1657746
+MoHCCN_55,MoH_055,MoH_Tx_55,Immune checkpoint inhibitors,Pembrolizumab,1657746
+MoHCCN_56,MoH_056,MoH_Tx_56,Immune checkpoint inhibitors,Pembrolizumab,1657746
+MoHCCN_57,MoH_057,MoH_Tx_57,Immune checkpoint inhibitors,Pembrolizumab,1657746
+MoHCCN_58,MoH_058,MoH_Tx_58,Immune checkpoint inhibitors,Pembrolizumab,1657746
+MoHCCN_59,MoH_059,MoH_Tx_59,Immune checkpoint inhibitors,Pembrolizumab,1657746
+,,,,,

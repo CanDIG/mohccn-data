@@ -1,0 +1,62 @@
+Radiation,Radiation,Radiation,Radiation,Radiation,Radiation,Radiation,Radiation,Radiation,Radiation
+program_id,submitter_donor_id,submitter_treatment_id,radiation_therapy_modality,radiation_therapy_type,radiation_therapy_fractions,radiation_therapy_dosage,anatomical_site_irradiated ,radiation_boost,reference_radiation_treatment_id
+MoHCCN_01,MoH_001,MoH_Tx_01,Megavoltage radiation therapy using photons (procedure)        ,External,30,59,Neck,Yes,MoH_Tx_01
+MoHCCN_02,MoH_002,MoH_Tx_02,Teleradiotherapy using electrons (procedure)        ,Internal,30,37,Neck,Yes,MoH_Tx_02
+MoHCCN_03,Moh_003,MoH_Tx_03,Teleradiotherapy protons (procedure)        ,External,30,47,Neck,Yes,MoH_Tx_03
+MoHCCN_04,MoH_004,MoH_Tx_04,Teleradiotherapy neutrons (procedure)        ,Internal,30,58,Neck,Yes,MoH_Tx_04
+MoHCCN_05,MoH_005,MoH_Tx_05,Brachytherapy (procedure),External,30,56,Neck,Yes,MoH_Tx_05
+MoHCCN_06,MoH_006,MoH_Tx_06,Megavoltage radiation therapy using photons (procedure)        ,Internal,30,39,Neck,Yes,MoH_Tx_06
+MoHCCN_07,MoH_007,MoH_Tx_07,Teleradiotherapy using electrons (procedure)        ,External,30,52,Neck,Yes,MoH_Tx_07
+MoHCCN_08,MoH_008,MoH_Tx_08,Teleradiotherapy protons (procedure)        ,Internal,30,55,Neck,Yes,MoH_Tx_08
+MoHCCN_09,MoH_009,MoH_Tx_09,Teleradiotherapy neutrons (procedure)        ,External,30,34,Pelvis,Yes,MoH_Tx_09
+MoHCCN_10,MoH_010,MoH_Tx_10,Brachytherapy (procedure),Internal,30,48,Pelvis,Yes,MoH_Tx_10
+MoHCCN_11,MoH_011,MoH_Tx_11,Megavoltage radiation therapy using photons (procedure)        ,External,30,48,Pelvis,Yes,MoH_Tx_11
+MoHCCN_12,MoH_012,MoH_Tx_12,Teleradiotherapy using electrons (procedure)        ,Internal,30,52,Pelvis,Yes,MoH_Tx_12
+MoHCCN_13,MoH_013,MoH_Tx_13,Teleradiotherapy protons (procedure)        ,External,30,32,Pelvis,Yes,MoH_Tx_13
+MoHCCN_14,MoH_014,MoH_Tx_14,Teleradiotherapy neutrons (procedure)        ,Internal,30,49,Pelvis,Yes,MoH_Tx_14
+MoHCCN_15,MoH_015,MoH_Tx_15,Brachytherapy (procedure),External,30,49,Pelvis,Yes,MoH_Tx_15
+MoHCCN_16,MoH_016,MoH_Tx_16,Megavoltage radiation therapy using photons (procedure)        ,Internal,30,31,Pelvis,Yes,MoH_Tx_16
+MoHCCN_17,MoH_017,MoH_Tx_17,Teleradiotherapy using electrons (procedure)        ,External,30,54,Pelvis,Yes,MoH_Tx_17
+MoHCCN_18,MoH_018,MoH_Tx_18,Teleradiotherapy protons (procedure)        ,Internal,30,41,Pelvis,Yes,MoH_Tx_18
+MoHCCN_19,MoH_019,MoH_Tx_19,Teleradiotherapy neutrons (procedure)        ,External,30,57,Pelvis,Yes,MoH_Tx_19
+MoHCCN_20,MoH_020,MoH_Tx_20,Brachytherapy (procedure),Internal,30,45,Pelvis,Yes,MoH_Tx_20
+MoHCCN_21,MoH_021,MoH_Tx_21,Megavoltage radiation therapy using photons (procedure)        ,External,30,43,Pelvis,Yes,MoH_Tx_21
+MoHCCN_22,MoH_022,MoH_Tx_22,Teleradiotherapy using electrons (procedure)        ,Internal,30,45,Pelvis,Yes,MoH_Tx_22
+MoHCCN_23,MoH_023,MoH_Tx_23,Teleradiotherapy protons (procedure)        ,External,30,56,Pelvis,Yes,MoH_Tx_23
+MoHCCN_24,MoH_024,MoH_Tx_24,Teleradiotherapy neutrons (procedure)        ,Internal,30,50,Pelvis,Yes,MoH_Tx_24
+MoHCCN_25,MoH_025,MoH_Tx_25,Brachytherapy (procedure),External,30,55,Pelvis,Yes,MoH_Tx_25
+MoHCCN_26,MoH_026,MoH_Tx_26,Megavoltage radiation therapy using photons (procedure)        ,Internal,30,34,Pelvis,Yes,MoH_Tx_26
+MoHCCN_27,MoH_027,MoH_Tx_27,Teleradiotherapy using electrons (procedure)        ,External,30,59,Pelvis,Yes,MoH_Tx_27
+MoHCCN_28,MoH_028,MoH_Tx_28,Teleradiotherapy protons (procedure)        ,Internal,30,31,Pelvis,Yes,MoH_Tx_28
+MoHCCN_29,MoH_029,MoH_Tx_29,Teleradiotherapy neutrons (procedure)        ,External,30,32,Pelvis,Yes,MoH_Tx_29
+MoHCCN_30,MoH_030,MoH_Tx_30,Brachytherapy (procedure),Internal,30,36,Pelvis,Yes,MoH_Tx_30
+MoHCCN_31,MoH_031,MoH_Tx_31,Megavoltage radiation therapy using photons (procedure)        ,External,30,31,Pelvis,Yes,MoH_Tx_31
+MoHCCN_32,MoH_032,MoH_Tx_32,Teleradiotherapy using electrons (procedure)        ,Internal,30,61,Pelvis,Yes,MoH_Tx_32
+MoHCCN_33,MoH_033,MoH_Tx_33,Teleradiotherapy protons (procedure)        ,External,30,55,Pelvis,Yes,MoH_Tx_33
+MoHCCN_34,MoH_034,MoH_Tx_34,Teleradiotherapy neutrons (procedure)        ,Internal,30,47,Pelvis,Yes,MoH_Tx_34
+MoHCCN_35,MoH_035,MoH_Tx_35,Brachytherapy (procedure),External,30,34,Pelvis,Yes,MoH_Tx_35
+MoHCCN_36,MoH_036,MoH_Tx_36,Megavoltage radiation therapy using photons (procedure)        ,Internal,30,59,Pelvis,Yes,MoH_Tx_36
+MoHCCN_37,MoH_037,MoH_Tx_37,Teleradiotherapy using electrons (procedure)        ,External,30,46,Pelvis,Yes,MoH_Tx_37
+MoHCCN_38,MoH_038,MoH_Tx_38,Teleradiotherapy protons (procedure)        ,Internal,30,42,Pelvis,Yes,MoH_Tx_38
+MoHCCN_39,MoH_039,MoH_Tx_39,Teleradiotherapy neutrons (procedure)        ,External,28,53,Pelvis,Yes,MoH_Tx_39
+MoHCCN_40,MoH_040,MoH_Tx_40,Brachytherapy (procedure),Internal,28,45,Pelvis,Yes,MoH_Tx_40
+MoHCCN_41,MoH_041,MoH_Tx_41,Megavoltage radiation therapy using photons (procedure)        ,External,28,31,Pelvis,Yes,MoH_Tx_41
+MoHCCN_42,MoH_042,MoH_Tx_42,Teleradiotherapy using electrons (procedure)        ,Internal,28,47,Pelvis,Yes,MoH_Tx_42
+MoHCCN_43,MoH_043,MoH_Tx_43,Teleradiotherapy protons (procedure)        ,External,28,57,Pelvis,Yes,MoH_Tx_43
+MoHCCN_44,MoH_044,MoH_Tx_44,Teleradiotherapy neutrons (procedure)        ,Internal,28,32,Pelvis,Yes,MoH_Tx_44
+MoHCCN_45,MoH_045,MoH_Tx_45,Brachytherapy (procedure),External,28,57,Pelvis,Yes,MoH_Tx_45
+MoHCCN_46,MoH_046,MoH_Tx_46,Megavoltage radiation therapy using photons (procedure)        ,Internal,28,47,Pelvis,Yes,MoH_Tx_46
+MoHCCN_47,MoH_047,MoH_Tx_47,Teleradiotherapy using electrons (procedure)        ,External,28,54,Neck,Yes,MoH_Tx_47
+MoHCCN_48,MoH_048,MoH_Tx_48,Teleradiotherapy protons (procedure)        ,Internal,28,34,Pelvis,Yes,MoH_Tx_48
+MoHCCN_49,MoH_049,MoH_Tx_49,Teleradiotherapy neutrons (procedure)        ,External,28,36,Pelvis,Yes,MoH_Tx_49
+MoHCCN_50,MoH_050,MoH_Tx_50,Brachytherapy (procedure),Internal,28,59,Pelvis,Yes,MoH_Tx_50
+MoHCCN_51,MoH_051,MoH_Tx_51,Megavoltage radiation therapy using photons (procedure)        ,External,28,39,Pelvis,Yes,MoH_Tx_51
+MoHCCN_52,MoH_052,MoH_Tx_52,Teleradiotherapy using electrons (procedure)        ,Internal,30,50,Pelvis,No,N/A
+MoHCCN_53,MoH_053,MoH_Tx_53,Teleradiotherapy protons (procedure)        ,External,30,36,Pelvis,No,N/A
+MoHCCN_54,MoH_054,MoH_Tx_54,Teleradiotherapy neutrons (procedure)        ,Internal,30,45,Pelvis,No,N/A
+MoHCCN_55,MoH_055,MoH_Tx_55,Brachytherapy (procedure),External,30,41,Pelvis,No,N/A
+MoHCCN_56,MoH_056,MoH_Tx_56,Megavoltage radiation therapy using photons (procedure)        ,Internal,30,46,Pelvis,No,N/A
+MoHCCN_57,MoH_057,MoH_Tx_57,Teleradiotherapy using electrons (procedure)        ,External,30,34,Pelvis,No,N/A
+MoHCCN_58,MoH_058,MoH_Tx_58,Teleradiotherapy protons (procedure)        ,Internal,30,38,Pelvis,No,N/A
+MoHCCN_59,MoH_059,MoH_Tx_59,Teleradiotherapy neutrons (procedure)        ,External,30,55,Pelvis,No,N/A
+,,,,,,,,,
