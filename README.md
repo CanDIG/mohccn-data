@@ -43,12 +43,18 @@ python htsget_s3_ingest.py --samplefile ingest/samples.txt --dataset mohccn --en
 
 ## Ingesting clinical data into a Docker setup
 
-Copy it to the katsu server, so that it is locally accessible:
+Copy the data file to the katsu server, so that it is locally accessible:
 ```bash
-docker cp ingest/Synthetic_Clinical_Data_2_map.json candigv2_chord-metadata_1:input.json
+docker cp ingest/Synthetic_Clinical_Data_2_map_2.json candigv2_chord-metadata_1:input.json
 ```
 
 Then run the ingest tool:
 ```bash
 python katsu_ingest.py --dataset mohccn --input /input.json
+```
+
+Repeat for a second dataset mohccn2:
+```bash
+docker cp ingest/Synthetic_Clinical_Data_2_map_3.json candigv2_chord-metadata_1:input.json
+python katsu_ingest.py --dataset mohccn2 --input /input.json
 ```
