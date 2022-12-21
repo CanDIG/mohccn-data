@@ -164,3 +164,22 @@ def med_code(mapping): #(Subject, "Agent Name", "1st line Chemo- Cycle 1"."Start
 
 def med_statement_id(mapping):
     return mappings.single_val({"Subject": mapping["Subject"]}) + "-med" + mappings.single_val({"index": mapping["index"]})
+
+
+
+#returns cancer realted procedure list for surgical and radiation treatments
+def cancer_related_procedures(mapping): #
+    cancer_related_procedure_list = []
+    subject_id = mappings.single_val({"Subject": mapping["Subject"]})
+
+    radiation_dict = {
+        "id" : f"{subject_id}-0",
+        "procedure_type": "radiation",
+        "code": {
+            "id": "SNOMED:103329007",
+            "label": "Not available"
+        }
+    }
+    cancer_related_procedure_list.append(radiation_dict)
+
+    return cancer_related_procedure_list
