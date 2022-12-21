@@ -7,12 +7,6 @@ samples/*.vcf: | /samples
 /samples:
 	@mkdir -p $(PWD)/samples
 
-hs37d5.fa.gz: 
-	curl http://ftp.1000genomes.ebi.ac.uk/vol1/ftp/technical/reference/phase2_reference_assembly_sequence/hs37d5.fa.gz --output hs37d5.fa.gz
-
-hs37d5.fa.gz.gzi:
-	curl http://ftp.1000genomes.ebi.ac.uk/vol1/ftp/technical/reference/phase2_reference_assembly_sequence/hs37d5.fa.gz.gzi --output hs37d5.fa.gz.gzi
-
 Synthetic_Clinical_Data_2_map.json:
 	python clinical_ETL_code/CSVConvert.py --manifest mappings/synthetic_clinical/manifest.yml --input Synthetic_Clinical_Data_2
 
