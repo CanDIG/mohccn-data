@@ -69,6 +69,7 @@ genomics_report.genomic_region_studied.genomic_region_coordinate_system+,"##The 
 genomics_report.genomic_region_studied.extra_properties,
 genomics_report.extra_properties,{mcode.connect_variant("1000 Genomes_ID")}
 cancer_condition,{mcode.cancer_condition(Subject, Diagnosis.Site, Diagnosis."Date of Diagnosis")}
+cancer_related_procedures",{mcode.cancer_related_procedures(Subject)}
 medication_statement.0.id*,{mcode.med_statement_id(index, Subject)}
 medication_statement.0.medication_code*+,{mcode.med_code("Agent Name")}
 medication_statement.0.termination_reason+,{mcode.placeholder_ontology("Off Treatment"."Reason")}
@@ -83,7 +84,7 @@ tumor_marker.0.id*,"##An arbitrary identifier for the labs/vital tests."
 tumor_marker.0.individual*,"##The individual who is the subject of the tests."
 tumor_marker.0.tumor_marker_code*+,"##A code identifying the type of tumor marker test."
 ##tumor_marker.0.tumor_marker_data_value,"##The result of a tumor marker test."
-tumor_marker.0.tumor_marker_data_value.value,
+tumor_marker.0.tumor_marker_data_value.valuee,
 tumor_marker.0.extra_properties,
 cancer_disease_status+, {mcode.disease_status(Overall Response)}
 extra_properties,
